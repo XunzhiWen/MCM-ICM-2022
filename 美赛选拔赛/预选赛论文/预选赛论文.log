@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 09:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -818,18 +818,12 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
  
 AED: lastpage setting LastPage
 [4] (./预选赛论文.aux)
-
-Package rerunfilecheck Warning: File `预选赛论文.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `预选赛论文.out':
-(rerunfilecheck)             Before: D64947C91137F822B08C22E91350FACE;709
-(rerunfilecheck)             After:  8AE57D774C2F50C45BE0A2458D1CE204;1645.
+Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
+(rerunfilecheck)             Checksum: 8AE57D774C2F50C45BE0A2458D1CE204;1645.
  ) 
 Here is how much of TeX's memory you used:
  14361 strings out of 478866
- 213726 string characters out of 5864253
+ 213730 string characters out of 5864253
  810129 words of memory out of 5000000
  33895 multiletter control sequences out of 15000+600000
  455761 words of font info for 80 fonts, out of 8000000 for 9000
