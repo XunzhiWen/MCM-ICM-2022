@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 09:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,19 +761,19 @@ LaTeX Info: Redefining \nameref on input line 21.
 \c@mv@tabular=\count320
 \c@mv@boldtabular=\count321
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 31.
+(Font)              scaled to size 20.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 31.
+(Font)              scaled to size 20.74pt on input line 49.
  [1
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 33.
+(Font)              scaled to size 17.28pt on input line 51.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 33.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 33.
+(Font)              scaled to size 17.28pt on input line 51.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 51.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./预选赛论文.toc
@@ -798,23 +798,23 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
  [1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
+(Font)              scaled to size 14.4pt on input line 68.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
+(Font)              scaled to size 14.4pt on input line 68.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 101.
+(Font)              scaled to size 10.95pt on input line 119.
  [1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 107.
+(Font)              scaled to size 20.74pt on input line 125.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 107.
+(Font)              scaled to size 20.74pt on input line 125.
  [2] [3
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 131.
+(Font)              scaled to size 24.88pt on input line 149.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 131.
+(Font)              scaled to size 24.88pt on input line 149.
  
 AED: lastpage setting LastPage
 [4] (./预选赛论文.aux)
