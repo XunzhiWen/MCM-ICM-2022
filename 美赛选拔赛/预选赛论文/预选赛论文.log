@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 15:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  13 JAN 2022 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,32 +804,37 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 52.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 130.
- [1]
+(Font)              scaled to size 10.95pt on input line 133.
+ [1] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 136.
+(Font)              scaled to size 20.74pt on input line 173.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 136.
- [2] [3
+(Font)              scaled to size 20.74pt on input line 173.
+ [3] [4
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 160.
+(Font)              scaled to size 24.88pt on input line 201.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 160.
- 
+(Font)              scaled to size 24.88pt on input line 201.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 207.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 207.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./codes/lagrange_main.m) 
 AED: lastpage setting LastPage
-[4] (./预选赛论文.aux)
+[5] (./预选赛论文.aux)
 Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
-(rerunfilecheck)             Checksum: 8AE57D774C2F50C45BE0A2458D1CE204;1645.
+(rerunfilecheck)             Checksum: 2BCFBE49732D3325688D94C818481F84;1586.
  ) 
 Here is how much of TeX's memory you used:
- 14371 strings out of 478866
- 214015 string characters out of 5864253
- 810129 words of memory out of 5000000
- 33902 multiletter control sequences out of 15000+600000
- 455761 words of font info for 80 fonts, out of 8000000 for 9000
+ 14989 strings out of 478866
+ 221099 string characters out of 5864253
+ 818129 words of memory out of 5000000
+ 34510 multiletter control sequences out of 15000+600000
+ 459210 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,91p,506b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,13n,91p,506b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 预选赛论文.pdf (6 pages).
+Output written on 预选赛论文.pdf (7 pages).

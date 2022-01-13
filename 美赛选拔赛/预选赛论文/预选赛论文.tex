@@ -93,7 +93,7 @@ Based on what has been discussed above, please address the following problems:
 
 \renewcommand\arraystretch{1.5}
 
-\begin{table}[ht]
+\begin{table}[htpb!]
   \centering
   \caption{Notation Descriptions} \label{Varibles}
   \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
@@ -119,7 +119,44 @@ Based on what has been discussed above, please address the following problems:
 
 
 
-\section{Model I:Directed Network of Musical Influence Model}
+\section{Model I:}
+
+Considering tremendous cost on massive finless porpoise population 
+census, merely six years of data was collected during the three decades since 1992.
+Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data.
+
+\subsection{Lagrange Interpolation}
+Given $ n $ distinct real values $ x_1, x_2, \cdots , x_n $and $ n $
+real values $ y_1, y_2,\cdots, y_n $ (not necessarily distinct), there
+is a unique polynomial $ P $ with real coefficients satisfying 
+$ P(x_i)= y_i $ for $ i \in \{1,2,\cdots,n\} $, such that deg($ P $ )<n.
+\par
+The polynomial $ P(x) $ is defined as follows:   
+$$
+  P(x) = \sum \limits _{k = 1}^ny_kp_k(x),\quad
+  p_k(x) = \frac{(x-x_1)\cdots (x-x_{k-1})(x-x_{k+1})\cdots (x-x_n)}{
+    (x_k-x_1)\cdots (x_k-x_{k-1})(x_k-x_{k+1})\cdots (x_k-x_n)
+  }
+$$ 
+According to Lagrange interpolation, the number of finless porpoise population 
+during past three decades are listed below.
+\begin{table}[htpb!]
+  \centering
+  \caption{Estimated population on year basis from 1992 to 2022} \label{Lagrange table}
+  \begin{tabular}{m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}}
+    \textbf{Year}&\textbf{Number}&\textbf{Year}&\textbf{Number}&\textbf{Year}&\textbf{Number}\\ \hline
+    1992 & 5       & 2002 & 20      & 2012 & 45.7364 \\
+    1993 & 10.4864 & 2003 & 21.2919 & 2013 & 49.2555 \\
+    1994 & 13.9987 & 2004 & 22.9647 & 2014 & 52.9737 \\
+    1995 & 16.0839 & 2005 & 25      & 2015 & 57      \\
+    1996 & 17.2014 & 2006 & 27.3612 & 2016 & 61.4941 \\
+    1997 & 17.7296 & 2007 & 30      & 2017 & 66.6734 \\
+    1998 & 17.9732 & 2008 & 32.8636 & 2018 & 72.82   \\
+    1999 & 18.1701 & 2009 & 35.9015 & 2019 & 80.2876 \\
+    2000 & 18.4981 & 2010 & 39.0724 & 2020 & 89.5084 \\
+    2001 & 19.0819 & 2011 & 42.3514 & 2021 & 101     \\
+  \end{tabular}
+\end{table}
 
 \section{Sensitivity Test}
 
@@ -146,8 +183,12 @@ Based on what has been discussed above, please address the following problems:
 \phantomsection\addcontentsline{toc}{section}{Refence}\tolerance=500
 
 \begin{thebibliography}{99}
-\bibitem[1]{bib:1} Wang Kexiong and ZHANG Xianfeng. (1999) Population viability analysis for the Yangtze finless porpoise. Bulletin of the Chinese Academy of Sciences:English Edition 27.1:3473-3484.
-\bibitem[2]{bib:2} He Gang, Wu Bin, Wang Weiping and Wang Haihua. (2021) Analysis of Population Viability Analysis of Yangtze Finless Porpoise in Different Simulated Scenarios. Progress In Fishery Sciences. 42(2):28-35.DOI:10.19663/j.issn2095-9869.20200202003.
+\bibitem[1]{zhangxianfeng} Wang Kexiong and ZHANG Xianfeng. (1999) Population viability analysis for the Yangtze finless porpoise. Bulletin of the Chinese Academy of Sciences:English Edition 27.1:3473-3484.
+\bibitem[2]{hegang} He Gang, Wu Bin, Wang Weiping and Wang Haihua. (2021) Analysis of Population Viability Analysis of Yangtze Finless Porpoise in Different Simulated Scenarios. Progress In Fishery Sciences. 42(2):28-35.DOI:10.19663/j.issn2095-9869.20200202003.
+\bibitem[3]{vortex1} Lacy, R.C. 1993. VORTEX: A computer simulation model for Population Viability Analysis. Wildlife Research 20:45-65.
+\bibitem[4]{vortex2} Lacy, R.C. 2000. Structure of the VORTEX simulation model for population viability analysis. Ecological Bulletins 48:191-203.
+\bibitem[4]{liuzhigang} Liu Zhigang. (2020) The changes of micro-ecological of diseased Yangtze finless and research on its protection under Ex-situ. Wuhan: College of Animal Science and Veterinary Medicine, Huazhong Agricultural University :8-9.
+
 \end{thebibliography}
 
 
@@ -163,9 +204,8 @@ Based on what has been discussed above, please address the following problems:
 
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
-% \lstinputlisting[language=Matlab]{./similarity_of_genres.m}
-% \lstinputlisting[language=Matlab]{./distance_of_characteristics_in_groups.m}
-% \lstinputlisting[language=Matlab]{./revolution_artist.m}
+\lstinputlisting[language=Matlab]{./codes/lagrange_main.m}
+
 
 
 \end{appendices}
