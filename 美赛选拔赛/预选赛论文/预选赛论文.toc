@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Problem Restatement}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Overview of Our Work}{1}{subsection.1.2}%
@@ -23,3 +24,5 @@
 \contentsline {section}{Refence}{7}{section*.2}%
 \contentsline {section}{Appendices}{8}{section*.4}%
 >>>>>>> parent of 1a2e637 (一小半了！)
+=======
+>>>>>>> parent of 8351a74 (123)
