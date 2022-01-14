@@ -17,6 +17,9 @@
 \usepackage{pythonhighlight}
 \usepackage{indentfirst}%首段自动缩进
 \usepackage{colortbl}
+\usepackage{apacite}
+\usepackage{natbib}
+
 
 \setlength{\parindent}{2em}
 \title{test}
@@ -81,7 +84,8 @@ curbed, but its critically endangered status remains unchanged.
 \par
 Based on what has been discussed above, please address the following problems:
 \begin{enumerate}
-  \item [1] Establish a mathematical model to predict the population number of finless porpoises in five ex situ protected areas after 20 years, and explain how the sex ratio of 150 finless porpoises in ex situ protected areas affects the population development of finless porpoises.
+  \item [1] Establish a mathematical model to predict the population number of finless porpoises in five ex situ protected areas after 20 years, 
+  and explain how the sex ratio of 150 finless porpoises in ex situ protected areas affects the population development of finless porpoises.
   \item [2] Will the Yangtze finless porpoise become functionally extinct without ex situ conservation strategies?
   \item [3] Based on your analysis, please submit no more than 2 pages of recommendations for the protection of finless porpoises to the relevant authorities.
 \end{enumerate}
@@ -128,9 +132,10 @@ Based on what has been discussed above, please address the following problems:
 \section{Model I:}
 
 Considering tremendous cost on massive finless porpoise population 
-census, merely six years of data was collected during the three decades since 1992.
+census, merely six years of data was collected during the three 
+decades since 1992. (\citet[]{Liuzhigang})
 Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data.
-
+(\cite[]{张先锋1999长江江豚种群生存力分析})
 \subsection{Lagrange Interpolation}
 Given $ n $ distinct real values $ x_1, x_2, \cdots , x_n $and $ n $
 real values $ y_1, y_2,\cdots, y_n $ (not necessarily distinct), there
@@ -148,7 +153,7 @@ According to Lagrange interpolation, the number of finless porpoise population
 during past three decades are listed below.
 \begin{table}[htpb!]
   \centering
-  \caption{Estimated population on year basis from 1992 to 2022} \label{Lagrange table}
+  \caption{Estimated size of population on year basis from 1992 to 2022} \label{Lagrange table}
   \begin{tabular}{m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}|m{2cm}<{\centering}}
   \rowcolor{darkOrange}  \textbf{Year}&\textbf{Number}&\textbf{Year}&\textbf{Number}&\textbf{Year}&\textbf{Number}\\ \hline
   \rowcolor{Orange}  1992 & 5       & 2002 & 20      & 2012 & 45.7364 \\
@@ -163,6 +168,11 @@ during past three decades are listed below.
   \rowcolor{lightOrange}  2001 & 19.0819 & 2011 & 42.3514 & 2021 & 101     \\
   \end{tabular}
 \end{table}
+
+
+
+
+
 
 \section{Sensitivity Test}
 
@@ -188,14 +198,9 @@ during past three decades are listed below.
 %这一行是用来将Reference添加到目录的
 \phantomsection\addcontentsline{toc}{section}{Refence}\tolerance=500
 
-\begin{thebibliography}{99}
-\bibitem[1]{zhangxianfeng} Wang Kexiong and ZHANG Xianfeng. (1999) Population viability analysis for the Yangtze finless porpoise. Bulletin of the Chinese Academy of Sciences:English Edition 27.1:3473-3484.
-\bibitem[2]{hegang} He Gang, Wu Bin, Wang Weiping and Wang Haihua. (2021) Analysis of Population Viability Analysis of Yangtze Finless Porpoise in Different Simulated Scenarios. Progress In Fishery Sciences. 42(2):28-35.DOI:10.19663/j.issn2095-9869.20200202003.
-\bibitem[3]{vortex1} Lacy, R.C. 1993. VORTEX: A computer simulation model for Population Viability Analysis. Wildlife Research 20:45-65.
-\bibitem[4]{vortex2} Lacy, R.C. 2000. Structure of the VORTEX simulation model for population viability analysis. Ecological Bulletins 48:191-203.
-\bibitem[4]{liuzhigang} Liu Zhigang. (2020) The changes of micro-ecological of diseased Yangtze finless and research on its protection under Ex-situ. Wuhan: College of Animal Science and Veterinary Medicine, Huazhong Agricultural University :8-9.
+\bibliographystyle{apacite}
+\bibliography{reference}
 
-\end{thebibliography}
 
 
 \newpage
@@ -211,7 +216,8 @@ during past three decades are listed below.
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
 \lstinputlisting[language=Matlab]{./codes/lagrange_main.m}
-
+\lstinputlisting[language=Matlab]{./codes/lagrange.m}
+\lstinputlisting[language=Matlab]{./codes/ARIMA.m}
 
 
 \end{appendices}
