@@ -133,9 +133,9 @@ Based on what has been discussed above, please address the following problems:
 
 Considering tremendous cost on massive finless porpoise population 
 census, merely six years of data was collected during the three 
-decades since 1992. (\citet[]{Liuzhigang})
+decades since 1992. \citep{Liuzhigang}
 Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data.
-(\cite[]{张先锋1999长江江豚种群生存力分析})
+
 \subsection{Lagrange Interpolation}
 Given $ n $ distinct real values $ x_1, x_2, \cdots , x_n $and $ n $
 real values $ y_1, y_2,\cdots, y_n $ (not necessarily distinct), there
@@ -148,7 +148,7 @@ $$
   p_k(x) = \frac{(x-x_1)\cdots (x-x_{k-1})(x-x_{k+1})\cdots (x-x_n)}{
     (x_k-x_1)\cdots (x_k-x_{k-1})(x_k-x_{k+1})\cdots (x_k-x_n)
   }
-$$ 
+$$
 According to Lagrange interpolation, the number of finless porpoise population 
 during past three decades are listed below.
 \begin{table}[htpb!]
@@ -170,9 +170,34 @@ during past three decades are listed below.
 \end{table}
 
 
+\begin{figure}[htbp!]
+  \centering
 
+  \subfigure[caption1]{
+  \centering
+  \includegraphics[width = 6cm]{codes/1.eps}
+\quad
 
+  }
+  \subfigure[caption2]{
+  \centering
+  \includegraphics[width = 6cm]{codes/2.eps}
+  }
+\quad
 
+\subfigure[caption3]{
+  \centering
+  \includegraphics[width = 6cm]{codes/3.eps}
+}
+
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics{codes/4.pdf}
+  \caption{caption4}
+
+\end{figure}
 
 \section{Sensitivity Test}
 
@@ -199,7 +224,7 @@ during past three decades are listed below.
 \phantomsection\addcontentsline{toc}{section}{Refence}\tolerance=500
 
 \bibliographystyle{apacite}
-\bibliography{reference}
+\bibliography{reference.bib}
 
 
 
