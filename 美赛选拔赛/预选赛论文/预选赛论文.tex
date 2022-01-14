@@ -110,18 +110,7 @@ Based on what has been discussed above, please address the following problems:
   \toprule[1.5pt]
   \textbf{Symbol} & \textbf{Definition} \\ \hline
   $\mathbf{A}$ & A set of artists given in dataset \\
-  $\mathbf{G}$ & A set of genres provided in dataset \\
-  $f_i$ & The total number of followers of artist $i$, $i\in \mathbf{A}$ \\
-  $g_{ij}$ & Genre tag between artist $i$ and his or her follower $j$, $i,j \in \mathbf{A}$ \\
-  $DAS_{i}$ & Artist $i$'s decade of active start, accurate to 10 years \\
-  $r_{ij}$ & Respective Influence of influencer $i$ over follower $j$, $i,j \in \mathbf{A}$ \\
-  $w_{i}$ & Artist $i$'s weight of normalized indexes \\ 
-  $TI_{i} $ & Artist $i$'s Total Influence \\
-  $wf_j$ & The parameter of follower $j$' influence, $j\in \mathbf{A}$ \\
-  $wt_{i}$ & The weight of artist $i$'s Total Influence, $i,j\in \mathbf{A}$\\
-  $cg_{ik}$ & Artist $i$'s Contemporary Influence in certain genre, $i\in \mathbf{A}, k \in \mathbf{G}$ \\
-  $c_{i}$ & Artist $i$'s Contemporary Influence, $i\in \mathbf{A}$ \\
-  $S_{ij} $ & Similarity between artists $i$ and $j$ \\
+
   \bottomrule[1.5pt]
   \end{tabular}
   \end{table}
@@ -129,7 +118,7 @@ Based on what has been discussed above, please address the following problems:
 
 
 
-\section{Model I:}
+\section{Model I: Vortex model based finless porpoise analysis}
 
 Considering tremendous cost on massive finless porpoise population 
 census, merely six years of data was collected during the three 
@@ -149,8 +138,17 @@ $$
     (x_k-x_1)\cdots (x_k-x_{k-1})(x_k-x_{k+1})\cdots (x_k-x_n)
   }
 $$
+Thus the figure of the polynomial is as follows:
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width = 8cm]{codes/Lagrange.eps}
+  \caption{Langrange Interpolation Conservation}
+\end{figure}
+
+\par
 According to Lagrange interpolation, the number of finless porpoise population 
 during past three decades are listed below.
+
 \begin{table}[htpb!]
   \centering
   \caption{Estimated size of population on year basis from 1992 to 2022} \label{Lagrange table}
@@ -170,34 +168,71 @@ during past three decades are listed below.
 \end{table}
 
 
+
+
 \begin{figure}[htbp!]
   \centering
 
-  \subfigure[caption1]{
+  \subfigure[Sample Autocorrelation Function and Sample Partial Autocorrelation Function]{
   \centering
-  \includegraphics[width = 6cm]{codes/1.eps}
-\quad
-
+  \includegraphics[width = 0.45\textwidth]{codes/1.eps}
+  \quad
   }
-  \subfigure[caption2]{
+  \subfigure[ARIMA Sequence Prediction of Conservation]{
   \centering
-  \includegraphics[width = 6cm]{codes/2.eps}
+  \includegraphics[width = 0.45\textwidth]{codes/2.eps}
   }
 \quad
 
 \subfigure[caption3]{
   \centering
-  \includegraphics[width = 6cm]{codes/3.eps}
+  \includegraphics[width = 0.45\textwidth]{codes/3.eps}
+}
+\quad
+\subfigure[caption4]{
+  \centering
+  \includegraphics[width =0.45\textwidth]{codes/4.pdf}
 }
 
 \end{figure}
 
+
+
+
 \begin{figure}[htbp]
   \centering
-  \includegraphics{codes/4.pdf}
-  \caption{caption4}
-
+  \subfigure[Living Environment Index and Population]{
+    \centering
+    \includegraphics[width = .45\textwidth]{codes/20(1).eps}
+    \quad
+    }
+  \subfigure[Cell Distribution]{
+    \centering
+    \includegraphics[width=.45\textwidth]{codes/20(2).eps}
+  }
 \end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{Sensitivity Test}
 

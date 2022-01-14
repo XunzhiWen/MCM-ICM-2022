@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  14 JAN 2022 15:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  14 JAN 2022 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,91 +825,41 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 61.
-
-
-Package natbib Warning: Citation `Liuzhigang' on page 1 undefined on input line 136.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 144.
-[1]
+(Font)              scaled to size 10.95pt on input line 127.
+ [1]
+File: codes/Lagrange.eps Graphic file (type eps)
+<codes/Lagrange.eps>
 File: codes/1.eps Graphic file (type eps)
 <codes/1.eps>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 181.
+(Font)              scaled to size 10.0pt on input line 180.
 File: codes/2.eps Graphic file (type eps)
 <codes/2.eps>
 File: codes/3.eps Graphic file (type eps)
 <codes/3.eps>
 File: codes/4.pdf Graphic file (type pdf)
 <use codes/4.pdf>
+File: codes/20(1).eps Graphic file (type eps)
+<codes/20(1).eps>
+File: codes/20(2).eps Graphic file (type eps)
+<codes/20(2).eps>
  [2] [3]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 214.
+(Font)              scaled to size 20.74pt on input line 249.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 214.
- [4]
-No file 预选赛论文.bbl.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 237.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 237.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 243.
-(d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./codes/lagrange_main.m) (./codes/lagrange.m
-Overfull \hbox (28.18274pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (./codes/ARIMA.m
-Overfull \hbox (28.18274pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (244.18494pt too wide) in paragraph at lines 9--10
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (238.18488pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[5
+(Font)              scaled to size 20.74pt on input line 249.
+ [4] (./预选赛论文.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 23.
+) [5
 
 ]
-Overfull \hbox (76.18323pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (142.1839pt too wide) in paragraph at lines 33--34
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (52.18298pt too wide) in paragraph at lines 51--52
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) 
-AED: lastpage setting LastPage
-[6]
-
-Package natbib Warning: There were undefined citations.
-
-(./预选赛论文.aux)
-Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
-(rerunfilecheck)             Checksum: 3BAD38A710597BD08183A927A485861F;1586.
- ) 
-Here is how much of TeX's memory you used:
- 15801 strings out of 478866
- 231193 string characters out of 5864253
- 867129 words of memory out of 5000000
- 35286 multiletter control sequences out of 15000+600000
- 459210 words of font info for 83 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 86i,13n,91p,506b,1939s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on 预选赛论文.pdf (8 pages).
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 272.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 272.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 278.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (.
