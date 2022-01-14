@@ -1,0 +1,55 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Xianfeng%
+}{%
+Xianfeng%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+张先锋1999长江江豚种群生存力分析}
+\APACinsertmetastar {%
+张先锋1999长江江豚种群生存力分析}%
+\begin{APACrefauthors}%
+Xianfeng, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Population viability analysis for the Yangtze finless
+  porpoise} {Population viability analysis for the yangtze finless
+  porpoise}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Chinese Academy of Sciences:English
+  Edition}{27}{1}{3473-3484}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhigang%
+}{%
+Zhigang%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Liuzhigang}
+\APACinsertmetastar {%
+Liuzhigang}%
+\begin{APACrefauthors}%
+Zhigang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{{\protect \bibnodate {}}}.
+\unskip\
+\newblock
+\APACrefbtitle {The changes of micro-ecological of diseased Yangtze finless and
+  research on its protection under Ex-situ} {The changes of micro-ecological of
+  diseased yangtze finless and research on its protection under ex-situ}\
+  \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Huazhong Agricultural University}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
