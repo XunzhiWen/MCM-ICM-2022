@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  14 JAN 2022 16:29
 =======
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  14 JAN 2022 19:33
@@ -7,6 +8,9 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloade
 =======
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  14 JAN 2022 16:25
 >>>>>>> parent of 8351a74 (123)
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  14 JAN 2022 19:33
+>>>>>>> parent of 1a2e637 (一小半了！)
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -835,6 +839,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 <<<<<<< HEAD
+<<<<<<< HEAD
 (Font)              scaled to size 10.95pt on input line 127.
  [1]
 File: codes/Lagrange.eps Graphic file (type eps)
@@ -870,6 +875,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 272.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 278.
 =======
+=======
+>>>>>>> parent of 1a2e637 (一小半了！)
 (Font)              scaled to size 10.95pt on input line 144.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -987,6 +994,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 349.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 355.
+<<<<<<< HEAD
+>>>>>>> parent of 1a2e637 (一小半了！)
+=======
 >>>>>>> parent of 1a2e637 (一小半了！)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1012,7 +1022,11 @@ Overfull \hbox (238.18488pt too wide) in paragraph at lines 10--11
  []
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [6]
+=======
+[8]
+>>>>>>> parent of 1a2e637 (一小半了！)
 =======
 [8]
 >>>>>>> parent of 1a2e637 (一小半了！)
@@ -1033,6 +1047,7 @@ Overfull \hbox (52.18298pt too wide) in paragraph at lines 51--52
 ) 
 AED: lastpage setting LastPage
 <<<<<<< HEAD
+<<<<<<< HEAD
 [7] (./预选赛论文.aux)
 Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
 (rerunfilecheck)             Checksum: 55BD5E0F5C9EDF475CA4E47C302CC614;1829.
@@ -1046,6 +1061,8 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  86i,13n,91p,506b,1939s stack positions out of 5000i,500n,10000p,200000b,80000s
 =======
+=======
+>>>>>>> parent of 1a2e637 (一小半了！)
 [9] (./预选赛论文.aux)
 Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
 (rerunfilecheck)             Checksum: DCF8F9423CC5F1A8CE0D9E65ED0E7D34;2220.
@@ -1065,6 +1082,9 @@ PDF statistics:
  326 compressed objects within 4 object streams
  133 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
+<<<<<<< HEAD
+>>>>>>> parent of 1a2e637 (一小半了！)
+=======
 >>>>>>> parent of 1a2e637 (一小半了！)
 
 Output written on 预选赛论文.pdf (9 pages).
