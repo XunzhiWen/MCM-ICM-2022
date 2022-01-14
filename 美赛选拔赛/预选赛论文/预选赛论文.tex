@@ -96,11 +96,7 @@ Based on what has been discussed above, please address the following problems:
 
 
 \section{Assumptions and Justifications}
-These are necessary assumptions for simplifying the model.
-\begin{enumerate}
-  \item [1.] The carrying capacity per unit area of each ex-situ conservation layout is constant.
-  \item [2.] 
-\end{enumerate}
+
 
 
 \section{Notations}
@@ -124,30 +120,23 @@ These are necessary assumptions for simplifying the model.
    PE  & Probability of Extinction \\
    GeneDiv  &  Genetic Diversity \\
    TE & Time of Extinction(year) \\
-   SD & Standard Deviation \\
-   $ K $ & Carrying capacity \\ 
-   $ N_t $ & Size of finless porpoise population in the year of $ 1991 + t $ \\ 
+   SD & Standard Diviation \\
+   $ X_t $ & Size of finless porpoise population in the year of $ 1991 + t $ \\ 
   \bottomrule[1.5pt]
   \end{tabular}
   \end{table}
 
 
 
-\section{Intorduction and Results of Models}
 
-Note that because of the deficiency of the statistics about the other four ex-situ conservations,
-the size of finless porpoise population per unit area is considered 
-the same as that in Swan Oxbow of the Yangtse River.
-\par
+\section{Model I: Vortex model based finless porpoise analysis}
+
 Considering tremendous cost on massive finless porpoise population 
-census, merely six years of data was collected in Swan Oxbow of the Yangtse River
-during the three decades since 1992. \citep{Liuzhigang}
-Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data
-in Swan Oxbow.
+census, merely six years of data was collected during the three 
+decades since 1992. \citep{Liuzhigang}
+Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data.
 
-
-
-\subsection{Relation between Population size and Time based on Lagrange Interpolation}
+\subsection{Lagrange Interpolation}
 Given $ n $ distinct real values $ x_1, x_2, \cdots , x_n $and $ n $
 real values $ y_1, y_2,\cdots, y_n $ (not necessarily distinct), there
 is a unique polynomial $ P $ with real coefficients satisfying 
@@ -160,9 +149,7 @@ $$
     (x_k-x_1)\cdots (x_k-x_{k-1})(x_k-x_{k+1})\cdots (x_k-x_n)
   }
 $$
-
-After substituted the number in 1992, 2002, 2005, 2007, 2015 and 2021,
-the figure of the polynomial is as follows:
+Thus the figure of the polynomial is as follows:
 \begin{figure}[htbp!]
   \centering
   \includegraphics[width = 8cm]{codes/Lagrange.eps}
@@ -170,11 +157,9 @@ the figure of the polynomial is as follows:
 \end{figure}
 
 \par
-According to Lagrange interpolation and the definition of $ N_t $ :
-$$
-  N_t = P(t) \quad t = 1,\cdots ,30
-$$ 
-and the exact numbers are listed below:
+According to Lagrange interpolation, the number of finless porpoise population 
+during past three decades are listed below.
+
 \begin{table}[htpb!]
   \centering
   \caption{Estimated size of population on year basis from 1992 to 2022} \label{Lagrange table}
@@ -193,51 +178,31 @@ and the exact numbers are listed below:
   \end{tabular}
 \end{table}
 
-\subsection{Model I: Vortex model based finless porpoise analysis}
-
-
-
-
-
-
-
-
-\subsection{Model II: Auto Regressive Integrated Moving Average(ARIMA) model}
+\section{Model II: Auto Regressive Integrated Moving Average(ARIMA) model}
 We apply ARIMA model in order to predict the size of finless porpoise population in five ex-situ 
 conservation areas after 20 years.
 \par
-\begin{minipage}[htbp]{0.35\linewidth}
-  Under regular circumstances, the time series we obtain in the real world
-  has tendency, seasonality and non-stationarity. Thus, it's vital for 
-  us to transfer the non-stationary time series to stationary time series and 
-  make an assumption that the time series is an Auto Regressive Moving Average
-  (ARMA) series to predict the future data.  ARMA series is defined as follows.
-  \begin{align*}
-    &X_t-\phi_1X_{t-1}-\cdots -\phi_pX_{t-p} \\
-    &= \epsilon_t - \theta_1\epsilon_{t-1}-\cdots-\theta_q\epsilon_{t-q}
-  \end{align*}
-
+Under regular circumstances, the time series we obtain in the real world
+has tendency, seasonality and non-stationarity. Thus, it's vital for 
+us to transfer the non-stationary time series to stationary time series and 
+make an assumption that the time series is an Auto Regressive Moving Average
+(ARMA) series to predict the future data.  ARMA series is defined as follows.
+$$
+  X_t-\phi_1X_{t-1}-\cdots -\phi_pX_{t-p} = \epsilon_t - 
+  \theta_1\epsilon_{t-1}-\cdots-\theta_q\epsilon_{t-q}
+$$ 
 $ \epsilon_1 $ is a stationary white noise whose average is zero and
 deviation is $ \sigma_\epsilon^2 $;$ X_t $is an ARMA series with $ p $ and $ q $
 degree, recorded briefly as $ \mathbf{ARMA}(p,q) $ series.
+\par
 Akaike Information Criterion(AIC) is one of the most commonly used
 criterion to determine the degree of $ \mathbf{ARMA}(p,q) $: choose 
 $ p,q $ such that 
 \begin{equation}\label{AIC}
-  \begin{aligned}
-    \min \mathbf{AIC} &= n\ln \hat{\sigma_\epsilon^2} \\
-    &+ 2(p+q+1)
-  \end{aligned}
+    \min \mathbf{AIC} = n\ln \hat{\sigma_\epsilon^2} + 2(p+q+1)
 \end{equation}
 
-\end{minipage}
-\hfill
-\begin{minipage}[htbp]{0.55\linewidth}
-  \begin{flushright}
-    \includegraphics[width =11cm]{codes/ARIMA_裁剪页面.pdf}
-  \end{flushright}
-\end{minipage}
-\par
+
 $ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
 estimation of $ \sigma_\epsilon^2 $ relating to $ p $ and $ q $.
 Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
@@ -279,35 +244,29 @@ $$
 After that, apply stationary test on $ W_t $ and repeat steps above 
 until it becomes a stationary series, Than $ W_t $(which is denoted
 as $ X_t $ ) complies ARMA model. 
-\par
-The figures below describe the result of ARIMA model on the 
-time series of the size of finless porpoise $ N_t, \quad t = 1\cdots 30 $,
-in which the Figure(\ref{ARIMA Sequence}) clearly shows that the number
-will decline and settle around 62 in the future 20 years. 
 
-\subsection{Model III: Cellular Automata based population size prediction}
 
-\subsection{Model IV: Gray Forecast model}
 
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
   \centering
 
   \subfigure[Sample Autocorrelation Function and Sample Partial Autocorrelation Function]{
   \centering
   \includegraphics[width = 0.45\textwidth]{codes/1.eps}
+  \quad
   }
-\quad
-  \subfigure[Sample Autocorrelation Function and Sample Partial Autocorrelation Function]{
-  \centering
-  \includegraphics[width = 0.45\textwidth]{codes/3.eps}
-  }
-\quad
   \subfigure[ARIMA Sequence Prediction of Conservation]{
   \centering
-  \includegraphics[width = 0.45\textwidth]{codes/2.eps}\label{ARIMA Sequence}
+  \includegraphics[width = 0.45\textwidth]{codes/2.eps}
   }
 \quad
-\subfigure[Standardaized Residuals and QQ figure]{
+
+\subfigure[caption3]{
+  \centering
+  \includegraphics[width = 0.45\textwidth]{codes/3.eps}
+}
+\quad
+\subfigure[caption4]{
   \centering
   \includegraphics[width =0.45\textwidth]{codes/4.pdf}
 }
@@ -334,7 +293,7 @@ will decline and settle around 62 in the future 20 years.
 
 
 
-\section{}
+
 
 
 
@@ -360,8 +319,8 @@ will decline and settle around 62 in the future 20 years.
 
 \newpage
 \phantomsection\addcontentsline{toc}{section}{Report}\tolerance=500
-\memoto{123}
-\memofrom{123}
+\memoto{ICM society}
+\memofrom{ICM Team 2104997}
 \memodate{\today}
 
 \begin{memo}[report]
