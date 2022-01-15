@@ -19,6 +19,8 @@
 \usepackage{colortbl}
 \usepackage{apacite}
 \usepackage{natbib}
+\usepackage{tablefootnote}
+% \usepackage{geometry}
 
 
 \setlength{\parindent}{2em}
@@ -84,8 +86,10 @@ curbed, but its critically endangered status remains unchanged.
 \par
 Based on what has been discussed above, please address the following problems:
 \begin{enumerate}
-  \item [1] Establish a mathematical model to predict the population number of finless porpoises in five ex situ protected areas after 20 years, 
-  and explain how the sex ratio of 150 finless porpoises in ex situ protected areas affects the population development of finless porpoises.
+  \item [1] \begin{enumerate}
+    \item Establish a mathematical model to predict the population number of finless porpoises in five ex situ protected areas after 20 years.
+    \item Explain how the sex ratio of 150 finless porpoises in ex situ protected areas affects the population development of finless porpoises.
+  \end{enumerate}
   \item [2] Will the Yangtze finless porpoise become functionally extinct without ex situ conservation strategies?
   \item [3] Based on your analysis, please submit no more than 2 pages of recommendations for the protection of finless porpoises to the relevant authorities.
 \end{enumerate}
@@ -113,18 +117,18 @@ These are necessary assumptions for simplifying the model.
   \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
   \toprule[1.5pt]
   \textbf{Symbol} & \textbf{Definition} \\ \hline
-  $ r $ & Innate rate of increase \\
-  %内廪增长率：给定的物理和生物的条件下，具有稳定的年龄组配的种群的最大瞬时增长率
-  $ \lambda $ & Finite rate of increase \\
-  %周限增长率:种群 不受资源限制的情况下，种群内平均每一个个体能产生的后代数
-  $ R_\theta $ &  Intrinsic rate of natural increase\\
-  %一定时间内种群中雌性个体能够产下的新生雌性个体总数的能力
-   N-extant  & Average extant population size\\ 
-   N-all  & Average population size \\
-   PE  & Probability of Extinction \\
-   GeneDiv  &  Genetic Diversity \\
-   TE & Time of Extinction(year) \\
-   SD & Standard Deviation \\
+  % $ r $ & Innate rate of increase \\
+  % %内廪增长率：给定的物理和生物的条件下，具有稳定的年龄组配的种群的最大瞬时增长率
+  % $ \lambda $ & Finite rate of increase \\
+  % %周限增长率:种群 不受资源限制的情况下，种群内平均每一个个体能产生的后代数
+  % $ R_\theta $ &  Intrinsic rate of natural increase\\
+  % %一定时间内种群中雌性个体能够产下的新生雌性个体总数的能力
+  %  N-extant  & Average extant population size\\ 
+  %  N-all  & Average population size \\
+  %  PE  & Probability of Extinction \\
+  %  GeneDiv  &  Genetic Diversity \\
+  %  TE & Time of Extinction(year) \\
+  %  SD & Standard Deviation \\
    $ K $ & Carrying capacity \\ 
    $ N_t $ & Size of finless porpoise population in the year of $ 1991 + t $ \\ 
   \bottomrule[1.5pt]
@@ -133,7 +137,7 @@ These are necessary assumptions for simplifying the model.
 
 
 
-\section{Intorduction and Results of Models}
+\section{Intorduction and Results of Models on problem 1(a)}
 
 Note that because of the deficiency of the statistics about the other four ex-situ conservations,
 the size of finless porpoise population per unit area is considered 
@@ -204,7 +208,7 @@ and the exact numbers are listed below:
 
 \subsection{Model II: Auto Regressive Integrated Moving Average(ARIMA) model}
 We apply ARIMA model in order to predict the size of finless porpoise population in five ex-situ 
-conservation areas after 20 years.
+conservation areas after 20 years, whose \textbf{algorithm block diagram} is shown as follows.
 \par
 \begin{minipage}[htbp]{0.35\linewidth}
   Under regular circumstances, the time series we obtain in the real world
@@ -216,7 +220,7 @@ conservation areas after 20 years.
     &X_t-\phi_1X_{t-1}-\cdots -\phi_pX_{t-p} \\
     &= \epsilon_t - \theta_1\epsilon_{t-1}-\cdots-\theta_q\epsilon_{t-q}
   \end{align*}
-
+ 
 $ \epsilon_1 $ is a stationary white noise whose average is zero and
 deviation is $ \sigma_\epsilon^2 $;$ X_t $is an ARMA series with $ p $ and $ q $
 degree, recorded briefly as $ \mathbf{ARMA}(p,q) $ series.
@@ -233,10 +237,10 @@ $ p,q $ such that
 \end{minipage}
 \hfill
 \begin{minipage}[htbp]{0.55\linewidth}
-  \begin{flushright}
+  \begin{flushleft}
     \includegraphics[width =11cm]{codes/ARIMA_裁剪页面.pdf}
-    \caption{}
-  \end{flushright}
+%    \caption{Algorithm Block of ARIMA}
+  \end{flushleft}
 \end{minipage}
 \par
 $ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
@@ -332,14 +336,69 @@ will decline and settle around 62 in the future 20 years.
 \end{figure}
 
 
+ 
+
+\section{Solution to Problem 1(b) based on Vortex model}
+Considering the abundant parameter settings in Vortex software among which sex ratio 
+is easy to edit and is of great significance, we decide to further apply Vortex model
+in order to address the problem 1(b) concerning the effects of sex ratio in five ex-situ
+conservation zones.
+\par
+
+\begin{table}[htpb!]
+  \centering
+  \caption{Values inputted into Vortex} \label{Vortex_in}
+  \begin{tabular}{m{12.5cm}<{\centering}|m{2.5cm}<{\centering}}
+    \toprule[1.5pt]
+    Times simulated & 1000times \\
+    Years simulated & 100a \\
+    Reporting interval &  10a\\
+    Populations simulated  & 1\\ 
+    Inbreeding depression (Y/N)  & Y \\
+    Heterosis or Lethal  & H \\
+    Lethal equivalents  &  3.14 \\
+    EV correlation between reproduction and survival & 0.5 \\
+    EV correlation among populations & 0.5 \\
+    %此处这两个EV correlation可以选择性扩展解释（Vortex manual）
+    Types of catastrophy & 2 \\ 
+    Monogamous, Polygynous or Hermaphroditic & P \\
+    Female breeding age & 4a\\
+    Male breeding age & 5a\\
+    Maximum breeding age & 15a\\
+    Sex ratio (proportion males) at birth\tablefootnote{Modifiable when discussing different scenarios.} & 0.5\\
+    Maximum litter size & 1\\
+    Density dependent breeding (Y/N)? & Y\\
+    
 
 
 
-\section{}
+    \bottomrule[1.5pt]
+  \end{tabular}
+\end{table}
 
-
-
-
+\begin{table}[htpb!]
+  \centering
+  \caption{Important output of Vortex} \label{Vortex_out}
+  \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
+    \toprule[1.5pt]
+    \textbf{Symbol} & \textbf{Definition} \\ \hline
+    $ r $ & Innate rate of increase \\
+    %内廪增长率：给定的物理和生物的条件下，具有稳定的年龄组配的种群的最大瞬时增长率
+    $ \lambda $ & Finite rate of increase \\
+    %周限增长率:种群 不受资源限制的情况下，种群内平均每一个个体能产生的后代数
+    $ R_\theta $ &  Intrinsic rate of natural increase\\
+    %一定时间内种群中雌性个体能够产下的新生雌性个体总数的能力
+    N-extant  & Average extant population size\\ 
+    N-all  & Average population size \\
+    PE  & Probability of Extinction \\
+    GeneDiv  &  Genetic Diversity \\
+    TE & Time of Extinction(year) \\
+    SD & Standard Deviation \\
+    $ K $ & Carrying capacity \\ 
+    $ N_t $ & Size of finless porpoise population in the year of $ 1991 + t $ \\ 
+    \bottomrule[1.5pt]
+  \end{tabular}
+\end{table}
 
 
 
