@@ -3,13 +3,13 @@
 \BOOKMARK [2][-]{subsection.1.2}{Overview of Our Work}{section.1}% 3
 \BOOKMARK [1][-]{section.2}{Assumptions and Justifications}{}% 4
 \BOOKMARK [1][-]{section.3}{Notations}{}% 5
-\BOOKMARK [1][-]{section.4}{Intorduction and Results of Models on problem 1\(a\)}{}% 6
+\BOOKMARK [1][-]{section.4}{Intorduction and Results of Models}{}% 6
 \BOOKMARK [2][-]{subsection.4.1}{Relation between Population size and Time based on Lagrange Interpolation}{section.4}% 7
 \BOOKMARK [2][-]{subsection.4.2}{Model I: Vortex model based finless porpoise analysis}{section.4}% 8
 \BOOKMARK [2][-]{subsection.4.3}{Model II: Auto Regressive Integrated Moving Average\(ARIMA\) model}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.4}{Model III: Cellular Automata based population size prediction}{section.4}% 10
 \BOOKMARK [2][-]{subsection.4.5}{Model IV: Gray Forecast model}{section.4}% 11
-\BOOKMARK [1][-]{section.5}{Solution to Problem 1\(b\) based on Vortex model}{}% 12
+\BOOKMARK [1][-]{section.5}{}{}% 12
 \BOOKMARK [1][-]{section.6}{Sensitivity Test}{}% 13
 \BOOKMARK [1][-]{section.7}{Evaluation of Model}{}% 14
 \BOOKMARK [1][-]{section.8}{Conclusions}{}% 15
