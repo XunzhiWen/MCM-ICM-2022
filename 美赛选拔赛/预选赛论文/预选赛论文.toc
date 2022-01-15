@@ -7,10 +7,10 @@
 \contentsline {subsection}{\numberline {4.1}Relation between Population Size and Time based on Lagrange Interpolation}{3}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Model I: Vortex model based finless porpoise analysis}{3}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Model II: Auto Regressive Integrated Moving Average(ARIMA) model}{3}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Model III: Cellular Automata based Population Size Prediction}{6}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Model IV: Gray Forecast model}{6}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.4}Model III: Cellular Automata based Population Size Prediction}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Model IV: Gray Forecast model}{5}{subsection.4.5}%
 \contentsline {section}{\numberline {5}Solution to Problem 1(b) based on Vortex model}{7}{section.5}%
-\contentsline {section}{\numberline {6}Vortex model and Gray Forecast model based Population Prediction without Ex-Situ Conservation}{9}{section.6}%
+\contentsline {section}{\numberline {6}Vortex model and Gray Forecast model based Population Prediction without Ex-Situ Conservation}{7}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Result of Vortex model}{9}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Result of Gray Forecast model}{9}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Sensitivity Test}{13}{section.7}%
