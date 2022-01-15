@@ -20,8 +20,8 @@
 \usepackage{apacite}
 \usepackage{natbib}
 \usepackage{tablefootnote}
-% \usepackage{geometry}
-
+\usepackage{multicol}
+% \usepackage{threeparttable}
 
 \setlength{\parindent}{2em}
 \title{test}
@@ -95,6 +95,11 @@ Based on what has been discussed above, please address the following problems:
 \end{enumerate}
 
 \subsection{Overview of Our Work}
+\newpage
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 15cm]{codes/框架图.pdf}
+\end{figure}
 
 
 
@@ -137,7 +142,7 @@ These are necessary assumptions for simplifying the model.
 
 
 
-\section{Intorduction and Results of Models on problem 1(a)}
+\section{Introduction and Results of Models on problem 1(a)}
 
 Note that because of the deficiency of the statistics about the other four ex-situ conservations,
 the size of finless porpoise population per unit area is considered 
@@ -347,6 +352,70 @@ in order to address the problem 1(b) concerning the effects of sex ratio in five
 conservation zones.
 \par
 
+
+
+\section{Vortex model and Gray Forecast model based
+Population Prediction without Ex-Situ Conservation}
+
+The known \textbf{existing wild finless porpoise population is 1012} \citep{Wubin}. 
+According to previous researches, female finless porpoises are more
+vulnerable than the male ones in their early ages, so the ratio of 
+male finless porpoises to female ones which are 0 - 6 years old is $ 3.7:1 $,
+and the ratio of those older than 6 is $ 2:1 $. For simplicity, 
+we perceive that \textbf{the ratio of male finless porpoises to female ones
+in all ages} is $ \bm{2.85:1} $, which is the median of the above two ratios.
+What's more, we assume that \textbf{the carrying capacity} $ K $  of finless porpoises
+in the whole Yangtze River is \textbf{3000}.
+\par
+In order to thoroughly discuss the risk of finless porpoise extinction,
+we define two types of \textbf{functionally extinction} and one type
+of \textbf{species extinction}. 
+\par
+The first type of functionally extinction is that there only exists one 
+sex, which means this population is no longer able to reproduce and bond 
+to be extinct in the future.
+The second type of functionally extinction is that the number of 
+remaining individuals in the population is unable to prevent inbreeding
+depression which will cause the fading and extinction of the population.
+\par
+The species extinction is defined as no living individual of this population
+found in this area. 
+
+\subsection{Result of Vortex model}
+The result of Vortex model simulation based on previous conditions 
+is shown as Table \ref{Vortex_result_2}, in which the meaning of 
+these parameters is shown in Table \ref{Vortex_out}.
+
+\begin{table}[htbp]\label{Vortex_result_2}
+  \begin{tabular}{
+  >{\columncolor[HTML]{FFFFFF}}c |ccc}
+  \textbf{Scenario} &
+    \cellcolor[HTML]{FFFFFF}\textbf{Species Extinction} &
+    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction Tpye 1} &
+    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction Type 2} \\ \hline
+  \textbf{nRuns}     & 30      & 30      & 30      \\
+  \textbf{stoch-r}   & -0.0239 & -0.0165 & -0.0120 \\
+  \textbf{SD(r)}     & 0.1399  & 0.1340  & 0.1359  \\
+  \textbf{PE}        & 0.0667  & 0.1000  & 0.4667  \\
+  \textbf{N-extant}  & 256.00  & 340.00  & 427.25  \\
+  \textbf{SD(N-ext)} & 259.57  & 257.31  & 214.72  \\
+  \textbf{N-all}     & 238.93  & 306.03  & 268.37  \\
+  \textbf{SD(N-all)} & 258.75  & 264.76  & 236.37  \\
+  \textbf{GeneDiv}   & 0.8852  & 0.9300  & 0.9621  \\
+  \textbf{SD(GD)}    & 0.1257  & 0.0321  & 0.0132  \\
+  \textbf{nAlleles}  & 31.71   & 35.59   & 51.56   \\
+  \textbf{SD(nA)}    & 20.83   & 19.06   & 16.43   \\
+  \textbf{medianTE}  & 0       & 0       & 80      \\
+  \textbf{meanTE}    & 95.5    & 71.3    & 55.1   
+  \end{tabular}
+\end{table}
+
+
+
+
+
+
+
 \begin{table}[htpb!]
   \centering
   \caption{Values inputted into Vortex} \label{Vortex_in}
@@ -362,47 +431,84 @@ conservation zones.
     EV correlation between reproduction and survival & 0.5 \\
     EV correlation among populations & 0.5 \\
     %此处这两个EV correlation可以选择性扩展解释（Vortex manual）
-    Types of catastrophy & 2 \\ 
+    Types of catastrophe & 2 \\ 
     Monogamous, Polygynous or Hermaphroditic & P \\
     Female breeding age & 4a\\
     Male breeding age & 5a\\
     Maximum breeding age & 15a\\
     Sex ratio (proportion males) at birth\tablefootnote{Modifiable when discussing different scenarios.} & 0.5\\
     Maximum litter size & 1\\
-    Density dependent breeding (Y/N)? & Y\\
-    
-
+    Density dependent breeding\tablefootnote{$ P(N) $  is the percent of females the breed when the population size is $ N $, 
+    which can be difined as $ P(N) = P(0) - [P(0)-P(K)(\frac{N}{K})^B]\frac{N}{N+A} $ } (Y/N)? & Y\\
+    $ P(0) $ (the percent 
+    of adult females that breed at low densities when there is no Allee effect)  & 70\% \\
+    $ P(K) $ (the percent that 
+    breed when the population is at carrying capacity) & 25\% \\
+    B & 2\\
+    A & 2\\
+    Percent litter size 1& 100\%\\
+    Moralities in different ages & see Table \\%%%
+    Catastrophes and influence & see Table \\%%%%%%%%
+    Percent males in breeding pool & 70\% \\
+    Start at stable age distribution (Y/N)? & Y \\
+    Trend in K (Y/N) ? & Y \\
+    Years of trend & 5a\\
+    Percent age in K & -10\%\\
+    Harvest (Y/N)? & N\\
+    Supplement (Y/N)? &N\\
 
 
     \bottomrule[1.5pt]
   \end{tabular}
 \end{table}
 
+
+
+
+% \begin{minipage}{\textwidth}
+%   \begin{minipage}[t]{0.45\textwidth}
+%    \centering
+%       \makeatletter\def\@captype{table}\makeatother\caption{表格标题1}
+%         \begin{tabular}{cccc} 
+%      表格内容
+%      \end{tabular}
+%    \end{minipage}
+%    \begin{minipage}[t]{0.45\textwidth}
+%     \centering
+%          \makeatletter\def\@captype{table}\makeatother\caption{表格标题2}
+%           \begin{tabular}{cccc}        
+%            表格内容
+%        \end{tabular}
+%     \end{minipage}
+%  \end{minipage}
+
+
+
 \begin{table}[htpb!]
   \centering
-  \caption{Important output of Vortex} \label{Vortex_out}
+  \caption{Important output of Vortex } \label{Vortex_out}
   \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
     \toprule[1.5pt]
-    \textbf{Symbol} & \textbf{Definition} \\ \hline
+    \textbf{Symbol} & \textbf{Definition}\\ \hline
     $ r $ & Innate rate of increase \\
+    Stoch r & The mean population growth rate experienced in the simulations, averaged 
+    across all years in which the population was extant. \\
     %内廪增长率：给定的物理和生物的条件下，具有稳定的年龄组配的种群的最大瞬时增长率
-    $ \lambda $ & Finite rate of increase \\
-    %周限增长率:种群 不受资源限制的情况下，种群内平均每一个个体能产生的后代数
-    $ R_\theta $ &  Intrinsic rate of natural increase\\
-    %一定时间内种群中雌性个体能够产下的新生雌性个体总数的能力
     N-extant  & Average extant population size\\ 
     N-all  & Average population size \\
     PE  & Probability of Extinction \\
     GeneDiv  &  Genetic Diversity \\
     TE & Time of Extinction(year) \\
+    medianTE & If at least 50\% of the iterations went extinct, 
+    the median time to extinction \\
     SD & Standard Deviation \\
+    nAlleles & The mean number of alleles remaining within extant populations 
+    (from an original number equal to twice the number of founder individuals)\\
     $ K $ & Carrying capacity \\ 
     $ N_t $ & Size of finless porpoise population in the year of $ 1991 + t $ \\ 
     \bottomrule[1.5pt]
   \end{tabular}
-\end{table}
-
-
+\end{table} 
 
 
 
@@ -451,7 +557,8 @@ conservation zones.
 
 \begin{appendices}
 
-
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input python source:}}
+\lstinputlisting[language=python]{./codes/verhulst.py}
 
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}

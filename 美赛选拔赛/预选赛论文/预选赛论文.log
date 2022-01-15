@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  15 JAN 2022 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  15 JAN 2022 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -565,7 +565,76 @@ Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-))) (./预选赛论文.aux)
+))) (d:/Applications/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count316
+\mult@box=\box60
+\multicol@leftmargin=\dimen194
+\c@unbalance=\count317
+\c@collectmore=\count318
+\doublecol@number=\count319
+\multicoltolerance=\count320
+\multicolpretolerance=\count321
+\full@width=\dimen195
+\page@free=\dimen196
+\premulticols=\dimen197
+\postmulticols=\dimen198
+\multicolsep=\skip94
+\multicolbaselineskip=\skip95
+\partial@page=\box61
+\last@line=\box62
+\maxbalancingoverflow=\dimen199
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@gfirstbox=\box65
+\mult@firstbox=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\c@minrows=\count322
+\c@columnbadness=\count323
+\c@finalcolumnbadness=\count324
+\last@try=\dimen256
+\multicolovershoot=\dimen257
+\multicolundershoot=\dimen258
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count325
+) (./预选赛论文.aux)
 \openout1 = `预选赛论文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -589,19 +658,19 @@ LaTeX Font Info:    ... okay on input line 34.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 34.
-\c@lstlisting=\count316
+\c@lstlisting=\count326
  (d:/Applications/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen194
-\scratchbox=\box60
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\scratchcounter=\count327
+\scratchdimen=\dimen259
+\scratchbox=\box106
+\nofMPsegments=\count328
+\nofMParguments=\count329
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen195
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen260
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
 \everyMPtoPDFconversion=\toks41
 )
 *geometry* driver: auto-detecting
@@ -646,7 +715,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count333
 )
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
@@ -655,9 +724,9 @@ LaTeX Info: Redefining \nameref on input line 34.
 \@outlinefile=\write4
 \openout4 = `预选赛论文.out'.
 
-\c@mv@tabular=\count324
-\c@mv@boldtabular=\count325
-\c@maskedRefs=\count326
+\c@mv@tabular=\count334
+\c@mv@boldtabular=\count335
+\c@maskedRefs=\count336
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -705,15 +774,20 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 145.
+(Font)              scaled to size 10.95pt on input line 98.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 \par
-           [1]
+l.98 \newpage
+              [1]
 
-Package natbib Warning: Citation `Liuzhigang' on page 2 undefined on input line 148.
-
+pdfTeX warning: pdflatex.exe (file ./codes/框架图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<codes/框架图.pdf, id=125, 1138.10191pt x 853.53879pt>
+File: codes/框架图.pdf Graphic file (type pdf)
+<use codes/框架图.pdf>
+Package pdftex.def Info: codes/框架图.pdf  used on input line 101.
+(pdftex.def)             Requested size: 426.79134pt x 320.07625pt.
+[2 <./codes/框架图.pdf>]
 Package epstopdf Info: Source file: <codes/Lagrange.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 16429 bytes
@@ -721,32 +795,32 @@ Package epstopdf Info: Source file: <codes/Lagrange.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 7502 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/Lagrange-eps-converted-to.pdf codes/Lagrange.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<codes/Lagrange-eps-converted-to.pdf, id=114, 421.575pt x 316.18124pt>
+<codes/Lagrange-eps-converted-to.pdf, id=213, 421.575pt x 316.18124pt>
 File: codes/Lagrange-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/Lagrange-eps-converted-to.pdf>
-Package pdftex.def Info: codes/Lagrange-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: codes/Lagrange-eps-converted-to.pdf  used on input line 177.
 (pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
 
-Underfull \hbox (badness 1281) in paragraph at lines 226--232
+Underfull \hbox (badness 1281) in paragraph at lines 231--237
 \T1/ntxtlf/m/n/12 for-ma-tion Cri-te-rion(AIC) is one
  []
 
 
 
 pdfTeX warning: pdflatex.exe (file ./codes/ARIMA_裁剪页面.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<codes/ARIMA_裁剪页面.pdf, id=116, 870.0019pt x 1076.2038pt>
+<codes/ARIMA_裁剪页面.pdf, id=215, 870.0019pt x 1076.2038pt>
 File: codes/ARIMA_裁剪页面.pdf Graphic file (type pdf)
 <use codes/ARIMA_裁剪页面.pdf>
-Package pdftex.def Info: codes/ARIMA_裁剪页面.pdf  used on input line 242.
+Package pdftex.def Info: codes/ARIMA_裁剪页面.pdf  used on input line 247.
 (pdftex.def)             Requested size: 312.9803pt x 387.17033pt.
 
-Overfull \hbox (44.67644pt too wide) in paragraph at lines 242--243
+Overfull \hbox (44.67644pt too wide) in paragraph at lines 247--248
 []  
  []
 
-[2] [3 <./codes/Lagrange-eps-converted-to.pdf>] [4 <./codes/ARIMA_裁剪页面.pdf>]
+[3 <./codes/Lagrange-eps-converted-to.pdf>] [4]
 Package epstopdf Info: Source file: <codes/1.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 31560 bytes
@@ -754,15 +828,15 @@ Package epstopdf Info: Source file: <codes/1.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 13782 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/1-eps-converted-to.pdf codes/1.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-<codes/1-eps-converted-to.pdf, id=223, 421.575pt x 316.18124pt>
+<codes/1-eps-converted-to.pdf, id=246, 421.575pt x 316.18124pt>
 File: codes/1-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/1-eps-converted-to.pdf>
-Package pdftex.def Info: codes/1-eps-converted-to.pdf  used on input line 305.
+Package pdftex.def Info: codes/1-eps-converted-to.pdf  used on input line 310.
 (pdftex.def)             Requested size: 219.51863pt x 164.64194pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 305.
+(Font)              scaled to size 10.0pt on input line 310.
 Package epstopdf Info: Source file: <codes/3.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 31124 bytes
@@ -770,12 +844,12 @@ Package epstopdf Info: Source file: <codes/3.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 13417 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/3-eps-converted-to.pdf codes/3.eps>
-(epstopdf)             \includegraphics on input line 310.
+(epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
-<codes/3-eps-converted-to.pdf, id=224, 421.575pt x 316.18124pt>
+<codes/3-eps-converted-to.pdf, id=247, 421.575pt x 316.18124pt>
 File: codes/3-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/3-eps-converted-to.pdf>
-Package pdftex.def Info: codes/3-eps-converted-to.pdf  used on input line 310.
+Package pdftex.def Info: codes/3-eps-converted-to.pdf  used on input line 315.
 (pdftex.def)             Requested size: 219.51863pt x 164.64194pt.
 Package epstopdf Info: Source file: <codes/2.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
@@ -784,20 +858,20 @@ Package epstopdf Info: Source file: <codes/2.eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 7645 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/2-eps-converted-to.pdf codes/2.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
-<codes/2-eps-converted-to.pdf, id=225, 421.575pt x 316.18124pt>
+<codes/2-eps-converted-to.pdf, id=248, 421.575pt x 316.18124pt>
 File: codes/2-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/2-eps-converted-to.pdf>
-Package pdftex.def Info: codes/2-eps-converted-to.pdf  used on input line 315.
+Package pdftex.def Info: codes/2-eps-converted-to.pdf  used on input line 320.
 (pdftex.def)             Requested size: 219.51863pt x 164.64194pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./codes/4.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<codes/4.pdf, id=226, 845.07724pt x 597.55246pt>
+<codes/4.pdf, id=249, 845.07724pt x 597.55246pt>
 File: codes/4.pdf Graphic file (type pdf)
 <use codes/4.pdf>
-Package pdftex.def Info: codes/4.pdf  used on input line 320.
+Package pdftex.def Info: codes/4.pdf  used on input line 325.
 (pdftex.def)             Requested size: 219.51863pt x 155.2232pt.
 Package epstopdf Info: Source file: <codes/20(1).eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
@@ -806,12 +880,12 @@ Package epstopdf Info: Source file: <codes/20(1).eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 6780 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/20(1)-eps-converted-to.pdf codes/20(1).eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
-<codes/20(1)-eps-converted-to.pdf, id=227, 421.575pt x 316.18124pt>
+<codes/20(1)-eps-converted-to.pdf, id=250, 421.575pt x 316.18124pt>
 File: codes/20(1)-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/20(1)-eps-converted-to.pdf>
-Package pdftex.def Info: codes/20(1)-eps-converted-to.pdf  used on input line 333.
+Package pdftex.def Info: codes/20(1)-eps-converted-to.pdf  used on input line 338.
 (pdftex.def)             Requested size: 219.51863pt x 164.64194pt.
 Package epstopdf Info: Source file: <codes/20(2).eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
@@ -820,96 +894,80 @@ Package epstopdf Info: Source file: <codes/20(2).eps>
 (epstopdf)                    date: 2022-01-15 10:03:20
 (epstopdf)                    size: 13208 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/20(2)-eps-converted-to.pdf codes/20(2).eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
-<codes/20(2)-eps-converted-to.pdf, id=228, 421.575pt x 316.18124pt>
+<codes/20(2)-eps-converted-to.pdf, id=251, 421.575pt x 316.18124pt>
 File: codes/20(2)-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/20(2)-eps-converted-to.pdf>
-Package pdftex.def Info: codes/20(2)-eps-converted-to.pdf  used on input line 337.
+Package pdftex.def Info: codes/20(2)-eps-converted-to.pdf  used on input line 342.
 (pdftex.def)             Requested size: 219.51863pt x 164.64194pt.
-[5 <./codes/1-eps-converted-to.pdf> <./codes/3-eps-converted-to.pdf> <./codes/2-eps-converted-to.pdf> <./codes/4.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+ntxsups on input line 370.
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+[5 <./codes/ARIMA_裁剪页面.pdf>] [6 <./codes/1-eps-converted-to.pdf> <./codes/3-eps-converted-to.pdf> <./codes/2-eps-converted-to.pdf> <./codes/4.pdf> <./codes/20(1)-eps-converted-to.pdf> <./codes/20(2)-eps-converted-to.pdf>]
+Overfull \hbox (4.81744pt too wide) in paragraph at lines 390--411
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+ntxsups on input line 439.
+(d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 370.
+(Font)              scaled to size 12.0pt on input line 439.
+
+
+LaTeX Warning: Float too large for page by 68.45395pt on input line 463.
+
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 379.
- [6 <./codes/20(1)-eps-converted-to.pdf> <./codes/20(2)-eps-converted-to.pdf>] [7]
+(Font)              scaled to size 10.0pt on input line 463.
+[7]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 429.
+(Font)              scaled to size 20.74pt on input line 535.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 429.
- [8]
-No file 预选赛论文.bbl.
+(Font)              scaled to size 20.74pt on input line 535.
+ [8] [9] [10] (./预选赛论文.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 31.
+) [11
+
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 452.
+(Font)              scaled to size 24.88pt on input line 558.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 452.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 458.
-(d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(Font)              scaled to size 24.88pt on input line 558.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 561.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./codes/lagrange_main.m) (./codes/lagrange.m
+) (./codes/verhulst.py
+Overfull \hbox (40.18286pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./codes/lagrange_main.m) (./codes/lagrange.m [12]
 Overfull \hbox (28.18274pt too wide) in paragraph at lines 11--12
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) (./codes/ARIMA.m
-Overfull \hbox (28.18274pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (244.18494pt too wide) in paragraph at lines 9--10
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (238.18488pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[9
-
-]
-Overfull \hbox (76.18323pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (142.1839pt too wide) in paragraph at lines 33--34
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (52.18298pt too wide) in paragraph at lines 51--52
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) 
+) (./codes/ARIMA.m [13]) 
 AED: lastpage setting LastPage
-[10]
-
-Package natbib Warning: There were undefined citations.
-
-(./预选赛论文.aux)
+[14] (./预选赛论文.aux)
 Package rerunfilecheck Info: File `预选赛论文.out' has not changed.
-(rerunfilecheck)             Checksum: 3F8F842D275A45D1585679B7FD0104B8;3748.
+(rerunfilecheck)             Checksum: 3CF2421D6524C78A26D22E8F6BC8043A;4467.
  ) 
 Here is how much of TeX's memory you used:
- 16732 strings out of 480901
- 242470 string characters out of 5904911
- 880922 words of memory out of 5000000
- 33419 multiletter control sequences out of 15000+600000
- 461410 words of font info for 87 fonts, out of 8000000 for 9000
+ 17105 strings out of 480901
+ 247447 string characters out of 5904911
+ 1016827 words of memory out of 5000000
+ 33710 multiletter control sequences out of 15000+600000
+ 469468 words of font info for 111 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,88p,569b,2069s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntxsups_t1.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on 预选赛论文.pdf (12 pages, 438877 bytes).
+ 86i,13n,88p,657b,2078s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntxsups_t1.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on 预选赛论文.pdf (16 pages, 723936 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 142 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 199 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

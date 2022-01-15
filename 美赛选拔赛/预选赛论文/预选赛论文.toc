@@ -1,18 +1,20 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Problem Restatement}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Overview of Our Work}{1}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Assumptions and Justifications}{1}{section.2}%
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{2}{section.2}%
 \contentsline {section}{\numberline {3}Notations}{2}{section.3}%
-\contentsline {section}{\numberline {4}Intorduction and Results of Models on problem 1(a)}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Relation between Population size and Time based on Lagrange Interpolation}{2}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Model I: Vortex model based finless porpoise analysis}{2}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Model II: Auto Regressive Integrated Moving Average(ARIMA) model}{2}{subsection.4.3}%
+\contentsline {section}{\numberline {4}Introduction and Results of Models on problem 1(a)}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Relation between Population size and Time based on Lagrange Interpolation}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Model I: Vortex model based finless porpoise analysis}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Model II: Auto Regressive Integrated Moving Average(ARIMA) model}{3}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Model III: Cellular Automata based population size prediction}{5}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Model IV: Gray Forecast model}{5}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Solution to Problem 1(b) based on Vortex model}{6}{section.5}%
-\contentsline {section}{\numberline {6}Sensitivity Test}{6}{section.6}%
-\contentsline {section}{\numberline {7}Evaluation of Model}{6}{section.7}%
-\contentsline {section}{\numberline {8}Conclusions}{6}{section.8}%
+\contentsline {section}{\numberline {5}Solution to Problem 1(b) based on Vortex model}{5}{section.5}%
+\contentsline {section}{\numberline {6}Vortex model and Gray Forecast model based Population Prediction without Ex-Situ Conservation}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Result of Vortex model}{7}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Sensitivity Test}{7}{section.7}%
+\contentsline {section}{\numberline {8}Evaluation of Model}{7}{section.8}%
+\contentsline {section}{\numberline {9}Conclusions}{7}{section.9}%
 \contentsline {section}{Report}{8}{section*.1}%
-\contentsline {section}{Refence}{9}{section*.2}%
-\contentsline {section}{Appendices}{9}{section*.3}%
+\contentsline {section}{Refence}{11}{section*.2}%
+\contentsline {section}{Appendices}{12}{section*.4}%
