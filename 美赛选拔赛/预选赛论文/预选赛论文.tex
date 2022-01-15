@@ -21,6 +21,11 @@
 \usepackage{natbib}
 \usepackage{tablefootnote}
 \usepackage{multicol}
+%算法四部曲↓
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{algorithmicx}
 % \usepackage{threeparttable}
 
 \setlength{\parindent}{2em}
@@ -32,6 +37,8 @@
 \definecolor{lightOrange}{rgb}{0.988,0.894,0.839}
 
 \begin{document}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
 
 \begin{abstract}
 
@@ -142,7 +149,7 @@ These are necessary assumptions for simplifying the model.
 
 
 
-\section{Introduction and Results of Models on problem 1(a)}
+\section{Introduction and Results of Models on Problem 1(a)}
 
 Note that because of the deficiency of the statistics about the other four ex-situ conservations,
 the size of finless porpoise population per unit area is considered 
@@ -150,13 +157,13 @@ the same as that in Swan Oxbow of the Yangtse River.
 \par
 Considering tremendous cost on massive finless porpoise population 
 census, merely six years of data was collected in Swan Oxbow of the Yangtse River
-during the three decades since 1992. \citep{Liuzhigang}
+during the three decades since 1992. \citep*{Liuzhigang}
 Thus, we've applied \textbf{Lagrange interpolation} to obtain other years' data
 in Swan Oxbow.
 
+ 
 
-
-\subsection{Relation between Population size and Time based on Lagrange Interpolation}
+\subsection{Relation between Population Size and Time based on Lagrange Interpolation}
 Given $ n $ distinct real values $ x_1, x_2, \cdots , x_n $and $ n $
 real values $ y_1, y_2,\cdots, y_n $ (not necessarily distinct), there
 is a unique polynomial $ P $ with real coefficients satisfying 
@@ -205,6 +212,44 @@ and the exact numbers are listed below:
 \subsection{Model I: Vortex model based finless porpoise analysis}
 
 
+\begin{algorithm}[htbp]
+  \caption{Vortex model based Finless Porpoise Population Size Prediction Algorithm} % 名称
+  \label{Alg:vortex}
+  \begin{algorithmic}[1]
+    \Require
+      features of finless porpoises described in table \ref{Vortex_in}
+      \For{scenario $ \gets 1$ to $ m $}
+      \If{NumberOfPopulations $ \geq 1 $ } 
+      \State READ POPULATION and MIGRATION
+      \For{each population, pSource $ \gets 1 $ to $ n $  }
+      \State $ BreedEV[P] = \sqrt{BreedEV[P]^2-BreedEV[P]\times EVConcordance} $
+      \State Calculate the parameters $ \gets $ LOCAL\_EV, CATASTROPHES, MIGRATE, BREED, MORTALITY(p)
+      \EndFor
+      \For{each Year $ \gets 1 $ to $ l $  }
+      \State $SE = \sqrt{PE \times (1-PE)} $
+      \If{population extincted}\State $ Year Recolonized[P] = Current Year $ 
+      \Else \State $ TimeToRecolonization[p] = CurrentYear - YearExtinct[p]$ 
+      \EndIf 
+      \If{not extinct $\&\&  PopulationSize[p], N > Carrying Capacity[p] $ }
+      \For{each indiividual}
+      \If{$ RAND() > \frac{K}{N} $}
+      \State Extinct
+      \Else \If{$ N>K $} 
+      \State $ YearExtinct[p] = CurrentYear $
+      \EndIf
+      \If{others} 
+      \State $ TimeToReextinction[p] = CurrrentYear- Recolonization[p] $ 
+      \EndIf
+      \EndIf
+      \EndFor
+      \EndIf
+      \EndFor
+      \EndIf
+      \EndFor
+      \Ensure
+      The Number of iterated population in each year
+  \end{algorithmic}
+\end{algorithm}
 
 
 
@@ -275,7 +320,7 @@ stationary test must be conducted previously. Stationary test can
 be applied by calculating sample autocorrelation function and 
 sample coefficient of partial function. 
 \par
-If the functions are truncated or trending to 0(meaning being controlled
+If the functions are truncated or trending to 0 (meaning being controlled
 by negative index), than the series belongs to ARMA model.
 \par
 If at least one of the functions above is not truncated or trending to 0, than
@@ -297,9 +342,79 @@ time series of the size of finless porpoise $ N_t, \quad t = 1\cdots 30 $,
 in which the Figure(\ref{ARIMA Sequence}) clearly shows that the number
 will decline and settle around 62 in the future 20 years. 
 
-\subsection{Model III: Cellular Automata based population size prediction}
+\subsection{Model III: Cellular Automata based Population Size Prediction}
 
 \subsection{Model IV: Gray Forecast model}
+
+The very heart of Gray Forecast is Gray model, which is used to model and 
+forecast the approximate exponential law after summing up the 
+original data. It is suitable for the prediction scenario with 
+less data. While \textbf{Vehulst} model is primarily used to
+describe procedures with saturation state, that is S-shape procedure,
+which can be applied in the sphere of biological growth and reproductive prediction.
+The fundamental is as follows.
+\par
+Suppose the sample is $ x^{(0)} = \{x^{(0)}(1), x^{(0)}(2) \cdots
+x^{(0)}(n)\} $, and it is accumulated once to generate a 
+(1-AGO) sequence, which is:
+$$
+  x^{(1)} = (x^{(1)}(1),x^{(1)}(2),\cdots, x^{(1)}(n))
+$$ 
+$ z^{(1)} $ is the mean-generating sequence of $ X^{(1)} $, which is:
+$$
+z^{(1)} = (z^{(1)}(2),z^{(1)}(3),\cdots,z^{(1)}(n)).
+$$ 
+Then, we call the following equations Gray Verhulst model with parameters a and b:
+$$
+  x^{(0)} + az^{(1)} = b(x^{(1)})^2
+$$ 
+, and we call the following equations the winterization equations of
+of Gray Verhulst model with t denoting time:
+$$
+  \frac{\mathbf{d}x^{(1)}}{\mathbf{d}t} + ax^{(1)} = b(x^{(1)})^2
+$$ 
+\par
+\textbf{Theorem 1}. Suppose the Gray Verhulst model is depicted as above, if
+$ \bm{u} = [a,b]^T $  is the parameter vector,and 
+$$
+  \bm{B} = 
+  \begin{bmatrix}
+    -z^{(1)}(2) & (z^{(1)}(2))^2\\
+    -z^{(1)}(3) & (z^{(1)}(3))^2\\
+    \vdots & \vdots\\
+    -z^{(1)}(n) & (z^{(1)}(n))^2
+  \end{bmatrix},
+  \bm{Y} = \left(
+  \begin{array}{c}
+    x^{(0)}(2)\\
+    x^{(0)}(3)\\
+    \vdots\\
+    x^{(0)}(n)
+  \end{array}\right),
+$$
+then the least square estimation of parameter $ \bm{u} $ satisfies
+$$
+  \hat{\bm{u}} = [\hat{a},\hat{b}]^T = (\bm{B}^T\bm{B})^{-1}\bm{B}^T\bm{Y}
+$$ 
+
+\textbf{Theorem 2}
+Suppose Gray Verhulst model is defined as above, then solution to the winterization
+equations is 
+$$
+  x^{(1)}(t) = \frac{\hat{a}x^{(0)}(1)}{\hat{b}x^{(0)}(1)+[\hat{a}-\hat{b}x^{(0)}(1)]e^{\hat{a}t}},
+$$ 
+and the time response sequence of Gray Verhulst model is
+$$
+  \hat{x}^{(1)}(k+1) = \frac{\hat{a}x^{(0)}(1)}{\hat{b}x^{(0)}(1)+[\hat{a}-\hat{b}x^{(0)}(1)]e^{\hat{a}t}},
+$$ 
+and the reductive formula is 
+$$
+  \hat{x}^{(0)}(k+1) = \hat{x}^{(1)}(k+1) - \hat{x}^{(1)}(k)
+$$ 
+
+
+
+
 
 \begin{figure}[htbp]
   \centering
@@ -368,20 +483,24 @@ What's more, we assume that \textbf{the carrying capacity} $ K $  of finless por
 in the whole Yangtze River is \textbf{3000}.
 \par
 In order to thoroughly discuss the risk of finless porpoise extinction,
-we define two types of \textbf{functionally extinction} and one type
+we define two types of \textbf{functional extinction} and one type
 of \textbf{species extinction}. 
 \par
-The first type of functionally extinction is that there only exists one 
+The first type of functional extinction 
+(\textbf{Functional Extinction I}) is that there only exists one 
 sex, which means this population is no longer able to reproduce and bond 
 to be extinct in the future.
-The second type of functionally extinction is that the number of 
+The second type of functional extinction
+(\textbf{Functional Extinction I}) is that the number of 
 remaining individuals in the population is unable to prevent inbreeding
 depression which will cause the fading and extinction of the population.
+We define the number of population that reaches the second functional 
+extinction is \textbf{200}.
 \par
-The species extinction is defined as no living individual of this population
+The \textbf{Species Extinction} is defined as no living individual of this population
 found in this area. 
 
-\subsection{Result of Vortex model}
+\subsection{Result of Vortex model}\label{Prob_2_VortexSection}
 The result of Vortex model simulation based on previous conditions 
 is shown as Table \ref{Vortex_result_2}, in which the meaning of 
 these parameters is shown in Table \ref{Vortex_out}.
@@ -391,8 +510,8 @@ these parameters is shown in Table \ref{Vortex_out}.
   >{\columncolor[HTML]{FFFFFF}}c |ccc}
   \textbf{Scenario} &
     \cellcolor[HTML]{FFFFFF}\textbf{Species Extinction} &
-    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction Tpye 1} &
-    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction Type 2} \\ \hline
+    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction I} &
+    \cellcolor[HTML]{FFFFFF}\textbf{Functional Extinction II} \\ \hline
   \textbf{nRuns}     & 30      & 30      & 30      \\
   \textbf{stoch-r}   & -0.0239 & -0.0165 & -0.0120 \\
   \textbf{SD(r)}     & 0.1399  & 0.1340  & 0.1359  \\
@@ -410,11 +529,47 @@ these parameters is shown in Table \ref{Vortex_out}.
   \end{tabular}
 \end{table}
 
+In a nut shell, from the \textbf{meanTE} value in Table \ref{Vortex_result_2}
+we can draw a reasonable conclusion that without ex-situ conservation actions, 
+the finless porpoises in Yangtze River will suffer \textbf{Functional Extinction II after 
+55.1 years, Functional Extinction II after 71.3 years and Species Extinction
+after 95.5 years.}
+
+What's shown in Figure \ref{ExtinctionPic} describes the variation trends in these scenarios.
+
+\begin{figure}[htbp]\label{ExtinctionPic}
+  \centering
+  \subfigure[Variation trend in terms of Species Extinction]{
+    \centering
+    \includegraphics[width = 12cm]{codes/0.png}
+  }
+  \subfigure[Variation trend in terms of Functional Extinction I]{
+    \centering
+    \includegraphics[width = 12cm]{codes/only_one_sex.png}
+  }
+  \subfigure[Variation trend in terms of Functional Extinction II]{
+    \centering
+    \includegraphics[width = 12cm]{codes/200.png}
+  }
+  \caption{Variation Trends in Different Scenarios}
+\end{figure}
 
 
 
+\subsection{Result of Gray Forecast model}
+Given the fact that the Gray Forecast model is unable to predict the date of
+Functional Extinction I, we deploy the model to measure Functional Extinction II. 
 
+\begin{figure}[htbp]\label{Gray_Pridct}
+  \centering
+  \includegraphics[width = 14cm]{codes/灰色预测图.pdf}
+  \caption{Predicted Population Size based on Gray Forecast}
+\end{figure}
 
+The Figure \ref{Gray_Pridct} has explicitly shown that it will take
+the finless porpoise population 55 to 60 years to reach Functional
+Extinction II, which is unbelievably similar to the conclusion of
+Vortex model from section \ref{Prob_2_VortexSection}.
 
 \begin{table}[htpb!]
   \centering
@@ -482,11 +637,9 @@ these parameters is shown in Table \ref{Vortex_out}.
 %     \end{minipage}
 %  \end{minipage}
 
-
-
 \begin{table}[htpb!]
   \centering
-  \caption{Important output of Vortex } \label{Vortex_out}
+  \caption{Important output of Vortex\citep{Vortex}} \label{Vortex_out}
   \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
     \toprule[1.5pt]
     \textbf{Symbol} & \textbf{Definition}\\ \hline
