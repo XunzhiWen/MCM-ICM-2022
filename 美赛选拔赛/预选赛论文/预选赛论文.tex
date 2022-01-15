@@ -208,8 +208,10 @@ and the exact numbers are listed below:
 
 \subsection{Model II: Auto Regressive Integrated Moving Average(ARIMA) model}
 We apply ARIMA model in order to predict the size of finless porpoise population in five ex-situ 
-conservation areas after 20 years, whose \textbf{algorithm block diagram} is shown as follows.
+conservation areas after 20 years, whose \textbf{algorithm block diagram} 
+is shown as Figure \ref{ARIMA_ALGO}.
 \par
+\begin{figure}[ht]
 \begin{minipage}[htbp]{0.35\linewidth}
   Under regular circumstances, the time series we obtain in the real world
   has tendency, seasonality and non-stationarity. Thus, it's vital for 
@@ -233,15 +235,15 @@ $ p,q $ such that
     &+ 2(p+q+1)
   \end{aligned}
 \end{equation}
-
 \end{minipage}
 \hfill
 \begin{minipage}[htbp]{0.55\linewidth}
   \begin{flushleft}
     \includegraphics[width =11cm]{codes/ARIMA_裁剪页面.pdf}
-%    \caption{Algorithm Block of ARIMA}
+   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
   \end{flushleft}
 \end{minipage}
+\end{figure}
 \par
 $ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
 estimation of $ \sigma_\epsilon^2 $ relating to $ p $ and $ q $.
