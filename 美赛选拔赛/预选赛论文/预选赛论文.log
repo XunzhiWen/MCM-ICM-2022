@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  16 JAN 2022 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  16 JAN 2022 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,27 +667,27 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (./预选赛论文.aux)
 \openout1 = `预选赛论文.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 39.
+(lastpage)             ! on input line 38.
 \c@lstlisting=\count335
  (d:/Applications/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -737,7 +737,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 38.
 (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -747,9 +747,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count342
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
  (./预选赛论文.out) (./预选赛论文.out)
 \@outlinefile=\write4
 \openout4 = `预选赛论文.out'.
@@ -763,19 +763,19 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 101.
+(Font)              scaled to size 12.0pt on input line 100.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 101.
+(Font)              scaled to size 20.0pt on input line 100.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 101.
+(Font)              scaled to size 20.74pt on input line 100.
  [1
 
 {d:/Applications/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 103.
+(Font)              scaled to size 17.28pt on input line 102.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 103.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 103.
+(Font)              scaled to size 17.28pt on input line 102.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 102.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./预选赛论文.toc
@@ -800,27 +800,27 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
  [1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 120.
+(Font)              scaled to size 14.4pt on input line 119.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 120.
+(Font)              scaled to size 14.4pt on input line 119.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 168.
+(Font)              scaled to size 10.95pt on input line 167.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.168 \newpage
+l.167 \newpage
                [1]
 
 pdfTeX warning: pdflatex.exe (file ./codes/框架图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <codes/框架图.pdf, id=132, 1195.01462pt x 853.53879pt>
 File: codes/框架图.pdf Graphic file (type pdf)
 <use codes/框架图.pdf>
-Package pdftex.def Info: codes/框架图.pdf  used on input line 171.
+Package pdftex.def Info: codes/框架图.pdf  used on input line 170.
 (pdftex.def)             Requested size: 369.88582pt x 264.19054pt.
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.232   \end{table}
+l.231   \end{table}
                     <./codes/框架图.pdf>]
 Package epstopdf Info: Source file: <codes/Lagrange.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
@@ -829,31 +829,31 @@ Package epstopdf Info: Source file: <codes/Lagrange.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 7502 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/Lagrange-eps-converted-to.pdf codes/Lagrange.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 <codes/Lagrange-eps-converted-to.pdf, id=230, 421.575pt x 316.18124pt>
 File: codes/Lagrange-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/Lagrange-eps-converted-to.pdf>
-Package pdftex.def Info: codes/Lagrange-eps-converted-to.pdf  used on input line 265.
+Package pdftex.def Info: codes/Lagrange-eps-converted-to.pdf  used on input line 264.
 (pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
  [3pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.292 \newpage
+l.291 \newpage
               ] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.292 \newpage
+l.291 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.292 \newpage
+l.291 \newpage
                <./codes/Lagrange-eps-converted-to.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 298.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 297.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 303.
+(Font)              scaled to size 10.0pt on input line 302.
  [5]
-Underfull \hbox (badness 1199) in paragraph at lines 366--372
+Underfull \hbox (badness 1199) in paragraph at lines 365--371
 \T1/ntxtlf/m/n/12 av-er-age is zero and de-vi-a-tion is
  []
 
@@ -863,17 +863,17 @@ pdfTeX warning: pdflatex.exe (file ./codes/ARIMA_裁剪页面.pdf): PDF inclusio
 <codes/ARIMA_裁剪页面.pdf, id=271, 856.80894pt x 1116.9989pt>
 File: codes/ARIMA_裁剪页面.pdf Graphic file (type pdf)
 <use codes/ARIMA_裁剪页面.pdf>
-Package pdftex.def Info: codes/ARIMA_裁剪页面.pdf  used on input line 386.
+Package pdftex.def Info: codes/ARIMA_裁剪页面.pdf  used on input line 385.
 (pdftex.def)             Requested size: 312.9803pt x 408.03357pt.
 
-Overfull \hbox (34.73926pt too wide) in paragraph at lines 386--387
+Overfull \hbox (34.73926pt too wide) in paragraph at lines 385--386
 [] 
  []
 
 [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.414 \par
+l.413 \par
            <./codes/ARIMA_裁剪页面.pdf>]
 Package epstopdf Info: Source file: <codes/1.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
@@ -882,15 +882,15 @@ Package epstopdf Info: Source file: <codes/1.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 13782 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/1-eps-converted-to.pdf codes/1.eps>
-(epstopdf)             \includegraphics on input line 445.
+(epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
 <codes/1-eps-converted-to.pdf, id=349, 421.575pt x 316.18124pt>
 File: codes/1-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/1-eps-converted-to.pdf>
-Package pdftex.def Info: codes/1-eps-converted-to.pdf  used on input line 445.
+Package pdftex.def Info: codes/1-eps-converted-to.pdf  used on input line 444.
 (pdftex.def)             Requested size: 151.76854pt x 113.82515pt.
 
-Underfull \hbox (badness 2035) in paragraph at lines 445--445
+Underfull \hbox (badness 2035) in paragraph at lines 444--444
 \T1/ntxtlf/m/n/10 and Sam-ple Par-tial Au-to-cor-re-la-tion
  []
 
@@ -901,15 +901,15 @@ Package epstopdf Info: Source file: <codes/3.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 13417 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/3-eps-converted-to.pdf codes/3.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 <codes/3-eps-converted-to.pdf, id=350, 421.575pt x 316.18124pt>
 File: codes/3-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/3-eps-converted-to.pdf>
-Package pdftex.def Info: codes/3-eps-converted-to.pdf  used on input line 450.
+Package pdftex.def Info: codes/3-eps-converted-to.pdf  used on input line 449.
 (pdftex.def)             Requested size: 151.76854pt x 113.82515pt.
 
-Underfull \hbox (badness 2035) in paragraph at lines 450--450
+Underfull \hbox (badness 2035) in paragraph at lines 449--449
 \T1/ntxtlf/m/n/10 and Sam-ple Par-tial Au-to-cor-re-la-tion
  []
 
@@ -920,12 +920,12 @@ Package epstopdf Info: Source file: <codes/2.eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 7645 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/2-eps-converted-to.pdf codes/2.eps>
-(epstopdf)             \includegraphics on input line 455.
+(epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 <codes/2-eps-converted-to.pdf, id=351, 421.575pt x 316.18124pt>
 File: codes/2-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/2-eps-converted-to.pdf>
-Package pdftex.def Info: codes/2-eps-converted-to.pdf  used on input line 455.
+Package pdftex.def Info: codes/2-eps-converted-to.pdf  used on input line 454.
 (pdftex.def)             Requested size: 151.76854pt x 113.82515pt.
 
 
@@ -933,19 +933,19 @@ pdfTeX warning: pdflatex.exe (file ./codes/4.pdf): PDF inclusion: found PDF vers
 <codes/4.pdf, id=352, 845.07724pt x 597.55246pt>
 File: codes/4.pdf Graphic file (type pdf)
 <use codes/4.pdf>
-Package pdftex.def Info: codes/4.pdf  used on input line 460.
+Package pdftex.def Info: codes/4.pdf  used on input line 459.
 (pdftex.def)             Requested size: 151.76854pt x 107.30861pt.
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.464 \newpage
+l.463 \newpage
                <./codes/1-eps-converted-to.pdf> <./codes/3-eps-converted-to.pdf> <./codes/2-eps-converted-to.pdf> <./codes/4.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./codes/元胞自动机流程图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <codes/元胞自动机流程图.pdf, id=378, 1245.09477pt x 1309.33661pt>
 File: codes/元胞自动机流程图.pdf Graphic file (type pdf)
 <use codes/元胞自动机流程图.pdf>
-Package pdftex.def Info: codes/元胞自动机流程图.pdf  used on input line 497.
+Package pdftex.def Info: codes/元胞自动机流程图.pdf  used on input line 496.
 (pdftex.def)             Requested size: 398.33858pt x 418.89638pt.
 Package epstopdf Info: Source file: <codes/20(1).eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
@@ -954,12 +954,12 @@ Package epstopdf Info: Source file: <codes/20(1).eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 6780 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/20(1)-eps-converted-to.pdf codes/20(1).eps>
-(epstopdf)             \includegraphics on input line 511.
+(epstopdf)             \includegraphics on input line 510.
 Package epstopdf Info: Output file is already uptodate.
 <codes/20(1)-eps-converted-to.pdf, id=379, 421.575pt x 316.18124pt>
 File: codes/20(1)-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/20(1)-eps-converted-to.pdf>
-Package pdftex.def Info: codes/20(1)-eps-converted-to.pdf  used on input line 511.
+Package pdftex.def Info: codes/20(1)-eps-converted-to.pdf  used on input line 510.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
 Package epstopdf Info: Source file: <codes/20(2).eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
@@ -968,42 +968,42 @@ Package epstopdf Info: Source file: <codes/20(2).eps>
 (epstopdf)                    date: 2022-01-16 09:36:41
 (epstopdf)                    size: 13208 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/20(2)-eps-converted-to.pdf codes/20(2).eps>
-(epstopdf)             \includegraphics on input line 515.
+(epstopdf)             \includegraphics on input line 514.
 Package epstopdf Info: Output file is already uptodate.
 <codes/20(2)-eps-converted-to.pdf, id=380, 421.575pt x 316.18124pt>
 File: codes/20(2)-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/20(2)-eps-converted-to.pdf>
-Package pdftex.def Info: codes/20(2)-eps-converted-to.pdf  used on input line 515.
+Package pdftex.def Info: codes/20(2)-eps-converted-to.pdf  used on input line 514.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
 [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.537 \par
+l.536 \par
            <./codes/元胞自动机流程图.pdf>] [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.579 $$
+l.578 $$
          <./codes/20(1)-eps-converted-to.pdf> <./codes/20(2)-eps-converted-to.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./codes/影响.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <codes/影响.pdf, id=444, 963.6pt x 542.025pt>
 File: codes/影响.pdf Graphic file (type pdf)
 <use codes/影响.pdf>
-Package pdftex.def Info: codes/影响.pdf  used on input line 653.
+Package pdftex.def Info: codes/影响.pdf  used on input line 652.
 (pdftex.def)             Requested size: 341.43306pt x 192.05217pt.
 [10] [11pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.691 \par
+l.690 \par
            <./codes/影响.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+ntxsups on input line 791.
+LaTeX Font Info:    Trying to load font information for T1+ntxsups on input line 790.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 791.
+(Font)              scaled to size 12.0pt on input line 790.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 798.
+(Font)              scaled to size 10.0pt on input line 797.
 Package epstopdf Info: Source file: <codes/gray.eps>
 (epstopdf)                    date: 2022-01-16 09:53:41
 (epstopdf)                    size: 18773 bytes
@@ -1011,72 +1011,72 @@ Package epstopdf Info: Source file: <codes/gray.eps>
 (epstopdf)                    date: 2022-01-16 09:53:41
 (epstopdf)                    size: 6336 bytes
 (epstopdf)             Command: <repstopdf --outfile=codes/gray-eps-converted-to.pdf codes/gray.eps>
-(epstopdf)             \includegraphics on input line 802.
+(epstopdf)             \includegraphics on input line 801.
 Package epstopdf Info: Output file is already uptodate.
 <codes/gray-eps-converted-to.pdf, id=487, 421.575pt x 316.18124pt>
 File: codes/gray-eps-converted-to.pdf Graphic file (type pdf)
 <use codes/gray-eps-converted-to.pdf>
-Package pdftex.def Info: codes/gray-eps-converted-to.pdf  used on input line 802.
+Package pdftex.def Info: codes/gray-eps-converted-to.pdf  used on input line 801.
 (pdftex.def)             Requested size: 256.0748pt x 192.05975pt.
  [12] [13pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.804 \end{figure}
+l.803 \end{figure}
                   ]
 <codes/mortality.png, id=498, 618.81187pt x 322.95656pt>
 File: codes/mortality.png Graphic file (type png)
 <use codes/mortality.png>
-Package pdftex.def Info: codes/mortality.png  used on input line 835.
+Package pdftex.def Info: codes/mortality.png  used on input line 834.
 (pdftex.def)             Requested size: 199.16928pt x 103.94447pt.
 <codes/3种灾害.png, id=500, 618.81187pt x 322.95656pt>
 File: codes/3种灾害.png Graphic file (type png)
 <use codes/3种灾害.png>
-Package pdftex.def Info: codes/3种灾害.png  used on input line 839.
+Package pdftex.def Info: codes/3种灾害.png  used on input line 838.
 (pdftex.def)             Requested size: 199.16928pt x 103.94447pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.841 \end{figure}
+l.840 \end{figure}
                    <./codes/gray-eps-converted-to.pdf>] [15pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.894   \item A
+l.893   \item A
                ccording to Gray Forecast model, there will be 49.308 <./codes/mortality.png> <./codes/3种灾害.png>] [16]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 918.
+(Font)              scaled to size 20.74pt on input line 917.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 918.
+(Font)              scaled to size 20.74pt on input line 917.
 <codes/0.png, id=540, 618.81187pt x 322.95656pt>
 File: codes/0.png Graphic file (type png)
 <use codes/0.png>
-Package pdftex.def Info: codes/0.png  used on input line 936.
+Package pdftex.def Info: codes/0.png  used on input line 935.
 (pdftex.def)             Requested size: 156.49014pt x 81.6703pt.
 <codes/only_one_sex.png, id=541, 618.81187pt x 322.95656pt>
 File: codes/only_one_sex.png Graphic file (type png)
 <use codes/only_one_sex.png>
-Package pdftex.def Info: codes/only_one_sex.png  used on input line 940.
+Package pdftex.def Info: codes/only_one_sex.png  used on input line 939.
 (pdftex.def)             Requested size: 156.49014pt x 81.6703pt.
 <codes/200.png, id=542, 618.81187pt x 322.95656pt>
 File: codes/200.png Graphic file (type png)
 <use codes/200.png>
-Package pdftex.def Info: codes/200.png  used on input line 944.
+Package pdftex.def Info: codes/200.png  used on input line 943.
 (pdftex.def)             Requested size: 156.49014pt x 81.6703pt.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.9.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.954   \par(
+l.953   \par(
              3) Replenish a certain number of suitable wild individuals as s... <./codes/0.png> <./codes/only_one_sex.png> <./codes/200.png>] [18] (./预选赛论文.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 31.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 1026.
+(Font)              scaled to size 24.88pt on input line 1025.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 1026.
+(Font)              scaled to size 24.88pt on input line 1025.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1029.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1028.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) (./codes/verhulst.py
