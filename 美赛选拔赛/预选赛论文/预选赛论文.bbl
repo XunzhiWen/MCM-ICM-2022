@@ -61,6 +61,63 @@ Lacy%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Xianfeng%
+}{%
+Xianfeng%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Zhangxianfeng}
+\APACinsertmetastar {%
+Zhangxianfeng}%
+\begin{APACrefauthors}%
+Xianfeng, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Population viability analysis for the Yangtze finless
+  porpoise} {Population viability analysis for the yangtze finless
+  porpoise}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Chinese Academy of Sciences:English
+  Edition}{27}{1}{3473-3484}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yuanhui%
+, Qiang%
+, li Hua%
+\BCBL {}\ \BBA {} Hongquan%
+}{%
+Yuanhui%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Xiongyuanhui}
+\APACinsertmetastar {%
+Xiongyuanhui}%
+\begin{APACrefauthors}%
+Yuanhui, X.%
+, Qiang, Z.%
+, li Hua%
+\BCBL {}\ \BBA {} Hongquan, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Management Effectiveness and Enlightenment of the Baiji
+  National Nature Reserve in Xinluo Section of the Yangtze River in Hubei}
+  {Management effectiveness and enlightenment of the baiji national nature
+  reserve in xinluo section of the yangtze river in hubei}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{China-Arab States Science and Technology Forum(Chinese
+  and English)}{}{8}{4}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Zhao%
 , Jinsong%
 , minmin%
