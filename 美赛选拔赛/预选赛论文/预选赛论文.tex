@@ -344,6 +344,39 @@ will decline and settle around 62 in the future 20 years.
 
 \subsection{Model III: Cellular Automata based Population Size Prediction}
 
+Cellular automata (CA) is a kind of grid dynamics model with discrete time, 
+space and state, and local spatial interaction and temporal causality, which 
+has the ability to simulate the space-time evolution process of complex system.
+\par
+Unlike general dynamical models, cellular automata are not determined by strictly 
+defined physical equations or functions, but are composed of rules constructed by 
+a series of models. Any model that satisfies these rules can be regarded as a cellular 
+automata model. Therefore, cellular automata is a general term for a class of models, 
+or a method framework. Its characteristic is that time, space and state are discrete, 
+each variable only takes a finite number of states, and its state change rules are local 
+in time and space.
+\par
+The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{codes/元胞自动机流程图.pdf}
+  \caption{Block Diagram of typical Cellular Automata}\label{CA_Fig}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Model IV: Gray Forecast model}
 
 The very heart of Gray Forecast is Gray model, which is used to model and 
@@ -416,6 +449,7 @@ $$
 
 
 
+
 \begin{figure}[htbp]
   \centering
 
@@ -472,10 +506,11 @@ conservation zones.
 \section{Vortex model and Gray Forecast model based
 Population Prediction without Ex-Situ Conservation}
 
-The known \textbf{existing wild finless porpoise population is 1012} \citep{Wubin}. 
+The known \textbf{existing wild finless porpoise population is 1012} \citep*{Wubin}. 
 According to previous researches, female finless porpoises are more
 vulnerable than the male ones in their early ages, so the ratio of 
-male finless porpoises to female ones which are 0 - 6 years old is $ 3.7:1 $,
+male finless porpoises to female ones which are 0 - 6 years old is $ 3.7:1 $
+\citep*{ZhouZhao},
 and the ratio of those older than 6 is $ 2:1 $. For simplicity, 
 we perceive that \textbf{the ratio of male finless porpoises to female ones
 in all ages} is $ \bm{2.85:1} $, which is the median of the above two ratios.
@@ -562,7 +597,7 @@ Functional Extinction I, we deploy the model to measure Functional Extinction II
 
 \begin{figure}[htbp]\label{Gray_Pridct}
   \centering
-  \includegraphics[width = 14cm]{codes/灰色预测图.pdf}
+  \includegraphics[width = 12cm]{codes/gray.eps}
   \caption{Predicted Population Size based on Gray Forecast}
 \end{figure}
 
