@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  18 FEB 2022 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  18 FEB 2022 10:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,27 +667,27 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (./论文.aux)
 \openout1 = `论文.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 40.
+(lastpage)             ! on input line 36.
 \c@lstlisting=\count335
  (d:/Applications/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -711,14 +711,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(72.26999pt, 668.4975pt, 54.2025pt)
+* h-part:(L,W,R)=(72.26999pt, 487.82251pt, 54.2025pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=505.89pt
-* \textheight=668.4975pt
-* \oddsidemargin=-18.06749pt
-* \evensidemargin=-18.06749pt
+* \textwidth=487.82251pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
 * \topmargin=-37.0pt
 * \headheight=15.0pt
 * \headsep=25.0pt
@@ -737,7 +737,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 36.
 (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -747,9 +747,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count342
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
  (./论文.out) (./论文.out)
 \@outlinefile=\write4
 \openout4 = `论文.out'.
@@ -763,19 +763,19 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 46.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 51.
+(Font)              scaled to size 20.0pt on input line 46.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 51.
+(Font)              scaled to size 20.74pt on input line 46.
  [1
 
 {d:/Applications/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 53.
+(Font)              scaled to size 17.28pt on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 53.
+(Font)              scaled to size 17.28pt on input line 48.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 48.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./论文.toc
@@ -800,59 +800,47 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
  [1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
+(Font)              scaled to size 14.4pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
+(Font)              scaled to size 14.4pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 76.
+(Font)              scaled to size 10.95pt on input line 71.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \newpage
-              [1]
-
-Package natbib Warning: Citation `Vortex' on page 2 undefined on input line 93.
-
-[2pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.136 \newpage
-              ]
+l.71 \newpage
+              [1] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 142.
+(Font)              scaled to size 20.74pt on input line 137.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 142.
+(Font)              scaled to size 20.74pt on input line 137.
  [3]
 No file 论文.bbl.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 162.
+(Font)              scaled to size 24.88pt on input line 157.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 162.
+(Font)              scaled to size 24.88pt on input line 157.
 
 AED: lastpage setting LastPage
 [4
 
-]
-
-Package natbib Warning: There were undefined citations.
-
-(./论文.aux)
+] (./论文.aux)
 Package rerunfilecheck Info: File `论文.out' has not changed.
 (rerunfilecheck)             Checksum: 0B53A597CC626E6B83DF9990BAA3850A;2079.
  ) 
 Here is how much of TeX's memory you used:
- 16279 strings out of 480901
- 239185 string characters out of 5904911
- 805416 words of memory out of 5000000
- 33102 multiletter control sequences out of 15000+600000
+ 16270 strings out of 480901
+ 239053 string characters out of 5904911
+ 798424 words of memory out of 5000000
+ 33094 multiletter control sequences out of 15000+600000
  455409 words of font info for 80 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,12n,88p,528b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on 论文.pdf (6 pages, 149819 bytes).
+ 86i,11n,88p,528b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on 论文.pdf (6 pages, 123885 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
