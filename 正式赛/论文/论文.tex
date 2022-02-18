@@ -4,7 +4,7 @@
         tcn = 2215432, problem = E,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = false, abstract = false}
-\geometry{left=1in,right=0.75in,top=1in,bottom=1in}
+\geometry{left=0.75in,right=0.75in,top=1in,bottom=1in}
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
 \numberwithin{equation}{section}
@@ -156,7 +156,42 @@ These are necessary assumptions for simplifying the model.
 \section{Introduction and Results of Models on Problem 1(a)}
 
 
-\subsection{Result of Gray Forecast model}
+\begin{algorithm}[htbp]
+    \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm} % 名称
+    \begin{algorithmic}[1]
+      \Require
+        Measurement of DBH, Height of tree (h), conversion factor 
+        $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $ 
+        \For{x in enumarate $ (DBH,h) $ }
+        \For{k $ \gets 1$ to $ m $}
+        $ P_k(x) = \frac{1}{2^kk!}\frac{d^k}{dx_k^k}(x^2-1)^k $
+        \For{$ l \gets 1 $ to $m$ }
+
+        \quad \quad Calculate $ \int_{-1}^{1}P_k(x)P_l(x)dx \gets $ Integral of Legendre Polynomials
+        \If{$ k = l $}$ \int_{-1}^1P_k(x)P_l(x) = \frac{2x}{2i+1} $
+        \Else $ \int_{-1}^1P_k(x)P_l(x) = 0 $   
+        \EndIf 
+        \EndFor
+        \EndFor
+        \EndFor
+        
+        Find $ (DBH, h)^T $ to minimize  $ J = \int_a^b[f(DBH)+g(h)-2(x)]^2dx $
+        \For{$ i \gets 1 $ to $ n $ }
+
+        Regression of $ DBH $ and $ h $  
+
+        $ v_i = (v_{i-1}+aDBH^bh^c)\times Area\times Density(t) \times (1-\lambda(t)) $ 
+        \EndFor 
+
+        $ Area = Area_b + Area_c $ 
+
+         CarbonMass $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$ 
+
+        \Ensure
+        Carbon Dioxide quantity = $ \frac{44}{12} \times $CarbonMass 
+    \end{algorithmic}
+  \end{algorithm}
+  
 
 
 \section{Sensitivity Test}
