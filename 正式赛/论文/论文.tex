@@ -108,11 +108,9 @@ population, interests and values.
     management of the forest logging, rather than it remaining the same. Finally, your ariticle 
     should convince local community that it's the best decision for their forest.
 \end{enumerate}
-\subsection{Overview of Our Work}
 
 \newpage
-
-
+\subsection{Overview of Our Work}
 
 \section{Assumptions and Justifications}
 These are necessary assumptions for simplifying the model.
@@ -136,8 +134,11 @@ These are necessary assumptions for simplifying the model.
   $\beta_c$ & Conversion factor of broad leaf trees\\
   $ n $ & Total iteration years\\
   $ \lambda $ & Harvest rate\\
-  $ \rm{CarbonMass_p} $ & Sequestered carbon mass in wooden products \\
-  $ \rm{CarbonMass_f} $ & Sequestered carbon mass in forests \\  
+  $ M $ & Sequestered carbon mass in wooden products \\
+  $ \rm{CarbonMass_f} $ & Sequestered carbon mass in forests \\
+  $ \phi $ & Proportion in total product\\
+  $ s $ & Scrap rate\\
+  $ m $ & Decomposition rate \\
 
   \bottomrule[1.5pt]
   \end{tabular}
@@ -167,7 +168,7 @@ These are necessary assumptions for simplifying the model.
         \EndFor
         \EndFor
         
-        Find $ (\rm{DBH}, h)^T $ to minimize  $ J = \int_a^b[f(\rm{DBH})+g(h)-2(x)]^2dx $
+        \noindent Find $ (\rm{DBH}, h)^T $ to minimize  $ J = \int_a^b[f(\rm{DBH})+g(h)-2(x)]^2dx $
         \For{$ t \gets 1 $ to $ n $ }
 
         Regression of DBH and $ h $  
@@ -186,7 +187,36 @@ These are necessary assumptions for simplifying the model.
     \end{algorithmic}
   \end{algorithm}
   
+  \begin{algorithm}[htbp]
+    \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} % 名称
+    \begin{algorithmic}[1]
+        \Require
+            $ \phi $, $ s $, $ m $, CarbonMass and $ V $ in Algorithm1, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $  
+        \For{$ t\gets1 $ to n}
+            \For{$ i\gets1 $ to hidden\_dim}
 
+                $ y_0 \gets Initiate $ 
+
+                $ \hat{y_t} = \hat{y_{t-1}} + \phi_{it}V_i(t) $
+            
+                $ c_i\gets $ Sample CarbonMass
+            
+                $ \sigma_i\gets $ Z-score Normalization
+
+                $ V_i(t) = e^{-\frac{||t-c_i||^2}{2\sigma_i^2}} $
+            \EndFor
+
+            $ M_0\gets Initiate $ 
+
+            \For{$ j\gets 1$ to $ w $}
+
+            $ M_t = M_{t-1}+s\lambda(t)V(t)\times \rm{CarbonMass} \times (\phi_j(t)m_j(t)) $ 
+            \EndFor
+        \EndFor
+        \Ensure
+        Carbon Dioxide Quantity of Wooden Products = $ \frac{44}{12} \times M_t$ 
+    \end{algorithmic}
+\end{algorithm}
 
 \section{Sensitivity Test}
 
