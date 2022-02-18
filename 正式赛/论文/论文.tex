@@ -125,31 +125,23 @@ These are necessary assumptions for simplifying the model.
 
 \renewcommand\arraystretch{1.5}
 
-% \begin{table}[htpb!]
-%   \centering
-%   \caption{Notation Descriptions\citep{Vortex}} \label{Vortex_out}
-%   \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
-%   \toprule[1.5pt]
-%   \textbf{Symbol} & \textbf{Definition} \\ \hline
-%   $ r $ & Innate rate of increase \\
-%   Stoch r & The mean population growth rate experienced in the simulations, averaged 
-%   across all years in which the population was extant. \\
-%   %内廪增长率：给定的物理和生物的条件下，具有稳定的年龄组配的种群的最大瞬时增长率
-%   N-extant  & Average extant population size\\ 
-%   N-all  & Average population size \\
-%   PE  & Probability of Extinction \\
-%   GeneDiv  &  Genetic Diversity \\
-%   TE & Time of Extinction(year) \\
-%   medianTE & If at least 50\% of the iterations went extinct, 
-%   the median time to extinction \\
-%   SD & Standard Deviation \\
-%   nAlleles & The mean number of alleles remaining within extant populations 
-%   (from an original number equal to twice the number of founder individuals)\\
-%   $ K $ & Carrying capacity \\ 
-%   $ N_t $ & Size of Finless Porpoise population in the year of $ 1991 + t $ \\ 
-%   \bottomrule[1.5pt]
-%   \end{tabular}
-%   \end{table}
+\begin{table}[htpb!]
+  \centering
+  \caption{Notation Descriptions}
+  \begin{tabular}{m{2.5cm}<{\centering}|m{12.5cm}<{\centering}}
+  \toprule[1.5pt]
+  \textbf{Symbol} & \textbf{Definition} \\ \hline
+  $ \rm{DBH} $ & Diameter at Breast Height \\
+  $ \beta_b $ & Conversion factor of coniferous trees\\
+  $\beta_c$ & Conversion factor of broad leaf trees\\
+  $ n $ & Total iteration years\\
+  $ \lambda $ & Harvest rate\\
+  $ \rm{CarbonMass_p} $ & Sequestered carbon mass in wooden products \\
+  $ \rm{CarbonMass_f} $ & Sequestered carbon mass in forests \\  
+
+  \bottomrule[1.5pt]
+  \end{tabular}
+\end{table}
 
 
 
@@ -160,9 +152,9 @@ These are necessary assumptions for simplifying the model.
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm} % 名称
     \begin{algorithmic}[1]
       \Require
-        Measurement of DBH, Height of tree (h), conversion factor 
+        Measurement of DBH, Height of tree ($ h $), conversion factor 
         $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $ 
-        \For{x in enumarate $ (DBH,h) $ }
+        \For{x in enumarate $ (\rm{DBH},h) $ }
         \For{k $ \gets 1$ to $ m $}
         $ P_k(x) = \frac{1}{2^kk!}\frac{d^k}{dx_k^k}(x^2-1)^k $
         \For{$ l \gets 1 $ to $m$ }
@@ -175,20 +167,22 @@ These are necessary assumptions for simplifying the model.
         \EndFor
         \EndFor
         
-        Find $ (DBH, h)^T $ to minimize  $ J = \int_a^b[f(DBH)+g(h)-2(x)]^2dx $
-        \For{$ i \gets 1 $ to $ n $ }
+        Find $ (\rm{DBH}, h)^T $ to minimize  $ J = \int_a^b[f(\rm{DBH})+g(h)-2(x)]^2dx $
+        \For{$ t \gets 1 $ to $ n $ }
 
-        Regression of $ DBH $ and $ h $  
+        Regression of DBH and $ h $  
 
-        $ v_i = (v_{i-1}+aDBH^bh^c)\times Area\times Density(t) \times (1-\lambda(t)) $ 
-        \EndFor 
+        $V_0 \gets$ Initiate
 
-        $ Area = Area_b + Area_c $ 
+        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t) \times (1-\lambda(t)) $ 
+        \EndFor
 
-         CarbonMass $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$ 
+        \noindent$ Area = Area_b + Area_c $
+
+        \noindent $ \rm{CarbonMass_f} $  $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$ 
 
         \Ensure
-        Carbon Dioxide quantity = $ \frac{44}{12} \times $CarbonMass 
+        Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
     \end{algorithmic}
   \end{algorithm}
   
