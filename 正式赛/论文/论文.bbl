@@ -1,6 +1,33 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Birdsey%
+, Pregitzer%
+\BCBL {}\ \BBA {} Lucier%
+}{%
+Birdsey%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+2006Forest}
+\APACinsertmetastar {%
+2006Forest}%
+\begin{APACrefauthors}%
+Birdsey, R.%
+, Pregitzer, K.%
+\BCBL {}\ \BBA {} Lucier, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Forest Carbon Management in the United States} {Forest
+  carbon management in the united states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Environmental Quality}{35}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Deren%
 }{%
 Deren%
@@ -45,6 +72,29 @@ Luo~Qibang, N\BPBI H.%
   standard volume dynamic model}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Forest Research}{5}{3}{8}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang~Yan%
+}{%
+Wang~Yan%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+WangYan}
+\APACinsertmetastar {%
+WangYan}%
+\begin{APACrefauthors}%
+Wang~Yan, L\BPBI X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Advances in Carbon Sequestration in Wood} {Advances in
+  carbon sequestration in wood}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{World Forestry Research}{22}{1}{54-58}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

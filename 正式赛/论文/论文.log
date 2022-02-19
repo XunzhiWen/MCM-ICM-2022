@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  19 FEB 2022 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  19 FEB 2022 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,49 +806,49 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 112.
  [1]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 153.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 172.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 158.
+(Font)              scaled to size 10.0pt on input line 177.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \newpage
-               [2pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
+l.247 \section
+              {Conclusions} [2pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.232 \newpage
-              ] [3]
+l.247 \section
+              {Conclusions}] [3] [4]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 238.
+(Font)              scaled to size 20.74pt on input line 257.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 238.
- [4] (./论文.bbl
+(Font)              scaled to size 20.74pt on input line 257.
+ [5] (./论文.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 27.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 258.
+(Font)              scaled to size 24.88pt on input line 277.
  
 AED: lastpage setting LastPage
-[5
+[6
 
 ] (./论文.aux)
 Package rerunfilecheck Info: File `论文.out' has not changed.
-(rerunfilecheck)             Checksum: A8DBED9E8E2E494799F480B15AF64D3B;1864.
+(rerunfilecheck)             Checksum: 91EDEF30C337EE10C5026244587C2535;1994.
  ) 
 Here is how much of TeX's memory you used:
- 16307 strings out of 480901
- 239452 string characters out of 5904911
- 811423 words of memory out of 5000000
- 33123 multiletter control sequences out of 15000+600000
+ 16318 strings out of 480901
+ 239618 string characters out of 5904911
+ 814423 words of memory out of 5000000
+ 33131 multiletter control sequences out of 15000+600000
  458198 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,88p,528b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,13n,88p,541b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (7 pages, 262823 bytes).
+Output written on 论文.pdf (8 pages, 268827 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

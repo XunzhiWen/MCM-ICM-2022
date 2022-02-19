@@ -145,12 +145,31 @@ These are necessary assumptions for simplifying the model.
 \end{table}
 
 
+% 标题可能需要修改
+\section{Binary Volume and Dynamic Product Inventory based Carbon Sequestration Model}
 
-\section{Introduction and Results of Models on Problem 1(a)}
-
+In order to clearly demonstrate the amount of carbon sequestered by forests and their
+products, we decide to consider the trunk volume of living trees as an estimation of 
+total Volume of trees that are able to store carbon \citep{WangYan}. 
+\par
+For the living trees, we apply Binary Timber Volume Regression model \citep{LuoQingbang} 
+to depict their growth as shown in Algorithm \ref{Binary Volume Algo}. 
+It is significant
+to point out that $ \beta_b $ and $ \beta_c $ are two \textbf{Conversion Factors} from
+Timber Volume to Carbon Mass sequestered. Besides, the mass of carbon sequestered in
+soil and leaves can be deemed as a constant which merely depends on the area
+of coniferous and broad-leaved forests \citep{YanDeren2011}.
+\par
+As for the wooden products, we consider $ w $ kinds of wooden products, each kind,
+which decomposes at the rate of $ m_i (i = 1,\cdots, w) $, accounts for $ \phi_i$ 
+of the total product mass \citep{2006Forest}. Note that the \textbf{harvest rate} $ \lambda $ and the product
+proportion $ \phi $ are flexible regarding the circumstances, which are also 
+the core of our forest management. What's more, we hold the view that 
+the volume of wooden products derive from the volume of harvested trees with a certain
+\textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
 
 \begin{algorithm}[htbp]
-    \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm} % 名称
+    \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
     \begin{algorithmic}[1]
       \Require
         Measurement of DBH, Height of tree ($ h $), conversion factor 
@@ -175,12 +194,12 @@ These are necessary assumptions for simplifying the model.
 
         $V_0 \gets$ Initiate
 
-        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t) \times (1-\lambda(t)) $ \citep{LuoQingbang}
+        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t) \times (1-\lambda(t)) $
         \EndFor
 
         \noindent$ Area = Area_b + Area_c $
 
-        \noindent $ \rm{CarbonMass_f} $  $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$ \citep{YanDeren2011}
+        \noindent $ \rm{CarbonMass_f} $  $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$
 
         \Ensure
         Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
@@ -188,10 +207,10 @@ These are necessary assumptions for simplifying the model.
   \end{algorithm}
   
   \begin{algorithm}[htbp]
-    \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} % 名称
+    \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} \label{Product Algo}
     \begin{algorithmic}[1]
         \Require
-            $ \phi $, $ s $, $ m $, CarbonMass and $ V $ in Algorithm1, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $  
+            $ \phi $, $ s $, $ m $, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $ in Algorithm1 
         \For{$ t\gets1 $ to n}
             \For{$ i\gets1 $ to hidden\_dim}
 
@@ -210,7 +229,7 @@ These are necessary assumptions for simplifying the model.
 
             \For{$ j\gets 1$ to $ w $}
 
-            $ M_t = M_{t-1}+s\lambda(t)V(t)\times \rm{CarbonMass} \times (\phi_j(t)m_j(t)) $ 
+            $ M_t = M_{t-1}+s\lambda(t)V(t)\times (\phi_j(t)m_j(t)) $ 
             \EndFor
         \EndFor
         \Ensure
