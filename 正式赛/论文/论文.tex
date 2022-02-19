@@ -146,7 +146,7 @@ These are necessary assumptions for simplifying the model.
 
 
 % 标题可能需要修改
-\section{Binary Volume and Dynamic Product Inventory based Carbon Sequestration Model}
+\section{Binary Volume and Logistic based Carbon Sequestration Model}
 
 In order to clearly demonstrate the amount of carbon sequestered by forests and their
 products, we decide to consider the trunk volume of living trees as an estimation of 
@@ -158,7 +158,7 @@ It is significant
 to point out that $ \beta_b $ and $ \beta_c $ are two \textbf{Conversion Factors} from
 Timber Volume to Carbon Mass sequestered. Besides, the mass of carbon sequestered in
 soil and leaves can be deemed as a constant which merely depends on the area
-of coniferous and broad-leaved forests \citep{YanDeren2011}.
+of coniferous and broad-leaved forests \citep{YanDeren2011}. 
 \par
 As for the wooden products, we consider $ w $ kinds of wooden products, each kind,
 which decomposes at the rate of $ m_i (i = 1,\cdots, w) $, accounts for $ \phi_i$ 
@@ -167,7 +167,8 @@ proportion $ \phi $ are flexible regarding the circumstances, which are also
 the core of our forest management. What's more, we hold the view that 
 the volume of wooden products derive from the volume of harvested trees with a certain
 \textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
-
+\par
+We assume that the density of the forest population follows the Logistic Model, 
 \begin{algorithm}[htbp]
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
     \begin{algorithmic}[1]
@@ -194,12 +195,12 @@ the volume of wooden products derive from the volume of harvested trees with a c
 
         $V_0 \gets$ Initiate
 
-        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t) \times (1-\lambda(t)) $
+        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t)  $
         \EndFor
 
         \noindent$ Area = Area_b + Area_c $
 
-        \noindent $ \rm{CarbonMass_f} $  $= \beta_cV_c+\beta_bV_b+9.6\times Area_c+3.4\times Area_b + 70\times Area$
+        \noindent $ \rm{CarbonMass_f} $  $= (\beta_cV_c+\beta_bV_b)\times (1-\lambda(t))+9.6\times Area_c+3.4\times Area_b + 70\times Area$
 
         \Ensure
         Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
@@ -229,13 +230,44 @@ the volume of wooden products derive from the volume of harvested trees with a c
 
             \For{$ j\gets 1$ to $ w $}
 
-            $ M_t = M_{t-1}+s\lambda(t)V(t)\times (\phi_j(t)m_j(t)) $ 
+            $ M_t = M_{t-1}+s\lambda(t)(\beta_cV_c+\beta_bV_b)\times (\phi_j(t)m_j(t)) $ 
             \EndFor
         \EndFor
         \Ensure
         Carbon Dioxide Quantity of Wooden Products = $ \frac{44}{12} \times M_t$ 
     \end{algorithmic}
 \end{algorithm}
+
+
+\subsection{Model III: Cellular Automata based Population Size Prediction}
+
+Cellular automata (CA) is a kind of grid dynamics model with discrete time, 
+space and state, and local spatial interaction and temporal causality, which 
+has the ability to simulate the space-time evolution process of complex system.
+\par
+Unlike general dynamical models, cellular automata are not determined by strictly 
+defined physical equations or functions, but are composed of rules constructed by 
+a series of models. Any model that satisfies these rules can be regarded as a cellular 
+automata model. Therefore, cellular automata is a general term for a class of models, 
+or a method framework. Its characteristic is that time, space and state are discrete, 
+each variable only takes a finite number of states, and its state change rules are local 
+in time and space.
+\par
+The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}, 
+and the simulation result is shown in Figure , in which we learn 
+that the predicted number of population in Swan Oxbow is \textbf{49}.
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/元胞自动机流程图.pdf}
+  \caption{Block Diagram of typical Cellular Automata}\label{CA_Fig}
+\end{figure}
+
+
+
+
+
 
 \section{Sensitivity Test}
 
@@ -251,7 +283,7 @@ the volume of wooden products derive from the volume of harvested trees with a c
 \newpage
 \phantomsection\addcontentsline{toc}{section}{Policy Advice on Finless Porpoise Conservation}\tolerance=500
 \memoto{Relavant Authorities}
-\memofrom{MCM/ICM team XJ162}
+\memofrom{MCM/ICM team 2215432}
 \memodate{\today}
 
 \begin{memo}[Policy Advice on Finless Porpoise Conservation]

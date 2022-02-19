@@ -3,10 +3,11 @@
 \contentsline {subsection}{\numberline {1.2}Overview of Our Work}{2}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Assumptions and Justifications}{2}{section.2}%
 \contentsline {section}{\numberline {3}Notations}{2}{section.3}%
-\contentsline {section}{\numberline {4}Binary Volume and Dynamic Product Inventory based Carbon Sequestration Model}{2}{section.4}%
-\contentsline {section}{\numberline {5}Sensitivity Test}{4}{section.5}%
-\contentsline {section}{\numberline {6}Evaluation of Model}{4}{section.6}%
-\contentsline {section}{\numberline {7}Conclusions}{4}{section.7}%
-\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{5}{section*.1}%
-\contentsline {section}{Refence}{6}{section*.2}%
-\contentsline {section}{Appendices}{6}{section*.4}%
+\contentsline {section}{\numberline {4}Binary Volume and Logistic based Carbon Sequestration Model}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Model III: Cellular Automata based Population Size Prediction}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Sensitivity Test}{5}{section.5}%
+\contentsline {section}{\numberline {6}Evaluation of Model}{5}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions}{5}{section.7}%
+\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{6}{section*.1}%
+\contentsline {section}{Refence}{7}{section*.2}%
+\contentsline {section}{Appendices}{7}{section*.4}%
