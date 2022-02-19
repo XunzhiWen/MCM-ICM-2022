@@ -28,5 +28,5 @@ for i = 1:100000
     title(['Time T=',num2str(i),'years']);
     % m=annotation('textbox',[0.15,0.8,0.1,0.1],'LineStyle','-','LineWidth',2,'String',str);
     hold off
-    %pause(0.2)
+    pause(0.2)
 end
