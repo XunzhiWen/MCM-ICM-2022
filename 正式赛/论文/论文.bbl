@@ -1,0 +1,50 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Deren%
+}{%
+Deren%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+YanDeren2011}
+\APACinsertmetastar {%
+YanDeren2011}%
+\begin{APACrefauthors}%
+Deren, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A brief introduction to estimation methods of forest
+  biomass and carbon sequestration} {A brief introduction to estimation methods
+  of forest biomass and carbon sequestration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Inner Mongolia Forestry}{}{10}{1}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Luo~Qibang%
+}{%
+Luo~Qibang%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+LuoQingbang}
+\APACinsertmetastar {%
+LuoQingbang}%
+\begin{APACrefauthors}%
+Luo~Qibang, N\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A study on Standard Volume Dynamic Model} {A study on
+  standard volume dynamic model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Forest Research}{5}{3}{8}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
