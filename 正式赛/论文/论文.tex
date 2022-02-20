@@ -132,6 +132,10 @@ These are necessary assumptions for simplifying the model.
   $ s $ & Scrap rate\\
   $ m $ & Decomposition rate \\
   $ K $ & Carrying Capacity \\
+  $ N $ & Species population \\
+  $ r $ & Population Growth Rate\\
+  $ \alpha,\beta $ & Coefficient of Competition\\
+  
 
   \bottomrule[1.5pt]
   \end{tabular}
@@ -340,16 +344,86 @@ several indexes which can fully demonstrate the impact of Forests over local
 society. 
 \par
 The indexes are divided into two aspects, namely \textbf{Carbon Sink} and \textbf{Cultural Value}.
-\par
+
+
+
+
+\subsection{Carbon Sink}
 Carbon Sink includes the following indexes: \textbf{Carbon Credit Benefit and 
 Cost Analysis(CVal), Wooden Product Proportion, Harvest Rate} and \textbf{Interspecific 
 Competition}, which will exert influence on carbon sink in this Forest.
-Meanwhile, the structure of indexes related to Cultural Value can be clearly drawn
-from Figure \ref{Index_CulVal}, in which Proportion of Forest and Size
+\par
+CVal is a spreadsheet tool to evaluate the direct benefits and costs of Carbon 
+Sequestration contracts for managed forests developed by E.M. (Ted) Bilek,
+Peter Becker and Tim McAbee. By inputting a series of parameters of the Forests
+such as tract size, $ \rm{CO_2} $ sequestration rate and Carbon price, CVal will
+automatically come up with Average cost of trading, Net trading benefit, 
+Internal Rate of Return and other important economic indexes. 
+\par
+Wooden Product Proportion and Harvest Rate are fully discussed above, which will not
+be repeated again.
+\par
+Interspecific Competition is calculated by \textbf{Lotka-Volterra Model}, which is 
+used to describe ecology evolution.
+Suppose there are two species competing for surviving spaces, namely
+Douglas Fir and Pinus Densiflora, whose population sizes are $ N_1 $ and $ N_2 $, population growth rates
+are $ r_1 $ and $ r_2 $, carrying capacity $ K_1 $ and $ K_2 $ and coefficients of competition over each other 
+are $ \alpha $ and $ \beta $. 
+Thus, based on the Logistic growth model, the population of Douglas Fir
+can be described as 
+$$
+  \frac{dN_1}{dt} = r_1\cdot N_1\cdot (\frac{K_1-N_1-\alpha N_2}{K_1})
+$$ 
+, in which $ \alpha $ is defined as a coefficients of competition of Douglas Fir over Pinus Densiflora,
+representing that each Pinus Densiflora will occupy the surviving spaces of
+ $ \alpha $ Douglas Firs.
+ Similarly, the population of Pinus Densiflora can be described as $$
+ \frac{dN_2}{dt} = r_2\cdot N_2\cdot (\frac{K_2-N_2-\alpha N_1}{K_2})
+ $$ 
+Thus, there are four possible results for these two kinds of trees.
+\begin{enumerate}
+  \item [(1)] Douglas Fir wins, and Pinus Densiflora gets sidelined;
+  \item [(2)] Pinus Densiflora wins, and Douglas Fir gets sidelined;
+  \item [(3)] Douglas Fir and Pinus Densiflora coexist stably;
+  \item [(4)] Douglas Fir and Pinus Densiflora coexist erratically.
+\end{enumerate}
+
+Whichever wins, the intensity of intraspecific competition will decline while the
+intensity of interspecific competition will roar. If both species suffer high level of
+intraspecific competition as well as low interspecific competition, they will stably
+coexist, otherwise it leads to unstable coexistence. 
+\par
+Result of the competition between Douglas Fir and Pinus Densiflora is shown in 
+Figure \ref{Douglas Fir and Pinus Densiflora result}, while the thermodynamic diagram
+of competition intensity between these two species can be seen in Figure \ref{Matrix Douglas Fir and Pinus Densiflora}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 14cm]{code&pic/Interspecies.eps}
+  \caption{Interspecific Competition Result of Douglas Fir and Pinus Densiflora}\label{Douglas Fir and Pinus Densiflora result}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 10cm]{code&pic/Interspecies-matrix.eps}
+  \caption{Thermodynamic Diagram of Competition}\label{Matrix Douglas Fir and Pinus Densiflora}
+\end{figure}
+
+\subsection{Cultural Value}
+
+\par
+In order to further demonstrate the relationship between the five indexes and 
+Cultural Value, we abstract three concepts, namely Biodiversity, Development of 
+Forest and Forest Influence, from the indexes. The structure of indexes related to 
+Cultural Value can be clearly drawn from Figure \ref{Index_CulVal}, 
+in which Proportion of Forest and Size
 of Forest signify the population the Forest can influence, and Volume of Deadwood
-is "an element of biodiversity and, to some extent, an indicator of forest 
+,"an element of biodiversity and, to some extent, an indicator of forest 
 management sustainability that deserves to be taken into account in inventories,
-especially at the national level. "\citep{rondeux2010review}
+especially at the national level"\citep{rondeux2010review}, along with the 
+Forest Hierarchy, which provides arboreal 
+animals with more habitats, determines the Biodiversity of the Forest.
+
 
 
 \begin{figure}[htbp]
@@ -358,27 +432,27 @@ especially at the national level. "\citep{rondeux2010review}
   \caption{Influencing indexes of Forest Culture Value}\label{Index_CulVal}
 \end{figure}
 
-\subsection{Carbon Sink}
-
-CVal is a spreadsheet tool to evaluate the direct benefits and costs of Carbon 
-Sequestration contracts for managed forests developed by E.M. (Ted) Bilek,
-Peter Becker and Tim McAbee. By inputting a series of parameters of the Forests
-such as tract size, $ \rm{CO_2} $ sequestration rate and Carbon price, CVal will
-automatically come up with Average cost of trading, Net trading benefit, 
-Internal Rate of Return and other important economic indexes. 
 
 
 
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/Interspecies.eps}
-\end{figure}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/Interspecies-matrix.eps}
-\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Sensitivity Test}
