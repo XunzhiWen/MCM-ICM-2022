@@ -75,6 +75,35 @@ Luo~Qibang, N\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rondeux%
+\ \BBA {} Sanchez%
+}{%
+Rondeux%
+\ \BBA {} Sanchez%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+rondeux2010review}
+\APACinsertmetastar {%
+rondeux2010review}%
+\begin{APACrefauthors}%
+Rondeux, J.%
+\BCBT {}\ \BBA {} Sanchez, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Review of indicators and field methods for monitoring
+  biodiversity within national forest inventories. Core variable: Deadwood}
+  {Review of indicators and field methods for monitoring biodiversity within
+  national forest inventories. core variable: Deadwood}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental monitoring and
+  assessment}{164}{1}{617--630}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Wang~Yan%
 }{%
 Wang~Yan%

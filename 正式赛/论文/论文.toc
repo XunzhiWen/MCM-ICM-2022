@@ -7,6 +7,7 @@
 \contentsline {subsection}{\numberline {4.1}Cellular Automata based Population Size Prediction}{2}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Binary Timber Volume and Logistic based Carbon Sequestration Model}{2}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Model II}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Carbon Sink}{7}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Sensitivity Test}{7}{section.6}%
 \contentsline {section}{\numberline {7}Evaluation of Model}{7}{section.7}%
 \contentsline {section}{\numberline {8}Conclusions}{7}{section.8}%
