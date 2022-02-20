@@ -135,6 +135,7 @@ These are necessary assumptions for simplifying the model.
   $ N $ & Species population \\
   $ r $ & Population Growth Rate\\
   $ \alpha,\beta $ & Coefficient of Competition\\
+  $ p $ & Rotation Years \\
   
 
   \bottomrule[1.5pt]
@@ -196,9 +197,15 @@ As for the wooden products, we consider $ w $ kinds of wooden products, each kin
 which decomposes at the rate of $ m_i (i = 1,\cdots, w) $, accounts for $ \phi_i$ 
 of the total product mass \citep{2006Forest}. Note that the \textbf{harvest rate} $ \lambda $ and the product
 proportion $ \phi $ are flexible regarding the circumstances, which are also 
-the core of our forest management. What's more, we hold the view that 
+the core of our forest management. And the harvest will be conducted every 
+$ p $ years, which is \textbf{Rotation}. 
+\par
+What's more, we hold the view that 
 the volume of wooden products derive from the volume of harvested trees with a certain
-\textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
+\textbf{Scrap Rate} $ s $. Suppose the harvested wood is stored in a well-organized
+warehouse and the storage will become products in next $ p $ years, which means 
+ $ \frac{1}{p} $ of all the storage will become products every year.
+The complete idea is shown in Algorithm \ref{Product Algo}.
 \par
 \begin{figure}[ht]
   \begin{minipage}[htbp]{0.42\linewidth}
@@ -232,7 +239,8 @@ the volume of wooden products derive from the volume of harvested trees with a c
     \begin{algorithmic}[1]
       \Require
         Measurement of DBH, Height of tree ($ h $), conversion factor 
-        $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $, Carrying Capacity $ K $  
+        $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $, Carrying Capacity $ K $,
+        Rotation year $ p $   
         \For{x in enumarate $ (\rm{DBH},h) $ }
         \For{k $ \gets 1$ to $ m $}
         $ P_k(x) = \frac{1}{2^kk!}\frac{d^k}{dx_k^k}(x^2-1)^k $
@@ -249,17 +257,20 @@ the volume of wooden products derive from the volume of harvested trees with a c
         \noindent Find $ (\rm{DBH}, h)^T $ to minimize  $ J = \int_a^b[f(\rm{DBH})+g(h)-2(x)]^2dx $
         \For{$ t \gets 1 $ to $ n $ }
 
+        \If{$ t \mod p \equiv 0 $ }
+
         Regression of DBH and $ h $  
 
         $V_0 \gets$ Initiate
 
         $ V_t = a\rm{DBH}^bh^c\times Area\times \rm{Density}(\lambda, t)  $
+        \EndIf
         \EndFor
 
         \noindent$ Area = Area_b + Area_c $
 
-        \noindent $ \rm{CarbonMass_f} $  $= (\beta_cV_c+\beta_bV_b)+9.6\times Area_c\times 
-        \frac{\rm{Density}(\lambda,t)}{K}+3.4\times Area_b \times \frac{\rm{Density}(\lambda,t)}{K}+ 70\times Area$
+        \noindent $ \rm{CarbonMass_f} $  $= (\beta_cV_c+\beta_bV_b)+0.02\times Area_c\times 
+        \frac{\rm{Density}(\lambda,t)}{K}+0.001\times Area_b \times \frac{\rm{Density}(\lambda,t)}{K}+ 70\times Area$
 
         \Ensure
         Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
@@ -270,7 +281,8 @@ the volume of wooden products derive from the volume of harvested trees with a c
     \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} \label{Product Algo}
     \begin{algorithmic}[1]
         \Require
-            $ \phi $, $ s $, $ m $, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $ in Algorithm1 
+            $ \phi $, $ s $, $ m $, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $ in Algorithm1,
+            Rotation year $ p $ 
         \For{$ t\gets1 $ to n}
             \For{$ i\gets1 $ to hidden\_dim}
 
@@ -287,10 +299,12 @@ the volume of wooden products derive from the volume of harvested trees with a c
 
             $ M_0\gets Initiate $ 
 
+            $ c = t-(t\mod p)+1 $ 
+
             \For{$ j\gets 1$ to $ w $}
 
-            $ M_t = M_{t-1}+(1-s)\frac{\rm{Density}(\lambda, t-1)-\rm{Denstity}(\lambda,t)
-            }{\rm{Density}(\lambda, t-1)}(\beta_cV_c(t-1)+\beta_bV_b(t-1))\times (\phi_j(t)m_j(t)) $ 
+
+            $ M_t = M_{t-1}+(1-s)\lambda \times \frac{1}{p} (\beta_cV_c(c)+\beta_bV_b(c))\times \phi_j(t)m_j(t)$ 
             \EndFor
         \EndFor
         \Ensure
@@ -317,7 +331,7 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
   \centering
   \subfigure[]{
   \centering
-  \includegraphics[width = 0.48\textwidth]{code&pic/HarvestRate.eps}\label{Harvest Rate sensTest}
+  \includegraphics[width = 0.48\textwidth]{code&pic/采伐率.pdf}\label{Harvest Rate sensTest}
   }
   \subfigure[]{
   \centering
