@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  20 FEB 2022 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  20 FEB 2022 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,11 +811,16 @@ pdfTeX warning: pdflatex.exe (file ./code&pic/Roundwood cutting ways.pdf): PDF i
 <code&pic/Roundwood cutting ways.pdf, id=103, 571.27718pt x 542.025pt>
 File: code&pic/Roundwood cutting ways.pdf Graphic file (type pdf)
 <use code&pic/Roundwood cutting ways.pdf>
-Package pdftex.def Info: code&pic/Roundwood cutting ways.pdf  used on input line 164.
-(pdftex.def)             Requested size: 341.43306pt x 323.96037pt.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 169.
+Package pdftex.def Info: code&pic/Roundwood cutting ways.pdf  used on input line 169.
+(pdftex.def)             Requested size: 284.52756pt x 269.96973pt.
+
+Overfull \hbox (15.51949pt too wide) in paragraph at lines 169--170
+ []
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 177.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 174.
+(Font)              scaled to size 10.0pt on input line 182.
 Package epstopdf Info: Source file: <code&pic/Logistic.eps>
 (epstopdf)                    date: 2022-02-20 09:23:03
 (epstopdf)                    size: 128909 bytes
@@ -823,12 +828,12 @@ Package epstopdf Info: Source file: <code&pic/Logistic.eps>
 (epstopdf)                    date: 2022-02-20 09:23:57
 (epstopdf)                    size: 195346 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/Logistic-eps-converted-to.pdf code&pic/Logistic.eps>
-(epstopdf)             \includegraphics on input line 241.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 <code&pic/Logistic-eps-converted-to.pdf, id=104, 421.575pt x 316.18124pt>
 File: code&pic/Logistic-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/Logistic-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Logistic-eps-converted-to.pdf  used on input line 241.
+Package pdftex.def Info: code&pic/Logistic-eps-converted-to.pdf  used on input line 249.
 (pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
 Package epstopdf Info: Source file: <code&pic/HarvestRate.eps>
 (epstopdf)                    date: 2022-02-20 11:11:03
@@ -837,27 +842,13 @@ Package epstopdf Info: Source file: <code&pic/HarvestRate.eps>
 (epstopdf)                    date: 2022-02-20 11:12:37
 (epstopdf)                    size: 26498 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/HarvestRate-eps-converted-to.pdf code&pic/HarvestRate.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
 <code&pic/HarvestRate-eps-converted-to.pdf, id=105, 517.935pt x 438.63875pt>
 File: code&pic/HarvestRate-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/HarvestRate-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/HarvestRate-eps-converted-to.pdf  used on input line 246.
+Package pdftex.def Info: code&pic/HarvestRate-eps-converted-to.pdf  used on input line 254.
 (pdftex.def)             Requested size: 341.43306pt x 289.1745pt.
-Package epstopdf Info: Source file: <code&pic/proportion.eps>
-(epstopdf)                    date: 2022-02-20 11:11:12
-(epstopdf)                    size: 26283 bytes
-(epstopdf)             Output file: <code&pic/proportion-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-02-20 11:12:48
-(epstopdf)                    size: 11680 bytes
-(epstopdf)             Command: <repstopdf --outfile=code&pic/proportion-eps-converted-to.pdf code&pic/proportion.eps>
-(epstopdf)             \includegraphics on input line 251.
-Package epstopdf Info: Output file is already uptodate.
-<code&pic/proportion-eps-converted-to.pdf, id=106, 485.815pt x 378.41376pt>
-File: code&pic/proportion-eps-converted-to.pdf Graphic file (type pdf)
-<use code&pic/proportion-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/proportion-eps-converted-to.pdf  used on input line 251.
-(pdftex.def)             Requested size: 341.43306pt x 265.95026pt.
 Package epstopdf Info: Source file: <code&pic/LivingTrees.eps>
 (epstopdf)                    date: 2022-02-20 11:11:14
 (epstopdf)                    size: 78250 bytes
@@ -865,20 +856,34 @@ Package epstopdf Info: Source file: <code&pic/LivingTrees.eps>
 (epstopdf)                    date: 2022-02-20 11:13:00
 (epstopdf)                    size: 25527 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/LivingTrees-eps-converted-to.pdf code&pic/LivingTrees.eps>
-(epstopdf)             \includegraphics on input line 256.
+(epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/LivingTrees-eps-converted-to.pdf, id=107, 550.055pt x 426.59375pt>
+<code&pic/LivingTrees-eps-converted-to.pdf, id=106, 550.055pt x 426.59375pt>
 File: code&pic/LivingTrees-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/LivingTrees-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/LivingTrees-eps-converted-to.pdf  used on input line 256.
-(pdftex.def)             Requested size: 341.43306pt x 264.80434pt.
+Package pdftex.def Info: code&pic/LivingTrees-eps-converted-to.pdf  used on input line 263.
+(pdftex.def)             Requested size: 224.9906pt x 174.48796pt.
+Package epstopdf Info: Source file: <code&pic/proportion.eps>
+(epstopdf)                    date: 2022-02-20 11:11:12
+(epstopdf)                    size: 26283 bytes
+(epstopdf)             Output file: <code&pic/proportion-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-20 11:12:48
+(epstopdf)                    size: 11680 bytes
+(epstopdf)             Command: <repstopdf --outfile=code&pic/proportion-eps-converted-to.pdf code&pic/proportion.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+<code&pic/proportion-eps-converted-to.pdf, id=107, 485.815pt x 378.41376pt>
+File: code&pic/proportion-eps-converted-to.pdf Graphic file (type pdf)
+<use code&pic/proportion-eps-converted-to.pdf>
+Package pdftex.def Info: code&pic/proportion-eps-converted-to.pdf  used on input line 268.
+(pdftex.def)             Requested size: 224.9906pt x 175.25035pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/Model2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <code&pic/Model2.pdf, id=108, 730.3596pt x 719.38586pt>
 File: code&pic/Model2.pdf Graphic file (type pdf)
 <use code&pic/Model2.pdf>
-Package pdftex.def Info: code&pic/Model2.pdf  used on input line 262.
+Package pdftex.def Info: code&pic/Model2.pdf  used on input line 281.
 (pdftex.def)             Requested size: 341.43306pt x 336.3002pt.
 Package epstopdf Info: Source file: <code&pic/Interspecies.eps>
 (epstopdf)                    date: 2022-02-20 11:11:07
@@ -887,64 +892,68 @@ Package epstopdf Info: Source file: <code&pic/Interspecies.eps>
 (epstopdf)                    date: 2022-02-20 11:30:41
 (epstopdf)                    size: 129103 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/Interspecies-eps-converted-to.pdf code&pic/Interspecies.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 287.
 Package epstopdf Info: Output file is already uptodate.
 <code&pic/Interspecies-eps-converted-to.pdf, id=109, 421.575pt x 324.21124pt>
 File: code&pic/Interspecies-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/Interspecies-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Interspecies-eps-converted-to.pdf  used on input line 268.
+Package pdftex.def Info: code&pic/Interspecies-eps-converted-to.pdf  used on input line 287.
 (pdftex.def)             Requested size: 341.43306pt x 262.58493pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.284 \par
+l.303 \par
            [2pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.284 \par
-          ] [3pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.284 \par
-           <./code&pic/Roundwood cutting ways.pdf>] [4 <./code&pic/Logistic-eps-converted-to.pdf>] [5 <./code&pic/HarvestRate-eps-converted-to.pdf> <./code&pic/proportion-eps-converted-to.pdf>] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.284 \par
-           <./code&pic/LivingTrees-eps-converted-to.pdf> <./code&pic/Model2.pdf>]
+l.303 \par
+          ] [3]
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/元胞自动机流程图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/元胞自动机流程图.pdf, id=257, 1000.14229pt x 1304.93369pt>
+<code&pic/元胞自动机流程图.pdf, id=138, 1000.14229pt x 1304.93369pt>
 File: code&pic/元胞自动机流程图.pdf Graphic file (type pdf)
 <use code&pic/元胞自动机流程图.pdf>
-Package pdftex.def Info: code&pic/元胞自动机流程图.pdf  used on input line 294.
+Package pdftex.def Info: code&pic/元胞自动机流程图.pdf  used on input line 313.
 (pdftex.def)             Requested size: 341.43306pt x 445.48355pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/CA-pic.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/CA-pic.pdf, id=258, 503.22496pt x 649.84242pt>
+<code&pic/CA-pic.pdf, id=139, 503.22496pt x 649.84242pt>
 File: code&pic/CA-pic.pdf Graphic file (type pdf)
 <use code&pic/CA-pic.pdf>
-Package pdftex.def Info: code&pic/CA-pic.pdf  used on input line 300.
+Package pdftex.def Info: code&pic/CA-pic.pdf  used on input line 319.
 (pdftex.def)             Requested size: 398.33858pt x 514.40114pt.
-[7 <./code&pic/Interspecies-eps-converted-to.pdf>] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.316 \newpage
-               <./code&pic/元胞自动机流程图.pdf>]
+l.331 \section
+              {Conclusions} <./code&pic/Roundwood cutting ways.pdf> <./code&pic/Logistic-eps-converted-to.pdf>] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.331 \section
+              {Conclusions} <./code&pic/HarvestRate-eps-converted-to.pdf> <./code&pic/LivingTrees-eps-converted-to.pdf> <./code&pic/proportion-eps-converted-to.pdf>] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.331 \section
+              {Conclusions} <./code&pic/Model2.pdf> <./code&pic/Interspecies-eps-converted-to.pdf>] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.331 \section
+              {Conclusions} <./code&pic/元胞自动机流程图.pdf>] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.335 \newpage
+               <./code&pic/CA-pic.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 322.
+(Font)              scaled to size 20.74pt on input line 341.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 322.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.325 \end{memo}
-                 <./code&pic/CA-pic.pdf>] (./论文.bbl
+(Font)              scaled to size 20.74pt on input line 341.
+ [9] (./论文.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 27.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 342.
+(Font)              scaled to size 24.88pt on input line 361.
  
 AED: lastpage setting LastPage
 [10
@@ -954,18 +963,18 @@ Package rerunfilecheck Info: File `论文.out' has not changed.
 (rerunfilecheck)             Checksum: 603451D48945BC1C52A15FD56967C9E2;2374.
  ) 
 Here is how much of TeX's memory you used:
- 16389 strings out of 480901
- 241790 string characters out of 5904911
+ 16392 strings out of 480901
+ 241830 string characters out of 5904911
  817423 words of memory out of 5000000
  33181 multiletter control sequences out of 15000+600000
  458198 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,88p,528b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,13n,88p,528b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (12 pages, 1229842 bytes).
+Output written on 论文.pdf (12 pages, 1229460 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

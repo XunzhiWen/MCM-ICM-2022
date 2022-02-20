@@ -159,11 +159,19 @@ the core of our forest management. What's more, we hold the view that
 the volume of wooden products derive from the volume of harvested trees with a certain
 \textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
 \par
-\begin{figure}[htbp]
-  \centering
-\includegraphics[width = 12cm]{code&pic/Roundwood cutting ways.pdf}
-  \caption{Influencing factors of Forest Culture Value}
-\end{figure}
+\begin{figure}[ht]
+  \begin{minipage}[htbp]{0.35\linewidth}
+
+  \end{minipage}
+  \hfill
+  \begin{minipage}[htbp]{0.55\linewidth}
+    \begin{flushright}
+      \includegraphics[width = 10cm]{code&pic/Roundwood cutting ways.pdf}
+      \caption{Influencing factors of Forest Culture Value}
+    \end{flushright}
+  \end{minipage}
+  \end{figure}
+
 We assume that the density of the forest population follows the Logistic Model, 
 \begin{algorithm}[htbp]
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
@@ -248,13 +256,24 @@ We assume that the density of the forest population follows the Logistic Model,
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 12cm]{code&pic/proportion.eps}
+
+  \subfigure[]{
+  \centering
+  \includegraphics[width = 0.46\textwidth]{code&pic/LivingTrees.eps}
+  }
+\quad
+  \subfigure[]{
+  \centering
+  \includegraphics[width = 0.46\textwidth]{code&pic/proportion.eps}
+  }
+
+\caption{Results of ARIMA model}
 \end{figure}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/LivingTrees.eps}
-\end{figure}
+
+
+
+
 
 \section{Model II}
 \begin{figure}[htbp]
