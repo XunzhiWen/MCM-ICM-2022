@@ -109,6 +109,7 @@ These are necessary assumptions for simplifying the model.
   \item [1.] 
 \end{enumerate}
 
+\newpage
 
 \section{Notations}
 
@@ -130,15 +131,50 @@ These are necessary assumptions for simplifying the model.
   $ \phi $ & Proportion in total product\\
   $ s $ & Scrap rate\\
   $ m $ & Decomposition rate \\
+  $ K $ & Carrying Capacity \\
 
   \bottomrule[1.5pt]
   \end{tabular}
 \end{table}
 
-\newpage
+
 
 % 标题可能需要修改
-\section{Binary Volume and Logistic based Carbon Sequestration Model}
+\section{Model I}
+\subsection{Cellular Automata based Population Size Prediction}
+
+Cellular automata (CA) is a kind of grid dynamics model with discrete time, 
+space and state, and local spatial interaction and temporal causality, which 
+has the ability to simulate the space-time evolution process of complex system.
+\par
+Unlike general dynamical models, cellular automata are not determined by strictly 
+defined physical equations or functions, but are composed of rules constructed by 
+a series of models. Any model that satisfies these rules can be regarded as a cellular 
+automata model. Therefore, cellular automata is a general term for a class of models, 
+or a method framework. Its characteristic is that time, space and state are discrete, 
+each variable only takes a finite number of states, and its state change rules are local 
+in time and space.
+\par
+The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}, 
+and the simulation result is shown in Figure \ref{CA_Result}, in which
+we learn that the under the natural circumstances, the forestry population size
+will reach and remain around 2100 per hectare. 
+
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/元胞自动机流程图.pdf}
+  \caption{Block Diagram of typical Cellular Automata}\label{CA_Fig}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width = 14cm]{code&pic/CA-pic.pdf}
+  \caption{Result of Cellular Automation}\label{CA_Result}
+\end{figure}
+
+\subsection{Binary Timber Volume and Logistic based Carbon Sequestration Model}
 
 In order to clearly demonstrate the amount of carbon sequestered by forests and their
 products, we decide to consider the trunk volume of living trees as an estimation of 
@@ -294,47 +330,32 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
 
 \newpage
 
-\subsection{Model III: Cellular Automata based Population Size Prediction}
-
-Cellular automata (CA) is a kind of grid dynamics model with discrete time, 
-space and state, and local spatial interaction and temporal causality, which 
-has the ability to simulate the space-time evolution process of complex system.
-\par
-Unlike general dynamical models, cellular automata are not determined by strictly 
-defined physical equations or functions, but are composed of rules constructed by 
-a series of models. Any model that satisfies these rules can be regarded as a cellular 
-automata model. Therefore, cellular automata is a general term for a class of models, 
-or a method framework. Its characteristic is that time, space and state are discrete, 
-each variable only takes a finite number of states, and its state change rules are local 
-in time and space.
-\par
-The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}, 
-and the simulation result is shown in Figure \ref{CA_Result}, in which
-we learn that the under the natural circumstances, the forestry population size
-will reach and remain around 2100 per hectare. 
-
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/元胞自动机流程图.pdf}
-  \caption{Block Diagram of typical Cellular Automata}\label{CA_Fig}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width = 14cm]{code&pic/CA-pic.pdf}
-  \caption{Result of Cellular Automation}\label{CA_Result}
-\end{figure}
-
 
 
 
 \section{Model II}
+
+In order to comprehensively consider the multiple social interests, we add
+several indexes which can fully demonstrate the impact of Forests over local 
+society. 
+\par
+The indexes are divided into two aspects, namely \textbf{Carbon Sink} and \textbf{Cultural Value}.
+\par
+Carbon Sink includes the following indexes: Carbon Credit Benefit and Cost Analysis
+(CVal), Wooden Product Proportion, Harvest Rate and Interspecific Competition, which
+will exert influence on carbon sink in this Forest.
+Meanwhile, the structure of indexes related to Cultural Value can be clearly drawn
+from Figure \ref{Index_CulVal}, in which Proportion of Forest and Size
+of Forest signify the population the Forest can influence, and Volume of Deadwood
+is "an element of biodiversity and, to some extent, an indicator of forest 
+management sustainability that deserves to be taken into account in inventories,
+especially at the national level. "
+
+
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 12cm]{code&pic/Model2.pdf}
-  \caption{Influencing factors of Forest Culture Value}
+  \includegraphics[width = 8cm]{code&pic/Model2.pdf}
+  \caption{Influencing indexes of Forest Culture Value}\label{Index_CulVal}
 \end{figure}
 
 \begin{figure}[htbp]
