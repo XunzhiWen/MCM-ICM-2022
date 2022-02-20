@@ -321,7 +321,7 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
   }
   \subfigure[]{
   \centering
-  \includegraphics[width = 0.48\textwidth]{code&pic/proportion.eps}\label{Product Proportion sensTest}
+  \includegraphics[width = 0.48\textwidth]{code&pic/proportion.pdf}\label{Product Proportion sensTest}
   }
 
 \caption{Results of sensitivity test of Harvest Rate and Product Proportion}
@@ -423,6 +423,9 @@ management sustainability that deserves to be taken into account in inventories,
 especially at the national level"\citep{rondeux2010review}, along with the 
 Forest Hierarchy, which provides arboreal 
 animals with more habitats, determines the Biodiversity of the Forest.
+The Volume of Deadwood of the same type of forest at a similar latitude shares a similar 
+constant \citep{2007US}. Size and Proportion of Forest can be searched and estimated on 
+map websites, while the Forest Hierarchy is easy to search. 
 
 
 
@@ -436,6 +439,119 @@ animals with more habitats, determines the Biodiversity of the Forest.
 
 
 
+\section{Application}
+We apply ARIMA model in order to predict the size of Finless Porpoise population in five ex-situ 
+conservation areas after 20 years, whose \textbf{algorithm block diagram} 
+is shown as Figure \ref{ARIMA_ALGO}.
+\par
+Under regular circumstances, the time series we obtain in the real world
+  has tendency, seasonality and non-stationarity. Thus, it's vital for 
+  us to transfer the non-stationary time series to stationary time series
+\par
+\begin{figure}[ht]
+\begin{minipage}[htbp]{0.35\linewidth}
+  and make an assumption that the time series is an Auto 
+  Regressive Moving Average(ARMA) series to predict the 
+  future data. ARMA series is defined as follows.
+  \begin{align*}
+    &X_t-\phi_1X_{t-1}-\cdots -\phi_pX_{t-p} \\
+    &= \epsilon_t - \theta_1\epsilon_{t-1}-\cdots-\theta_q\epsilon_{t-q}
+  \end{align*}
+ 
+$ \epsilon_1 $ is a stationary white noise whose average is zero and
+deviation is $ \sigma_\epsilon^2 $;$ X_t $is an ARMA series with $ p $ and $ q $
+degree, recorded briefly as $ \mathbf{ARMA}(p,q) $ series.
+Akaike Information Criterion(AIC) is one of the most commonly used
+criterion to determine the degree of $ \mathbf{ARMA}(p,q) $: choose 
+$ p,q $ such that 
+\begin{equation}\label{AIC}
+  \begin{aligned}
+    \min \mathbf{AIC} &= n\ln \hat{\sigma_\epsilon^2} \\
+    &+ 2(p+q+1)
+  \end{aligned}
+\end{equation}
+$ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
+estimation of $ \sigma_\epsilon^2 $ relating to $ p $ and $ q $.
+Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
+than we deem the series is $ \mathbf{ARMA}(\hat{p},\hat{q}) $. 
+\end{minipage}
+\hfill
+\begin{minipage}[htbp]{0.55\linewidth}
+  \begin{flushleft}
+    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
+   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
+  \end{flushleft}
+\end{minipage}
+\end{figure}
+
+
+
+\par
+Suppose $ \mathbf{ARMA}(p,q) $ series has an unknown average parameter $ \mu $,
+the model becomes
+$$
+  \phi(B)(X_y-\mu) = \theta(B)\epsilon_t,
+$$   
+meanwhile, the number of unknown parameters is $ k = p+q+2 $, the AIC is:
+choose $ p,q $ such that
+\begin{equation}\label{AIC_unknown}
+  \min \mathbf{AIC} = n\ln\hat{\sigma_\epsilon^2}+2(p+q+2).
+\end{equation}  
+In fact, equations (\ref{AIC}) and (\ref{AIC_unknown}) have the same minimum point $ \hat{p},\hat{q} $.
+After that, we usually choose $ p = 1, q = 1 $ to make parameter estimation 
+over ARMA model.
+\par
+It's demonstrated that the differential operation can stabilize 
+certain class of non-stationary series. And It's emphasized that 
+stationary test must be conducted previously. Stationary test can 
+be applied by calculating sample autocorrelation function and 
+sample coefficient of partial function. 
+\par
+If the functions are truncated or trending to 0 (meaning being controlled
+by negative index), than the series belongs to ARMA model.
+\par
+If at least one of the functions above is not truncated or trending to 0, than
+it's not stationary.
+\par
+Suppose the series is non-stationary, which can be transformed to 
+a stationary series by $ d $ -degree differential operation, denoted
+as $ \mathbf{ARIMA}(p,q,d) $ series,than differentiate the sample by
+$ d $ -degree:
+$$
+  W_t = \nabla^dX_t,\quad t = d+1,\dots , n
+$$ 
+After that, apply stationary test on $ W_t $ and repeat steps above 
+until it becomes a stationary series, Than $ W_t $(which is denoted
+as $ X_t $ ) complies ARMA model. 
+\par
+
+
+
+
+% \begin{figure}[htbp]
+%   \centering
+
+%   \subfigure[Sample Autocorrelation Function and Sample Partial Autocorrelation Function]{
+%   \centering
+%   \includegraphics[width = 0.3\textwidth]{codes/1.eps}
+%   }
+% \quad
+%   \subfigure[Sample Autocorrelation Function and Sample Partial Autocorrelation Function]{
+%   \centering
+%   \includegraphics[width = 0.3\textwidth]{codes/3.eps}
+%   }
+% \par
+%   \subfigure[ARIMA Sequence Prediction of Conservation]{
+%   \centering
+%   \includegraphics[width = 0.3\textwidth]{codes/2.eps}\label{ARIMA Sequence}
+%   }
+% \quad
+% \subfigure[Standardaized Residuals and QQ figure]{
+%   \centering
+%   \includegraphics[width =0.3\textwidth]{codes/4.pdf}
+% }
+% \caption{Results of ARIMA model}
+% \end{figure}
 
 
 
