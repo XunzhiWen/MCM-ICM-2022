@@ -112,6 +112,9 @@ population, interests and values.
 \newpage
 \subsection{Overview of Our Work}
 
+
+
+
 \section{Assumptions and Justifications}
 These are necessary assumptions for simplifying the model.
 \begin{enumerate}
@@ -168,13 +171,18 @@ the core of our forest management. What's more, we hold the view that
 the volume of wooden products derive from the volume of harvested trees with a certain
 \textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
 \par
+\begin{figure}[htbp]
+  \centering
+\includegraphics[width = 12cm]{code&pic/Roundwood cutting ways.pdf}
+  \caption{Influencing factors of Forest Culture Value}
+\end{figure}
 We assume that the density of the forest population follows the Logistic Model, 
 \begin{algorithm}[htbp]
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
     \begin{algorithmic}[1]
       \Require
         Measurement of DBH, Height of tree ($ h $), conversion factor 
-        $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $ 
+        $ \beta_c $  (coniferous) and $ \beta_b $ (broad leaf), Harvest rate $ \lambda(t) $, Carrying Capacity $ K $  
         \For{x in enumarate $ (\rm{DBH},h) $ }
         \For{k $ \gets 1$ to $ m $}
         $ P_k(x) = \frac{1}{2^kk!}\frac{d^k}{dx_k^k}(x^2-1)^k $
@@ -195,12 +203,13 @@ We assume that the density of the forest population follows the Logistic Model,
 
         $V_0 \gets$ Initiate
 
-        $ V_t = (V_{t-1}+a\rm{DBH}^bh^c)\times $$Area\times Density(t)  $
+        $ V_t = a\rm{DBH}^bh^c\times Area\times \rm{Density}(\lambda, t)  $
         \EndFor
 
         \noindent$ Area = Area_b + Area_c $
 
-        \noindent $ \rm{CarbonMass_f} $  $= (\beta_cV_c+\beta_bV_b)\times (1-\lambda(t))+9.6\times Area_c+3.4\times Area_b + 70\times Area$
+        \noindent $ \rm{CarbonMass_f} $  $= (\beta_cV_c+\beta_bV_b)+9.6\times Area_c\times 
+        \frac{\rm{Density}(\lambda,t)}{K}+3.4\times Area_b \times \frac{\rm{Density}(\lambda,t)}{K}+ 70\times Area$
 
         \Ensure
         Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
@@ -230,13 +239,41 @@ We assume that the density of the forest population follows the Logistic Model,
 
             \For{$ j\gets 1$ to $ w $}
 
-            $ M_t = M_{t-1}+s\lambda(t)(\beta_cV_c+\beta_bV_b)\times (\phi_j(t)m_j(t)) $ 
+            $ M_t = M_{t-1}+(1-s)\frac{\rm{Density}(\lambda, t-1)-\rm{Denstity}(\lambda,t)
+            }{\rm{Density}(\lambda, t-1)}(\beta_cV_c(t-1)+\beta_bV_b(t-1))\times (\phi_j(t)m_j(t)) $ 
             \EndFor
         \EndFor
         \Ensure
         Carbon Dioxide Quantity of Wooden Products = $ \frac{44}{12} \times M_t$ 
     \end{algorithmic}
 \end{algorithm}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 10cm]{code&pic/Logistic.eps}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/HarvestRate.eps}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/proportion.eps}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/LivingTrees.eps}
+\end{figure}
+
+\section{Model II}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/Model2.pdf}
+  \caption{Influencing factors of Forest Culture Value}
+\end{figure}
 
 
 \subsection{Model III: Cellular Automata based Population Size Prediction}
@@ -271,8 +308,6 @@ will reach and remain around 2100 per hectare.
   \includegraphics[width = 14cm]{code&pic/CA-pic.pdf}
   \caption{Result of Cellular Automation}\label{CA_Result}
 \end{figure}
-
-
 
 
 \section{Sensitivity Test}
