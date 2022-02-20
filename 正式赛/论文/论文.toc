@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {2}Assumptions and Justifications}{1}{section.2}%
 \contentsline {section}{\numberline {3}Notations}{1}{section.3}%
 \contentsline {section}{\numberline {4}Binary Volume and Logistic based Carbon Sequestration Model}{2}{section.4}%
-\contentsline {section}{\numberline {5}Model II}{2}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Model III: Cellular Automata based Population Size Prediction}{2}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Sensitivity Test}{8}{section.6}%
-\contentsline {section}{\numberline {7}Evaluation of Model}{8}{section.7}%
-\contentsline {section}{\numberline {8}Conclusions}{8}{section.8}%
-\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{9}{section*.1}%
-\contentsline {section}{Refence}{10}{section*.2}%
-\contentsline {section}{Appendices}{10}{section*.4}%
+\contentsline {subsection}{\numberline {4.1}Model III: Cellular Automata based Population Size Prediction}{5}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Model II}{6}{section.5}%
+\contentsline {section}{\numberline {6}Sensitivity Test}{6}{section.6}%
+\contentsline {section}{\numberline {7}Evaluation of Model}{6}{section.7}%
+\contentsline {section}{\numberline {8}Conclusions}{6}{section.8}%
+\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{8}{section*.1}%
+\contentsline {section}{Refence}{9}{section*.2}%
+\contentsline {section}{Appendices}{9}{section*.4}%

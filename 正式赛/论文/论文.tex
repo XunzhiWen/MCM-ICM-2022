@@ -135,6 +135,7 @@ These are necessary assumptions for simplifying the model.
   \end{tabular}
 \end{table}
 
+\newpage
 
 % 标题可能需要修改
 \section{Binary Volume and Logistic based Carbon Sequestration Model}
@@ -160,19 +161,32 @@ the volume of wooden products derive from the volume of harvested trees with a c
 \textbf{Scrap Rate} $ s $. The complete idea is shown in Algorithm \ref{Product Algo}.
 \par
 \begin{figure}[ht]
-  \begin{minipage}[htbp]{0.35\linewidth}
-
+  \begin{minipage}[htbp]{0.42\linewidth}
+    The Scrap Rate is determined as following descriptions, which is also shown 
+    in Figure \ref{RoundWood} on the right. There are two 
+    manufacturing methods of Round Wood harvested from the forests. 
+    \par
+    One way is to trim the wood neatly into slabs in different shapes so that they can
+    occupy most of the volume of the wood, which will be processed into softwood plywood, 
+    panels and board. Meanwhile, the scrap will be manufactured into miscellaneous 
+    products. It can approach the utilization rate of 81.3\%.
+    \par
+    The other kind of craft is to separate the bark and turn it into paper, and 
+    the separated log can be processed into softwood and hardwood. The utilization 
+    rate of this craft is able to reach almost 100\%.
   \end{minipage}
   \hfill
-  \begin{minipage}[htbp]{0.55\linewidth}
+  \begin{minipage}[htbp]{0.5\linewidth}
     \begin{flushright}
-      \includegraphics[width = 10cm]{code&pic/Roundwood cutting ways.pdf}
-      \caption{Influencing factors of Forest Culture Value}
+      \includegraphics[width = 8.61cm]{code&pic/Roundwood cutting ways.pdf}
+      \caption{Utilization Rate of Round Wood}\label{RoundWood}
     \end{flushright}
   \end{minipage}
   \end{figure}
 
-We assume that the density of the forest population follows the Logistic Model, 
+
+
+
 \begin{algorithm}[htbp]
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
     \begin{algorithmic}[1]
@@ -244,30 +258,33 @@ We assume that the density of the forest population follows the Logistic Model,
     \end{algorithmic}
 \end{algorithm}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 10cm]{code&pic/Logistic.eps}
-\end{figure}
+We apply our model over a hypothetic forestry land with 10000 hectares, in which
+the broad leaf trees takes one half and the other half is coniferous trees. Two
+primary decision factors, which are harvest rate and product proportion,
+are discussed by conducting sensitivity test. 
+\par
+The sensitivity test of Harvest Rate is conducted by calculating the Carbon Dioxide
+sequestered by the living trees and the wooden products every 1\% of 
+harvest rate from 1\% to 30\%, which can be seen in Figure \ref{Harvest Rate sensTest}.
+\par
+The sensitivity test of Product Proportion is carried out by determining the 
+Carbon sequestered by wooden products under different types of product proportion
+arrangement. The proportion of products with higher Decomposition Rate increases
+from Type 1 to Type 5, which means in Type 5, most of the wood is consumed to manufacture
+high Decomposition Rate products. The result is shown in Figure \ref{Product Proportion sensTest}.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 12cm]{code&pic/HarvestRate.eps}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-
   \subfigure[]{
   \centering
-  \includegraphics[width = 0.46\textwidth]{code&pic/LivingTrees.eps}
+  \includegraphics[width = 0.48\textwidth]{code&pic/HarvestRate.eps}\label{Harvest Rate sensTest}
   }
-\quad
   \subfigure[]{
   \centering
-  \includegraphics[width = 0.46\textwidth]{code&pic/proportion.eps}
+  \includegraphics[width = 0.48\textwidth]{code&pic/proportion.eps}\label{Product Proportion sensTest}
   }
 
-\caption{Results of ARIMA model}
+\caption{Results of sensitivity test of Harvest Rate and Product Proportion}
 \end{figure}
 
 
@@ -275,17 +292,7 @@ We assume that the density of the forest population follows the Logistic Model,
 
 
 
-\section{Model II}
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/Model2.pdf}
-  \caption{Influencing factors of Forest Culture Value}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 12cm]{code&pic/Interspecies.eps}
-\end{figure}
+\newpage
 
 \subsection{Model III: Cellular Automata based Population Size Prediction}
 
@@ -321,8 +328,42 @@ will reach and remain around 2100 per hectare.
 \end{figure}
 
 
-\section{Sensitivity Test}
 
+
+\section{Model II}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/Model2.pdf}
+  \caption{Influencing factors of Forest Culture Value}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/Interspecies.eps}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/Interspecies-matrix.eps}
+\end{figure}
+
+
+\section{Sensitivity Test}
+\begin{figure}[ht]
+  \begin{minipage}[htbp]{0.4\linewidth}
+    We assume that the density of the forest population follows the Logistic Model,
+    and the \textbf{Carrying Capacity of the trees} is $ K $. From the Carbon Sequestration
+    probability predicted on the right we can draw a reasonable conclusion that
+    the Logistic Model will result into chaos after 3.6 rounds of harvests. 
+
+  \end{minipage}
+  \hfill
+  \begin{minipage}[htbp]{0.55\linewidth}
+    \begin{flushright}
+      \includegraphics[width = 9cm]{code&pic/Logistic.eps}
+    \end{flushright}
+  \end{minipage}
+\end{figure}
 \section{Evaluation of Model}
 
 \textbf{Strength:}
