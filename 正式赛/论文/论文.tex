@@ -142,7 +142,7 @@ These are necessary assumptions for simplifying the model.
   \end{tabular}
 \end{table}
 
-
+\newpage
 
 % 标题可能需要修改
 \section{Model I}
@@ -159,19 +159,16 @@ automata model. Therefore, cellular automata is a general term for a class of mo
 or a method framework. Its characteristic is that time, space and state are discrete, 
 each variable only takes a finite number of states, and its state change rules are local 
 in time and space.
-\par
-The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}, 
-and the simulation result is shown in Figure \ref{CA_Result}, in which
-we learn that the under the natural circumstances, the forestry population size
-will reach and remain around 2100 per hectare. 
-
-
-
 \begin{figure}[htbp]
   \centering
   \includegraphics[width = 12cm]{code&pic/元胞自动机流程图.pdf}
   \caption{Block Diagram of typical Cellular Automata}\label{CA_Fig}
 \end{figure}
+
+The block diagram of a typical cellular automata is shown in Figure \ref{CA_Fig}, 
+and the simulation result is shown in Figure \ref{CA_Result}, in which
+we learn that the under the natural circumstances, the forestry population size
+will reach and remain around 2100 per hectare. 
 
 \begin{figure}[t]
   \centering
@@ -352,15 +349,21 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
 
 
 \section{Model II}
+Figure \ref{CarbonCircle} clearly demonstrates the principle of the carbon circle and roles that Forestry Species play in the 
+circle, which helps us to understand the necessary procedure to manage Forestry Carbon Sequestration.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 10cm]{code&pic/大循环.pdf}
+  \caption{Carbon Circle in Forest Ecosystem}\label{CarbonCircle}
+\end{figure}
+
 
 In order to comprehensively consider the multiple social interests, we add
 several indexes which can fully demonstrate the impact of Forests over local 
 society. 
 \par
 The indexes are divided into two aspects, namely \textbf{Carbon Sink} and \textbf{Cultural Value}.
-
-
-
 
 \subsection{Carbon Sink}
 Carbon Sink includes the following indexes: \textbf{Carbon Credit Benefit and 
@@ -407,6 +410,32 @@ intensity of interspecific competition will roar. If both species suffer high le
 intraspecific competition as well as low interspecific competition, they will stably
 coexist, otherwise it leads to unstable coexistence. 
 \par
+Lotka-Volterra Model can be improved as follows. Suppose a second-order system can be described as the ODE below:
+$$
+  \frac{d^2x}{dt^2}+a_1(x,\frac{dx}{dt})\frac{dx}{dt} + a_0(x,\frac{dx}{dt})x = 0, \quad \ddot{x} = f(x,\dot{x})
+$$  
+Suppose $ x = x_1, \frac{dx}{dt} = x_2 $, then
+$$
+  \frac{dx_2}{dx_1} = \frac{f(x_1,x_2)}{x_2}
+$$ 
+$$
+\begin{cases}
+        \frac{dx_1}{dt} = x_2\\
+      \frac{dx_2}{dt} =f(x_1,x_2)\\
+\end{cases}
+$$ 
+Suppose $ x_1(t) $ denotes the position of a mass point and $ x_2(t) $ denotes the velocity of the mass point, then the 
+solution of the equations depicts the movement of a point in a 2-dimension plane, and the figure of the solution is called
+\textbf{Phase Diagram} in physics.
+\par
+Apply what we discuss above over the previous equations we can draw the improved Model:
+$$
+  \begin{cases}
+    \frac{dr}{dt} = 2(1-\frac{r}{R})-\lambda rf, r(0) = r_0\\
+    \frac{df}{dt} = -f + \lambda rf, f(0) = f_0
+  \end{cases}
+$$ 
+\par
 Result of the competition between Douglas Fir and Pinus Densiflora is shown in 
 Figure \ref{Douglas Fir and Pinus Densiflora result}, while the thermodynamic diagram
 of competition intensity between these two species can be seen in Figure \ref{Matrix Douglas Fir and Pinus Densiflora}.
@@ -419,7 +448,7 @@ of competition intensity between these two species can be seen in Figure \ref{Ma
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 10cm]{code&pic/Interspecies-matrix.eps}
+  \includegraphics[width = 9cm]{code&pic/Interspecies-matrix.eps}
   \caption{Thermodynamic Diagram of Competition}\label{Matrix Douglas Fir and Pinus Densiflora}
 \end{figure}
 
@@ -442,7 +471,6 @@ constant \citep{2007US}. Size and Proportion of Forest can be searched and estim
 map websites, while the Forest Hierarchy is easy to search. 
 
 
-
 \begin{figure}[htbp]
   \centering
   \includegraphics[width = 8cm]{code&pic/Model2.pdf}
@@ -450,6 +478,11 @@ map websites, while the Forest Hierarchy is easy to search.
 \end{figure}
 
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/美国地图.pdf}
+  \caption{Forest division in the United States}\label{USmap}
+\end{figure}
 
 
 

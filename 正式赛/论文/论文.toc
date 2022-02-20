@@ -3,16 +3,16 @@
 \contentsline {subsection}{\numberline {1.2}Overview of Our Work}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Assumptions and Justifications}{1}{section.2}%
 \contentsline {section}{\numberline {3}Notations}{2}{section.3}%
-\contentsline {section}{\numberline {4}Model I}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Cellular Automata based Population Size Prediction}{2}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Model I}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Cellular Automata based Population Size Prediction}{3}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Binary Timber Volume and Logistic based Carbon Sequestration Model}{4}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Model II}{7}{section.5}%
+\contentsline {section}{\numberline {5}Model II}{6}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Carbon Sink}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Cultural Value}{8}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Application}{10}{section.6}%
-\contentsline {section}{\numberline {7}Sensitivity Test}{11}{section.7}%
-\contentsline {section}{\numberline {8}Evaluation of Model}{11}{section.8}%
-\contentsline {section}{\numberline {9}Conclusions}{11}{section.9}%
-\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{12}{section*.1}%
-\contentsline {section}{Refence}{13}{section*.2}%
-\contentsline {section}{Appendices}{13}{section*.4}%
+\contentsline {subsection}{\numberline {5.2}Cultural Value}{9}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Application}{9}{section.6}%
+\contentsline {section}{\numberline {7}Sensitivity Test}{13}{section.7}%
+\contentsline {section}{\numberline {8}Evaluation of Model}{13}{section.8}%
+\contentsline {section}{\numberline {9}Conclusions}{13}{section.9}%
+\contentsline {section}{Policy Advice on Finless Porpoise Conservation}{14}{section*.1}%
+\contentsline {section}{Refence}{15}{section*.2}%
+\contentsline {section}{Appendices}{15}{section*.4}%
