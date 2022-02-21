@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: бшнд.aux
 The style file: apacite.bst
@@ -13,46 +13,44 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in 2007US
 You've used 6 entries,
             6951 wiz_defined-function locations,
-            1309 strings with 11556 characters,
-and the built_in function-call counts, 11109 in all, are:
+            1310 strings with 11611 characters,
+and the built_in function-call counts, 11146 in all, are:
 = -- 1366
 > -- 82
 < -- 558
 + -- 572
 - -- 12
-* -- 732
-:= -- 2161
+* -- 735
+:= -- 2165
 add.period$ -- 24
 call.type$ -- 6
 change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 250
-empty$ -- 421
+cite$ -- 12
+duplicate$ -- 258
+empty$ -- 429
 format.name$ -- 130
-if$ -- 2062
+if$ -- 2070
 int.to.chr$ -- 0
 int.to.str$ -- 18
 missing$ -- 0
 newline$ -- 146
 num.names$ -- 48
-pop$ -- 139
+pop$ -- 143
 preamble$ -- 1
 purify$ -- 24
 quote$ -- 0
-skip$ -- 747
+skip$ -- 749
 stack$ -- 0
 substring$ -- 616
-swap$ -- 164
+swap$ -- 166
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 480
-warning$ -- 1
+warning$ -- 0
 while$ -- 46
 width$ -- 0
 write$ -- 175
-(There was 1 warning)

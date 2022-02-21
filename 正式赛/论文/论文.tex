@@ -28,7 +28,7 @@
 \usepackage{amsmath}
 \usepackage{algorithmicx}
 % \usepackage{threeparttable}
-
+\definecolor{lightBlue}{rgb}{0.867,0.922, 0.969}
 \setlength{\parindent}{2em}
 \title{123}
 \setlength{\headheight}{15pt}
@@ -226,7 +226,7 @@ The complete idea is shown in Algorithm \ref{Product Algo}.
       \caption{Utilization Rate of Round Wood}\label{RoundWood}
     \end{flushright}
   \end{minipage}
-  \end{figure}
+\end{figure}
 
 
 
@@ -312,17 +312,26 @@ The complete idea is shown in Algorithm \ref{Product Algo}.
 We apply our model over a hypothetic forestry land with 10000 hectares, in which
 the broad leaf trees takes one half and the other half is coniferous trees. Two
 primary decision factors, which are harvest rate and product proportion,
-are discussed by conducting sensitivity test. 
+are discussed by conducting sensitivity test. Detailed parameter settings can
+be found in Appendix. 
 \par
 The sensitivity test of Harvest Rate is conducted by calculating the Carbon Dioxide
 sequestered by the living trees and the wooden products every 1\% of 
 harvest rate from 1\% to 30\%, which can be seen in Figure \ref{Harvest Rate sensTest}.
+Compared with no harvest at all, which is denoted as red line with dots on it, 
+Total Carbon Sequestration under the Harvest Rate of 0.03 ranks higher after 90 years.
+Meanwhile, it's obvious that as the Harvest Rate growing, the Total Carbon Sequestration
+increases gently, bypassing those with lower Harvest Rate. Besides, if the Harvest 
+Rate is too high, Total Carbon Sequestration reduces as time passes. 
 \par
 The sensitivity test of Product Proportion is carried out by determining the 
 Carbon sequestered by wooden products under different types of product proportion
 arrangement. The proportion of products with higher Decomposition Rate increases
 from Type 1 to Type 5, which means in Type 5, most of the wood is consumed to manufacture
-high Decomposition Rate products. The result is shown in Figure \ref{Product Proportion sensTest}.
+high Decomposition Rate products.The detailed proportion is shown in 
+Appendix and the result is shown in Figure \ref{Product Proportion sensTest}.
+It is apparent that with Harvest Rate unchanged, the higher the proportion of
+products with low Composition Rate, the higher Carbon is sequestered.
 
 \begin{figure}[htbp]
   \centering
@@ -338,9 +347,14 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
 \caption{Results of sensitivity test of Harvest Rate and Product Proportion}
 \end{figure}
 
-
-
-
+From what we have discussed above we can draw a very reasonable conclusion that 
+there exists an appropriate Harvest Rate, which is 0.03 in our hypothetic Forest, 
+that can help the Forest sequester more Carbon Dioxide after 100 years, and
+the Forest managers should urge more manufactures of anticorrosive wooden products
+rather than those with lower Decomposition Rate. 
+\par
+What's more, there are some other factors we should take into consideration when 
+managing the forests. 
 
 
 \newpage
@@ -349,6 +363,16 @@ high Decomposition Rate products. The result is shown in Figure \ref{Product Pro
 
 
 \section{Model II}
+
+
+In order to comprehensively consider the multiple social interests, we add
+several indexes which can fully demonstrate the impact of Forests over local 
+society. 
+\par
+The indexes are divided into two aspects, namely \textbf{Carbon Sink} and \textbf{Cultural Value}, and
+Carbon Sink weighs 4.123 times than Cultural Value \citep{2007US}. 
+
+\subsection{Carbon Sink}
 Figure \ref{CarbonCircle} clearly demonstrates the principle of the carbon circle and roles that Forestry Species play in the 
 circle, which helps us to understand the necessary procedure to manage Forestry Carbon Sequestration.
 
@@ -358,14 +382,6 @@ circle, which helps us to understand the necessary procedure to manage Forestry 
   \caption{Carbon Circle in Forest Ecosystem}\label{CarbonCircle}
 \end{figure}
 
-
-In order to comprehensively consider the multiple social interests, we add
-several indexes which can fully demonstrate the impact of Forests over local 
-society. 
-\par
-The indexes are divided into two aspects, namely \textbf{Carbon Sink} and \textbf{Cultural Value}.
-
-\subsection{Carbon Sink}
 Carbon Sink includes the following indexes: \textbf{Carbon Credit Benefit and 
 Cost Analysis(CVal), Wooden Product Proportion, Harvest Rate} and \textbf{Interspecific 
 Competition}, which will exert influence on carbon sink in this Forest.
@@ -395,7 +411,7 @@ $$
 representing that each Pinus Densiflora will occupy the surviving spaces of
  $ \alpha $ Douglas Firs.
  Similarly, the population of Pinus Densiflora can be described as $$
- \frac{dN_2}{dt} = r_2\cdot N_2\cdot (\frac{K_2-N_2-\alpha N_1}{K_2})
+ \frac{dN_2}{dt} = r_2\cdot N_2\cdot (\frac{K_2-N_2-\beta N_1}{K_2})
  $$ 
 Thus, there are four possible results for these two kinds of trees.
 \begin{enumerate}
@@ -469,20 +485,99 @@ animals with more habitats, determines the Biodiversity of the Forest.
 The Volume of Deadwood of the same type of forest at a similar latitude shares a similar 
 constant \citep{2007US}. Size and Proportion of Forest can be searched and estimated on 
 map websites, while the Forest Hierarchy is easy to search. 
-
-
 \begin{figure}[htbp]
   \centering
   \includegraphics[width = 8cm]{code&pic/Model2.pdf}
   \caption{Influencing indexes of Forest Culture Value}\label{Index_CulVal}
 \end{figure}
 
+\subsection{Result and Discussion}
+
+According to Forestry region distribution of the United States in Figure \ref{USmap}, 
+we choose four typical kinds of Forests to test our evaluation model, which are
+Theropencedrymion, Subboreal coniferous forest, Subtropical 
+evergreen broad-leaved forest and Boreal forest. We search and calculate the index values
+of these four typical Forests, and come up with their ultimate score by the method below.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 12cm]{code&pic/美国地图.pdf}
+  \includegraphics[width = 14cm]{code&pic/美国地图.pdf}
   \caption{Forest division in the United States}\label{USmap}
 \end{figure}
+
+\begin{figure}[ht]
+
+  \hfill
+  \begin{minipage}[htbp]{0.47\linewidth}
+    \begin{flushleft}
+      \includegraphics[width = 8cm]{code&pic/Cultural Value Composition.png}
+      \caption{Radar Map of Cultural Value}\label{Radar}
+    \end{flushleft}
+  \end{minipage}
+    \begin{minipage}[htbp]{0.45\linewidth}
+      The indexes of Carbon Sink are \textbf{Z-score Standardaized} and weighted summed, representing
+      Carbon Sink score of this kind of Forest. The indexes of Culture Value are 
+      measured by \textbf{Technique for Order Preference by Similarity to an Ideal Solution (TOPSIS)}, 
+      whose basic principle is to sort the indexes by detecting the distance between the 
+      evaluation object and the worst solution of the optimal solution.  
+      If the evaluation object is closest to the optimal solution and furthest 
+      away from the worst solution, it is the best. Otherwise, it is not optimal 
+      in which all index values of the optimal solution reach the optimal value 
+      of all evaluation indexes and all index values of the worst solution reach 
+      the worst value of all evaluation indexes. The composition of Cultural Value
+      is shown in Figure \ref{Radar}.
+  \end{minipage}
+\end{figure}
+
+
+\par
+Then the scores of Carbon Sink and Cultural Value are weighted added: 
+$$
+  \rm{TotalScore} = 4.123\times \rm{CarbonSink} + \rm{Cultural Value}
+$$ 
+The final scores are shown in Table \ref{ForestScore}, in which we can see that the 
+Subtropical Evergreen Broad-leaved Forest ranks the highest concerning the indexes above.
+There are some other interesting findings in this table. For instance, both
+Theropencedrymion and Subboreal coniferous Forest approach high score in Carbon Sink while 
+their Cultural Values are relatively low. However, Boreal Forests are of great
+significance in Cultural Value, but it doesn't help much on creating Carbon Sink. 
+
+
+\begin{table}[htpb!]
+  \centering
+  \caption{Scores of Four typical Forests} \label{ForestScore}
+  \begin{tabular}{m{5.5cm}<{\centering}|m{3cm}<{\centering}|m{3cm}<{\centering}|m{3cm}<{\centering}}
+  \rowcolor{lightBlue}  \textbf{Types of Forests}&\textbf{Total Score}&\textbf{Carbon Sink}&\textbf{Cultural Value}\\ \hline
+  \rowcolor{white} \textbf{Boreal Forest} & 0.58902 & 0.535529 & 0.809565 \\
+  \rowcolor{lightBlue} \textbf{Theropencedrymion} &0.832925&0.892329&0.588001 \\
+  \rowcolor{white} \textbf{Subtropical Evergreen Broad-leaved Forest} & 0.993638&0.992332 & 0.999022\\
+  \rowcolor{lightBlue} \textbf{Subboreal coniferous Forest} & 0.863477 & 0.932925 &0.577142 \\
+  \end{tabular}
+\end{table}
+
+In order to figure out the conditions when Harvest Rate is 0 is recommended, 
+we calculated the final scores of the four Typical Forests again without Harvest, which 
+is shown in Table \ref{ForestScore-NoHarvest}. In comparison with Table \ref{ForestScore}, 
+it's obvious that the all the three scores of Boreal Forest, Theropencedrymion and 
+Subboreal coniferous Forest increase without harvest, which suggests that 
+
+
+\begin{table}[htpb!]
+  \centering
+  \caption{Scores of Four typical Forests without Harvest} \label{ForestScore-NoHarvest}
+  \begin{tabular}{m{5.5cm}<{\centering}|m{3cm}<{\centering}|m{3cm}<{\centering}|m{3cm}<{\centering}}
+  \rowcolor{lightBlue}  \textbf{Types of Forests}&\textbf{Total Score}&\textbf{Carbon Sink}&\textbf{Cultural Value}\\ \hline
+  \rowcolor{white} \textbf{Boreal Forest} & 0.704714 & 0.678393 & 0.813238 \\
+  \rowcolor{lightBlue} \textbf{Theropencedrymion} &0.846885&0.908237&0.593933 \\
+  \rowcolor{white} \textbf{Subtropical Evergreen Broad-leaved Forest} & 0.98369&0.986493 & 0.972135\\
+  \rowcolor{lightBlue} \textbf{Subboreal coniferous Forest} & 0.917332 & 0.947289 &0.79382 \\
+  \end{tabular}
+\end{table}
+
+
+
+
+
 
 
 
@@ -572,6 +667,10 @@ until it becomes a stationary series, Than $ W_t $(which is denoted
 as $ X_t $ ) complies ARMA model. 
 \par
 
+\begin{figure}
+  \centering
+  \includegraphics[width = 10cm]{code&pic/ARIMA残差&自相关互相关系数.eps}
+\end{figure}
 
 
 
@@ -671,6 +770,43 @@ as $ X_t $ ) complies ARMA model.
 
 \begin{appendices}
 
+\textbf{Parameter Settings of hypothetic Forest}
+
+$ a=0.00006303;
+D1=0.25;
+D2=0.35;
+b=1.8218;
+H1=25;
+H2=10;
+c=1.0282;$
+
+$
+N1=5000;
+N2=5000;
+s=0.001;%折损率
+$
+
+$
+d=[0.125984252 0.031496063 0.251968504 0.503937008 0.062992126 0.015748031 
+0.007874016];
+ $ 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 14cm]{code&pic/产品腐败数据.pdf}
+\end{figure}
+\begin{table}[htbp]
+  \begin{tabular}{c|ccccc}
+  \textbf{Types of wooden production}                        & \textbf{Type1} & \textbf{Type2} & \textbf{Type3} & \textbf{Type4} & \textbf{Type5} \\ \hline
+  \cellcolor[HTML]{FFFFFF}\textbf{Softwood lumber}      & 0.125984252    & 0.178571429    & 0.142857143    & 0.107142857    & 0.031496063    \\
+  \cellcolor[HTML]{FFFFFF}\textbf{Hardwood lumber}      & 0.031496063    & 0.107142857    & 0.142857143    & 0.178571429    & 0.125984252    \\
+  \cellcolor[HTML]{FFFFFF}\textbf{Softwood plywood}      & 0.251968504 & 0.214285714 & 0.142857143 & 0.071428571 & 0.015748031 \\
+  \cellcolor[HTML]{FFFFFF}\textbf{Oriented strandboard} & 0.503937008    & 0.25           & 0.142857143    & 0.035714286    & 0.007874016    \\
+  \cellcolor[HTML]{FFFFFF}\textbf{Non-structural panels} & 0.062992126 & 0.142857143 & 0.142857143 & 0.142857143 & 0.062992126 \\
+  \textbf{Miscellaneous products}                       & 0.015748031    & 0.071428571    & 0.142857143    & 0.214285714    & 0.251968504    \\
+  \textbf{Paper}                                        & 0.007874016    & 0.035714286    & 0.142857143    & 0.25           & 0.503937008   
+  \end{tabular}
+  \end{table}
 % \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input python source:}}
 % \lstinputlisting[language=python]{./codes/verhulst.py}
 
