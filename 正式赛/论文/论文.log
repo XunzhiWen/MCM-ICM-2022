@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  21 FEB 2022 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  21 FEB 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -950,14 +950,14 @@ l.571 \end{table}
                   <./code&pic/Model2.pdf> <./code&pic/美国地图.pdf>] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.621 W
-       e apply ARIMA model in order to predict the Coefficients of Competiti...pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) has been already used, duplicate ignored
+l.622 \par
+          pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.621 W
-       e apply ARIMA model in order to predict the Coefficients of Competiti... <./code&pic/Cultural Value Composition.png>]
-Underfull \hbox (badness 1383) in paragraph at lines 639--645
-\T1/ntxtlf/m/n/12 for-ma-tion Cri-te-rion(AIC) is one
+l.622 \par
+           <./code&pic/Cultural Value Composition.png>]
+Underfull \hbox (badness 1609) in paragraph at lines 641--647
+\T1/ntxtlf/m/n/12 ries. Akaike In-for-ma-tion Cri-te-
  []
 
 
@@ -966,10 +966,10 @@ pdfTeX warning: pdflatex.exe (file ./code&pic/ARIMA_裁剪页面.pdf): PDF inclu
 <code&pic/ARIMA_裁剪页面.pdf, id=562, 856.80894pt x 1116.9989pt>
 File: code&pic/ARIMA_裁剪页面.pdf Graphic file (type pdf)
 <use code&pic/ARIMA_裁剪页面.pdf>
-Package pdftex.def Info: code&pic/ARIMA_裁剪页面.pdf  used on input line 659.
+Package pdftex.def Info: code&pic/ARIMA_裁剪页面.pdf  used on input line 661.
 (pdftex.def)             Requested size: 312.9803pt x 408.03357pt.
 
-Overfull \hbox (43.97223pt too wide) in paragraph at lines 659--660
+Overfull \hbox (19.5156pt too wide) in paragraph at lines 661--662
 [] 
  []
 
@@ -977,16 +977,16 @@ Package epstopdf Info: Source file: <code&pic/ARIMA残差&自相关互相关系�
 (epstopdf)                    date: 2022-02-20 21:57:04
 (epstopdf)                    size: 48100 bytes
 (epstopdf)             Output file: <code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-02-21 08:18:50
-(epstopdf)                    size: 19867 bytes
+(epstopdf)                    date: 2022-02-21 16:21:00
+(epstopdf)                    size: 20923 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf code&pic/ARIMA残差&自相关互相关系数.eps>
-(epstopdf)             \includegraphics on input line 708.
+(epstopdf)             \includegraphics on input line 711.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf, id=565, 421.575pt x 316.18124pt>
+<code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf, id=565, 383.03098pt x 304.73851pt>
 File: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf  used on input line 708.
-(pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
+Package pdftex.def Info: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf  used on input line 711.
+(pdftex.def)             Requested size: 256.0748pt x 203.74594pt.
 Package epstopdf Info: Source file: <code&pic/Logistic.eps>
 (epstopdf)                    date: 2022-02-20 09:23:03
 (epstopdf)                    size: 128909 bytes
@@ -994,47 +994,51 @@ Package epstopdf Info: Source file: <code&pic/Logistic.eps>
 (epstopdf)                    date: 2022-02-20 09:23:57
 (epstopdf)                    size: 195346 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/Logistic-eps-converted-to.pdf code&pic/Logistic.eps>
-(epstopdf)             \includegraphics on input line 768.
+(epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/Logistic-eps-converted-to.pdf, id=566, 421.575pt x 316.18124pt>
+<code&pic/Logistic-eps-converted-to.pdf, id=567, 421.575pt x 316.18124pt>
 File: code&pic/Logistic-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/Logistic-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Logistic-eps-converted-to.pdf  used on input line 768.
+Package pdftex.def Info: code&pic/Logistic-eps-converted-to.pdf  used on input line 783.
 (pdftex.def)             Requested size: 256.0748pt x 192.05975pt.
 [13pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.777 \section
+l.792 \section
               {Conclusions}] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.781 \newpage
+l.796 \newpage
                <./code&pic/ARIMA_裁剪页面.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 787.
+(Font)              scaled to size 20.74pt on input line 802.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 20.74pt on input line 787.
- [15 <./code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf> <./code&pic/Logistic-eps-converted-to.pdf>] (./论文.bbl
+(Font)              scaled to size 20.74pt on input line 802.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.805 \end{memo}
+                 <./code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf> <./code&pic/Logistic-eps-converted-to.pdf>] (./论文.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 27.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 807.
+(Font)              scaled to size 24.88pt on input line 822.
 
-Overfull \hbox (0.69226pt too wide) in paragraph at lines 825--829
+Overfull \hbox (0.69226pt too wide) in paragraph at lines 840--844
 []$\OML/cmm/m/it/12 d \OT1/cmr/m/n/12 = [0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1259842520\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0314960630\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2519685040\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5039370080\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0629921260\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0157480310\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 007874016];$ 
  []
 
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/产品腐败数据.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/产品腐败数据.pdf, id=657, 963.6pt x 542.025pt>
+<code&pic/产品腐败数据.pdf, id=659, 963.6pt x 542.025pt>
 File: code&pic/产品腐败数据.pdf Graphic file (type pdf)
 <use code&pic/产品腐败数据.pdf>
-Package pdftex.def Info: code&pic/产品腐败数据.pdf  used on input line 832.
+Package pdftex.def Info: code&pic/产品腐败数据.pdf  used on input line 847.
 (pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
 
-Overfull \hbox (42.11711pt too wide) in paragraph at lines 835--845
+Overfull \hbox (42.11711pt too wide) in paragraph at lines 850--860
 [][] 
  []
 
@@ -1043,27 +1047,22 @@ AED: lastpage setting LastPage
 [16
 
 ] [17 <./code&pic/产品腐败数据.pdf>] (./论文.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `论文.out' has not changed.
 (rerunfilecheck)             Checksum: EAFC3846387F4D00903EE355E31F755D;3252.
  ) 
 Here is how much of TeX's memory you used:
- 16492 strings out of 480901
- 244131 string characters out of 5904911
+ 16493 strings out of 480901
+ 244145 string characters out of 5904911
  817423 words of memory out of 5000000
- 33246 multiletter control sequences out of 15000+600000
+ 33247 multiletter control sequences out of 15000+600000
  458198 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  86i,13n,88p,528b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.18} has been referenced but does not exist, replaced by a fixed one
-
 {d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (19 pages, 2784232 bytes).
+Output written on 论文.pdf (19 pages, 2784895 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
+ 758 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  69 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

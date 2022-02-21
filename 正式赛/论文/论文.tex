@@ -616,7 +616,9 @@ harvest is beneficial to in a general basis:
 \section{Application of Model}
 So as to further reveal future Carbon Sequestration and provide managers with 
 more accurate and scientific management plan, we test our Model on another
-hypothetic forest, in which 
+hypothetic forest abstracted from the forest in Washington State, which 
+consists of Douglas Fir and Pinus Densiflora. Assume that their Height and DBH are
+the same and they occupy 10000 hectares in total. 
 \par
 We apply ARIMA model in order to predict the Coefficients of Competition between 
 Douglas Fir and Pinus Densiflora whose \textbf{algorithm block diagram} 
@@ -627,7 +629,7 @@ Under regular circumstances, the time series we obtain in the real world
   us to transfer the non-stationary time series to stationary time series
 \par
 \begin{figure}[ht]
-\begin{minipage}[htbp]{0.35\linewidth}
+\begin{minipage}[htbp]{0.37\linewidth}
   and make an assumption that the time series is an Auto 
   Regressive Moving Average(ARMA) series to predict the 
   future data. ARMA series is defined as follows.
@@ -654,7 +656,7 @@ Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the 
 than we deem the series is $ \mathbf{ARMA}(\hat{p},\hat{q}) $. 
 \end{minipage}
 \hfill
-\begin{minipage}[htbp]{0.55\linewidth}
+\begin{minipage}[htbp]{0.6\linewidth}
   \begin{flushleft}
     \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
    \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
@@ -698,16 +700,29 @@ $ d $ -degree:
 $$
   W_t = \nabla^dX_t,\quad t = d+1,\dots , n
 $$ 
-After that, apply stationary test on $ W_t $ and repeat steps above 
-until it becomes a stationary series, Than $ W_t $(which is denoted
-as $ X_t $ ) complies ARMA model. 
-\par
 
-\begin{figure}
-  \centering
-  \includegraphics[width = 10cm]{code&pic/ARIMA残差&自相关互相关系数.eps}
+
+
+\begin{figure}[ht]
+
+  \hfill
+  \begin{minipage}[htbp]{0.63\linewidth}
+    \begin{flushleft}
+      \includegraphics[width = 9cm]{code&pic/ARIMA残差&自相关互相关系数.eps}
+      \caption{Residual, Coefficient of autocorrelation and cross correlation of ARIMA}\label{ARIMA Res}
+    \end{flushleft}
+  \end{minipage}
+    \begin{minipage}[htbp]{0.34\linewidth}
+      After that, apply stationary test on $ W_t $ and repeat steps above 
+      until it becomes a stationary series, Than $ W_t $(which is denoted
+      as $ X_t $ ) complies ARMA model. 
+      \par
+      From the result of ARIMA we can see that the predicted Coefficient of Competition
+      between  Douglas Fir and Pinus Densiflora $ \alpha  $ and $ \beta $ is 12.78 and 11.23
+      in the future 100 years. Residual, Coefficient of Autocorrelation and Cross Coefficient
+      of ARIMA is shown in Figure \ref{ARIMA Res}.
+  \end{minipage}
 \end{figure}
-
 
 
 % \begin{figure}[htbp]
