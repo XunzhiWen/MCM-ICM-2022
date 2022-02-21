@@ -79,5 +79,7 @@ end
     hold on
 xlabel('Propotion')
 ylabel('Carbon Sequestration (tons)')
-legend('Softwood Lumber','Hardwood Lumber','Softwood Plywood','Oriented Strandboard','Non-structural Panels','Miscellaneous Products','Paper')
+legend('Softwood Lumber','Hardwood Lumber','Softwood Plywood',
+'Oriented Strandboard','Non-structural Panels','Miscellaneous 
+Products','Paper')
 set(gca, 'linewidth', 1.2, 'fontsize',12, 'fontname', 'times')

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  22 FEB 2022 05:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  22 FEB 2022 05:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,30 +1091,25 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.32         m1=
-                0;]
-Overfull \hbox (362.90579pt too wide) in paragraph at lines 82--83
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) 
+                0;]) 
 AED: lastpage setting LastPage
 [23] (./论文.aux)
 Package rerunfilecheck Info: File `论文.out' has not changed.
 (rerunfilecheck)             Checksum: B22095D6892A8C52B03662DBD4F0EEF1;4781.
  ) 
 Here is how much of TeX's memory you used:
- 17573 strings out of 480901
- 256137 string characters out of 5904911
- 882560 words of memory out of 5000000
+ 17575 strings out of 480901
+ 256167 string characters out of 5904911
+ 883560 words of memory out of 5000000
  34195 multiletter control sequences out of 15000+600000
  459816 words of font info for 86 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  86i,13n,88p,797b,2625s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (25 pages, 4165986 bytes).
+Output written on 论文.pdf (25 pages, 4165994 bytes).
 PDF statistics:
- 1035 PDF objects out of 1200 (max. 8388607)
- 635 compressed objects within 7 object streams
- 183 named destinations out of 1000 (max. 500000)
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 637 compressed objects within 7 object streams
+ 185 named destinations out of 1000 (max. 500000)
  283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
