@@ -155,11 +155,8 @@ but also the conservation and diversity of wild species, recreational uses and c
     What kind of forest management plan should be carried out for this forest? Why it's best?
     How to prolong rotation year?
 
-    \item [4.] Some people think that we should never cut down any trees, but you've
-    determined the forest which includes harvest in its management. Write a one-to-two-page
-    non-technical newspaper articles to explain why your analysis including in the 
-    management of the forest logging, rather than it remaining the same. Finally, your ariticle 
-    should convince local community that it's the best decision for their forest.
+    \item [4.] Write a one-to-two-page non-technical newspaper articles to explain why your analysis including in the management of the forest logging, rather
+    than it remaining the same.
 \end{enumerate}
 
 
@@ -168,14 +165,21 @@ but also the conservation and diversity of wild species, recreational uses and c
 \section{Assumptions and Justifications}
 These are necessary assumptions for simplifying the model.
 \begin{enumerate}
-  \item Suppose the harvested wood in warehouse doesn't corrode, meaning no change in its Carbon Sequestration;
+  \item Harvested wood in warehouse doesn't corrode, meaning no change in its Carbon Sequestration;
   \item Global greenhouse effect and climate change have no influence on Forest Carbon Sequestration;
   \item Inflation is not considered when calculating Carbon sink;
   \item Only natural Forests are considered when calculating area proportion in administrative regions;
-  \item Deadwood Volume, Carbon Sequestration of leaves and soil rises merely with the increase of area;
+  \item Deadwood Volume, Carbon of leaves and soil rises merely with the increase of area;
   \item Harvest is conducted evenly all around the Forest.
 \end{enumerate}
 \section{Overview of Our Work}
+
+We develop two models to help Forest Managers making strategies, namely Carbon Sequestration, 
+calculating Carbon mass, and Decision Model, evaluating situation of Forests. Both 
+ecosystem and society are considered to reach a balanced plan. We also considered
+several kinds of typical Forests to further understand the relationship between
+Carbon Sequestration and social interest.
+
 
 \begin{figure}[htbp]
   \centering
@@ -774,15 +778,16 @@ choose $ p,q $ such that
 In fact, equations (\ref{AIC}) and (\ref{AIC_unknown}) have the same minimum point $ \hat{p},\hat{q} $.
 After that, we usually choose $ p = 1, q = 1 $ to make parameter estimation 
 over ARMA model.
-
-
-\begin{figure}[ht]
-\begin{minipage}[htbp]{0.3\linewidth}
 It's demonstrated that the differential operation can stabilize 
 certain class of non-stationary series. And It's emphasized that 
 stationary test must be conducted previously. Stationary test can 
 be applied by calculating sample autocorrelation function and 
 sample coefficient of partial function. 
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
+  \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
+\end{figure}
 \par
 If the functions are truncated or trending to 0 (meaning being controlled
 by negative index), than the series belongs to ARMA model.
@@ -791,15 +796,6 @@ If at least one of the functions above is not truncated or trending to 0, than
 it's not stationary.
 \par
 
-\end{minipage}
-\hfill
-\begin{minipage}[htbp]{0.67\linewidth}
-  \begin{flushleft}
-    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
-   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
-  \end{flushleft}
-\end{minipage}
-\end{figure}
 Suppose the series is non-stationary, which can be transformed to 
 a stationary series by $ d $ -degree differential operation, denoted
 as $ \mathbf{ARIMA}(p,q,d) $ series,than differentiate the sample by
