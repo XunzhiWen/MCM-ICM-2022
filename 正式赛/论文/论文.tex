@@ -354,7 +354,22 @@ the Forest managers should urge more manufactures of anticorrosive wooden produc
 rather than those with lower Decomposition Rate. 
 \par
 What's more, there are some other factors we should take into consideration when 
-managing the forests. 
+managing the forests. For example, the law mandates several formulae to be applied 
+to calculate the minimum diameters at which species can be harvested 
+sustainably \citep{lumet1993etude}. Besides, data availability, checking and 
+assessment could help countries to plan and manage their forests, by giving 
+concerned ministries the capacity to plan ahead, react to market shocks, help
+companies when needed (possibly by also playing with costs and
+tax burdens) - or even sanctioning them when parameters are not
+in line with the expected values - and eventually better managing
+the overall forest sector \citep{2017Cerutti}.
+
+
+% In turn, the reduced number of trees 
+% felled means less damage to the remaining standing trees around the felled 
+% area (that is, the logging gap that trees can create when felled) and to the 
+% vegetation between the nearest major logging road and the trees in order to 
+% reach and harvest the latter. 
 
 
 \newpage
@@ -551,7 +566,7 @@ significance in Cultural Value, but it doesn't help much on creating Carbon Sink
   \rowcolor{white} \textbf{Boreal Forest} & 0.58902 & 0.535529 & 0.809565 \\
   \rowcolor{lightBlue} \textbf{Theropencedrymion} &0.832925&0.892329&0.588001 \\
   \rowcolor{white} \textbf{Subtropical Evergreen Broad-leaved Forest} & 0.993638&0.992332 & 0.999022\\
-  \rowcolor{lightBlue} \textbf{Subboreal coniferous Forest} & 0.863477 & 0.932925 &0.577142 \\
+  \rowcolor{lightBlue} \textbf{Subboreal Coniferous Forest} & 0.863477 & 0.932925 &0.577142 \\
   \end{tabular}
 \end{table}
 
@@ -559,7 +574,14 @@ In order to figure out the conditions when Harvest Rate is 0 is recommended,
 we calculated the final scores of the four Typical Forests again without Harvest, which 
 is shown in Table \ref{ForestScore-NoHarvest}. In comparison with Table \ref{ForestScore}, 
 it's obvious that the all the three scores of Boreal Forest, Theropencedrymion and 
-Subboreal coniferous Forest increase without harvest, which suggests that 
+Subboreal coniferous Forest increase without harvest. 
+\par
+What's more, Theropencedrymion suffers severe 
+Interspecific Competition without harvest; CVal of Boreal Forest increases dramatically 
+without harvest; Subboreal coniferous Forest will rank higher in Culture Value if 
+it's not harvested at all.
+\par
+
 
 
 \begin{table}[htpb!]
@@ -570,10 +592,20 @@ Subboreal coniferous Forest increase without harvest, which suggests that
   \rowcolor{white} \textbf{Boreal Forest} & 0.704714 & 0.678393 & 0.813238 \\
   \rowcolor{lightBlue} \textbf{Theropencedrymion} &0.846885&0.908237&0.593933 \\
   \rowcolor{white} \textbf{Subtropical Evergreen Broad-leaved Forest} & 0.98369&0.986493 & 0.972135\\
-  \rowcolor{lightBlue} \textbf{Subboreal coniferous Forest} & 0.917332 & 0.947289 &0.79382 \\
+  \rowcolor{lightBlue} \textbf{Subboreal Coniferous Forest} & 0.917332 & 0.947289 &0.79382 \\
   \end{tabular}
 \end{table}
 
+By further observing index values we can obtain several conditions in which banning
+harvest is beneficial to in a general basis:
+\begin{enumerate}
+  \item [1.] Forests with low CVal, such as Boreal Forests;
+  \item [2.] Forests with small Deadwood Volume, such as Subboreal Coniferous Forest;
+  \item [3.] Forests with low Forestry Density.
+\end{enumerate}
+
+
+\subsection{Forestry Management Recommendations}
 
 
 
@@ -581,9 +613,13 @@ Subboreal coniferous Forest increase without harvest, which suggests that
 
 
 
-\section{Application}
-We apply ARIMA model in order to predict the size of Finless Porpoise population in five ex-situ 
-conservation areas after 20 years, whose \textbf{algorithm block diagram} 
+\section{Application of Model}
+So as to further reveal future Carbon Sequestration and provide managers with 
+more accurate and scientific management plan, we test our Model on another
+hypothetic forest, in which 
+\par
+We apply ARIMA model in order to predict the Coefficients of Competition between 
+Douglas Fir and Pinus Densiflora whose \textbf{algorithm block diagram} 
 is shown as Figure \ref{ARIMA_ALGO}.
 \par
 Under regular circumstances, the time series we obtain in the real world

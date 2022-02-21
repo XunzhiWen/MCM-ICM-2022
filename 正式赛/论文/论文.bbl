@@ -28,6 +28,37 @@ Birdsey, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cerutti%
+\ \protect \BOthers {.}}{%
+Cerutti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+2017Cerutti}
+\APACinsertmetastar {%
+2017Cerutti}%
+\begin{APACrefauthors}%
+Cerutti, P\BPBI O.%
+, Suryadarma, D.%
+, Nasi, R.%
+, Forni, E.%
+, Medjibe, V.%
+, Delion, S.%
+\BCBL {}\ \BBA {} Bastin, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The impact of forest management plans on trees and
+  carbon: Modeling a decade of harvesting data in Cameroon} {The impact of
+  forest management plans on trees and carbon: Modeling a decade of harvesting
+  data in cameroon}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Forest Economics}{27}{}{1-9}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Deren%
 }{%
 Deren%
@@ -52,9 +83,43 @@ Deren, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Luo~Qibang%
+Lumet%
+, Forni%
+, Laurent%
+\BCBL {}\ \BBA {} Maitre%
 }{%
-Luo~Qibang%
+Lumet%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+lumet1993etude}
+\APACinsertmetastar {%
+lumet1993etude}%
+\begin{APACrefauthors}%
+Lumet, F.%
+, Forni, E.%
+, Laurent, D.%
+\BCBL {}\ \BBA {} Maitre, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Etude des modalites d'exploitation du bois en liaison
+  avec une gestion durable des for{\^e}ts tropicales humides--Quatri{\`e}me et
+  derni{\`e}re Etude de Cas: Le Cameroun} {Etude des modalites d'exploitation
+  du bois en liaison avec une gestion durable des for{\^e}ts tropicales
+  humides--quatri{\`e}me et derni{\`e}re etude de cas: Le cameroun}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Rapport d'{\'e}tude}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qibang%
+\ \BBA {} Hui%
+}{%
+Qibang%
+\ \BBA {} Hui%
 }{%
 {\protect \APACyear {1992}}%
 }]{%
@@ -62,7 +127,8 @@ LuoQingbang}
 \APACinsertmetastar {%
 LuoQingbang}%
 \begin{APACrefauthors}%
-Luo~Qibang, N\BPBI H.%
+Qibang, L.%
+\BCBT {}\ \BBA {} Hui, N.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -133,9 +199,11 @@ Smith, J\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Wang~Yan%
+Yan%
+\ \BBA {} Xing'e%
 }{%
-Wang~Yan%
+Yan%
+\ \BBA {} Xing'e%
 }{%
 {\protect \APACyear {2009}}%
 }]{%
@@ -143,7 +211,8 @@ WangYan}
 \APACinsertmetastar {%
 WangYan}%
 \begin{APACrefauthors}%
-Wang~Yan, L\BPBI X.%
+Yan, W.%
+\BCBT {}\ \BBA {} Xing'e, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
