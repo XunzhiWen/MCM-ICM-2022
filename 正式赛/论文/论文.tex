@@ -541,15 +541,6 @@ $$
     \frac{df}{dt} = -f + \lambda rf, f(0) = f_0
   \end{cases}
 $$ 
-\par
-Result of the competition between Douglas Fir and Pinus Densiflora is shown in 
-Figure \ref{Douglas Fir and Pinus Densiflora result}, while the thermodynamic diagram
-of competition intensity between these two species can be seen in Figure \ref{Matrix Douglas Fir and Pinus Densiflora}.
-In Figure \ref{Douglas Fir and Pinus Densiflora result} we can see clearly that 
-there are two possible results of the interspecific competition. One is that they co-exist peacefully with their
-population stabilized, while the other is that they compete fiercely, whose population fluctuate
-dramatically.
-
 
 \begin{figure}[htbp]
   \centering
@@ -563,6 +554,16 @@ dramatically.
   }
 \caption{Results of sensitivity test of Harvest Rate and Product Proportion}
 \end{figure}
+
+Result of the competition between Douglas Fir and Pinus Densiflora is shown in 
+Figure \ref{Douglas Fir and Pinus Densiflora result}, while the thermodynamic diagram
+of competition intensity between these two species can be seen in Figure \ref{Matrix Douglas Fir and Pinus Densiflora}.
+In Figure \ref{Douglas Fir and Pinus Densiflora result} we can see clearly that 
+there are two possible results of the interspecific competition. One is that they co-exist peacefully with their
+population stabilized, while the other is that they compete fiercely, whose population fluctuate
+dramatically.
+
+
 
 
 \subsection{Cultural Value}
@@ -756,10 +757,8 @@ $ p,q $ such that
 \end{equation}
 $ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
 estimation of $ \sigma_\epsilon^2 $ relating to $ p $ and $ q $.
-
-\begin{figure}[ht]
-\begin{minipage}[htbp]{0.37\linewidth}
-  Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
+\par
+Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
 than we deem the series is $ \mathbf{ARMA}(\hat{p},\hat{q}) $. 
 \par
 Suppose $ \mathbf{ARMA}(p,q) $ series has an unknown average parameter $ \mu $,
@@ -775,28 +774,32 @@ choose $ p,q $ such that
 In fact, equations (\ref{AIC}) and (\ref{AIC_unknown}) have the same minimum point $ \hat{p},\hat{q} $.
 After that, we usually choose $ p = 1, q = 1 $ to make parameter estimation 
 over ARMA model.
-\par
+
+
+\begin{figure}[ht]
+\begin{minipage}[htbp]{0.3\linewidth}
 It's demonstrated that the differential operation can stabilize 
 certain class of non-stationary series. And It's emphasized that 
 stationary test must be conducted previously. Stationary test can 
 be applied by calculating sample autocorrelation function and 
 sample coefficient of partial function. 
-\end{minipage}
-\hfill
-\begin{minipage}[htbp]{0.6\linewidth}
-  \begin{flushleft}
-    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
-   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
-  \end{flushleft}
-\end{minipage}
-\end{figure}
-
+\par
 If the functions are truncated or trending to 0 (meaning being controlled
 by negative index), than the series belongs to ARMA model.
 \par
 If at least one of the functions above is not truncated or trending to 0, than
 it's not stationary.
 \par
+
+\end{minipage}
+\hfill
+\begin{minipage}[htbp]{0.67\linewidth}
+  \begin{flushleft}
+    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
+   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
+  \end{flushleft}
+\end{minipage}
+\end{figure}
 Suppose the series is non-stationary, which can be transformed to 
 a stationary series by $ d $ -degree differential operation, denoted
 as $ \mathbf{ARIMA}(p,q,d) $ series,than differentiate the sample by
@@ -804,11 +807,11 @@ $ d $ -degree:
 $$
   W_t = \nabla^dX_t,\quad t = d+1,\dots , n
 $$ 
-
 After that, apply stationary test on $ W_t $ and repeat steps above 
-until it becomes a stationary series, Than $ W_t $(which is denoted
+until it becomes a stationary series,then $ W_t $(which is denoted
 as $ X_t $ ) complies ARMA model. 
 \par
+
 From the result of ARIMA we can see that the predicted Coefficient of Competition
 between  Douglas Fir and Pinus Densiflora $ \alpha  $ and $ \beta $ is $ \bm{12.78} $  and $ \bm{11.23}$
 in the future 100 years. Residual, Coefficient of Autocorrelation and Cross Coefficient
@@ -908,13 +911,10 @@ and may need to be further corrected in specific practice.
 
 \section{Conclusions}
 \begin{enumerate}
-  \item 256.83 tons of Carbon Dioxide sequestered per hectare per year under 
-  the Harvest Rate of 0.03, ranking highest if merely Carbon Sequestration 
-  is considered;
-  \item The more products with low Decomposition Rate are, the more Carbon Sequestered;
-  \item Subtropical Evergreen Broad-leaved Forest ranks the highest with 0.993638 (no-
-  harvest) and 0.98369 (harvest) in FCSME Model;
-  \item The longer the Rotation year is , the higher Harvest Rate should be to reach highest Carbon Sequestration.
+  \item Through Binary Timber Volume Carbon Sequestration Regression Model and logistic model with harvesting, we can calculate the total carbon sequestration of 10000 hectares of forests and their products from 0 to 100 years. In the case of 3-year rotation, when the harvest rate is 0.03, the total carbon sequestration in the 100th year is the highest, which is 256.83 tons of carbon dioxide sequestration per hectare.
+  \item While other conditions remain the same, the products with slower carbon decomposition rate account for more in the total products, and the products with faster carbon decomposition rate account for less, and the accumulated carbon sequestration in the 100th year will be more, Conversely, the less the carbon sequestration is;
+  \item The established FCSME model was used to evaluate the cological cultural value of the following four forest types in the United States: Subtropical Evergreen Broad-Leaved Forest, Subboreal Coniferous Forest, Boreal Forest and Theropencedrymion, and weighted and ranked according to the weight of 4.123:1, In both cases of cutting and no cutting, Its rankings are as follows: subtropical evergreen broad-leaved forest> Subboreal Coniferous Forest> Theropencedrymion> Boreal Forest. In the case of harvesting, scores were 0.993638, 0.863477, 0.832925, 0.58902, the ranking remained unchanged without harvesting, and the scores of other forests increased except that of subtropical evergreen broad-leaved forest.
+  \item We tested the sensitivity of carbon sequestration in 100 years to rotations, and found that when the rotation year were extended to 1,3,5 and 10 years respectively, the harvest rate corresponding to the highest carbon sequestration in the 100th year would increase correspondingly, which were 0.02,0.1,0.22 and 0.29, respectively.
 \end{enumerate}
 
 
@@ -1077,7 +1077,6 @@ d=[0.125984252 0.031496063 0.251968504 0.503937008 0.062992126 0.015748031
   \end{table}
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
-\lstinputlisting[language=Matlab]{code&pic/ARIMA.m}
 \lstinputlisting[language=Matlab]{code&pic/Untitled5.m}
 
 \end{appendices}

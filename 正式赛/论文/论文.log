@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  22 FEB 2022 04:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  22 FEB 2022 05:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,10 +840,7 @@ File: code&pic/CA-pic.pdf Graphic file (type pdf)
 <use code&pic/CA-pic.pdf>
 Package pdftex.def Info: code&pic/CA-pic.pdf  used on input line 246.
 (pdftex.def)             Requested size: 398.33858pt x 514.40114pt.
-
-Package natbib Warning: Citation `WangYan' on page 4 undefined on input line 254.
-
-<code&pic/采伐率mindmap.pdf, id=257, 704.11629pt x 523.44128pt>
+<code&pic/采伐率mindmap.pdf, id=259, 704.11629pt x 523.44128pt>
 File: code&pic/采伐率mindmap.pdf Graphic file (type pdf)
 <use code&pic/采伐率mindmap.pdf>
 Package pdftex.def Info: code&pic/采伐率mindmap.pdf  used on input line 258.
@@ -851,12 +848,6 @@ Package pdftex.def Info: code&pic/采伐率mindmap.pdf  used on input line 258.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 263.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 269.
-
-Package natbib Warning: Citation `LuoQingbang' on page 4 undefined on input line 304.
-
-
-Package natbib Warning: Citation `YanDeren2011' on page 4 undefined on input line 310.
-
 [4pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -867,12 +858,8 @@ l.311   \par
 l.311   \par
              <./code&pic/采伐率mindmap.pdf>]
 
-Package natbib Warning: Citation `2006Forest' on page 6 undefined on input line 314.
-
-
-
 pdfTeX warning: pdflatex.exe (file ./code&pic/Roundwood cutting ways.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/Roundwood cutting ways.pdf, id=304, 571.27718pt x 542.025pt>
+<code&pic/Roundwood cutting ways.pdf, id=314, 571.27718pt x 542.025pt>
 File: code&pic/Roundwood cutting ways.pdf Graphic file (type pdf)
 <use code&pic/Roundwood cutting ways.pdf>
 Package pdftex.def Info: code&pic/Roundwood cutting ways.pdf  used on input line 345.
@@ -884,12 +871,12 @@ l.431
        <./code&pic/Roundwood cutting ways.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/采伐率.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/采伐率.pdf, id=348, 524.47371pt x 441.87941pt>
+<code&pic/采伐率.pdf, id=360, 524.47371pt x 441.87941pt>
 File: code&pic/采伐率.pdf Graphic file (type pdf)
 <use code&pic/采伐率.pdf>
 Package pdftex.def Info: code&pic/采伐率.pdf  used on input line 437.
 (pdftex.def)             Requested size: 234.76729pt x 197.79205pt.
-<code&pic/proportion.pdf, id=349, 459.01192pt x 356.61523pt>
+<code&pic/proportion.pdf, id=361, 459.01192pt x 356.61523pt>
 File: code&pic/proportion.pdf Graphic file (type pdf)
 <use code&pic/proportion.pdf>
 Package pdftex.def Info: code&pic/proportion.pdf  used on input line 441.
@@ -897,21 +884,11 @@ Package pdftex.def Info: code&pic/proportion.pdf  used on input line 441.
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.452 W
-       hat's more, there are some other factors we should take into consider... <./code&pic/采伐率.pdf> <./code&pic/proportion.pdf>]
-
-Package natbib Warning: Citation `lumet1993etude' on page 8 undefined on input line 455.
-
-
-Package natbib Warning: Citation `2017Cerutti' on page 8 undefined on input line 461.
-
-
+l.451 \par
+           <./code&pic/采伐率.pdf> <./code&pic/proportion.pdf>]
 Overfull \hbox (11.6706pt too wide) in paragraph at lines 464--464
 []\T1/ntxtlf/b/n/17.28 Forest Car-bon Se-ques-tra-tion Mul-ti-di-men-sional Eval-u-a-tion Model 
  []
-
-
-Package natbib Warning: Citation `2007US' on page 8 undefined on input line 472.
 
 [8]
 Package epstopdf Info: Source file: <code&pic/Interspecies.eps>
@@ -921,12 +898,12 @@ Package epstopdf Info: Source file: <code&pic/Interspecies.eps>
 (epstopdf)                    date: 2022-02-20 11:30:41
 (epstopdf)                    size: 129103 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/Interspecies-eps-converted-to.pdf code&pic/Interspecies.eps>
-(epstopdf)             \includegraphics on input line 559.
+(epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/Interspecies-eps-converted-to.pdf, id=375, 421.575pt x 324.21124pt>
+<code&pic/Interspecies-eps-converted-to.pdf, id=394, 421.575pt x 324.21124pt>
 File: code&pic/Interspecies-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/Interspecies-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Interspecies-eps-converted-to.pdf  used on input line 559.
+Package pdftex.def Info: code&pic/Interspecies-eps-converted-to.pdf  used on input line 550.
 (pdftex.def)             Requested size: 259.22392pt x 199.35657pt.
 Package epstopdf Info: Source file: <code&pic/Interspecies-matrix.eps>
 (epstopdf)                    date: 2022-02-20 15:00:34
@@ -935,79 +912,71 @@ Package epstopdf Info: Source file: <code&pic/Interspecies-matrix.eps>
 (epstopdf)                    date: 2022-02-20 16:54:46
 (epstopdf)                    size: 34953 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/Interspecies-matrix-eps-converted-to.pdf code&pic/Interspecies-matrix.eps>
-(epstopdf)             \includegraphics on input line 563.
+(epstopdf)             \includegraphics on input line 554.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/Interspecies-matrix-eps-converted-to.pdf, id=376, 342.07799pt x 280.6485pt>
+<code&pic/Interspecies-matrix-eps-converted-to.pdf, id=395, 342.07799pt x 280.6485pt>
 File: code&pic/Interspecies-matrix-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/Interspecies-matrix-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Interspecies-matrix-eps-converted-to.pdf  used on input line 563.
+Package pdftex.def Info: code&pic/Interspecies-matrix-eps-converted-to.pdf  used on input line 554.
 (pdftex.def)             Requested size: 210.31065pt x 172.54855pt.
-
-
-Package natbib Warning: Citation `rondeux2010review' on page 9 undefined on input line 579.
-
-
-Package natbib Warning: Citation `2007US' on page 9 undefined on input line 583.
-
-
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.565 
+       <./code&pic/Interspecies-eps-converted-to.pdf> <./code&pic/Interspecies-matrix-eps-converted-to.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/Model2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/Model2.pdf, id=378, 748.64906pt x 727.92099pt>
+<code&pic/Model2.pdf, id=422, 748.64906pt x 727.92099pt>
 File: code&pic/Model2.pdf Graphic file (type pdf)
 <use code&pic/Model2.pdf>
-Package pdftex.def Info: code&pic/Model2.pdf  used on input line 587.
+Package pdftex.def Info: code&pic/Model2.pdf  used on input line 588.
 (pdftex.def)             Requested size: 284.52756pt x 276.65727pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/美国地图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/美国地图.pdf, id=380, 911.29025pt x 459.48311pt>
+<code&pic/美国地图.pdf, id=424, 911.29025pt x 459.48311pt>
 File: code&pic/美国地图.pdf Graphic file (type pdf)
 <use code&pic/美国地图.pdf>
-Package pdftex.def Info: code&pic/美国地图.pdf  used on input line 601.
+Package pdftex.def Info: code&pic/美国地图.pdf  used on input line 602.
 (pdftex.def)             Requested size: 398.33858pt x 200.84808pt.
-[9] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.603 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.603 \end{figure}
-                   <./code&pic/Interspecies-eps-converted-to.pdf> <./code&pic/Interspecies-matrix-eps-converted-to.pdf> <./code&pic/Model2.pdf>]
-<code&pic/Cultural Value Composition.png, id=461, 707.2824pt x 479.391pt>
+<code&pic/Cultural Value Composition.png, id=425, 707.2824pt x 479.391pt>
 File: code&pic/Cultural Value Composition.png Graphic file (type png)
 <use code&pic/Cultural Value Composition.png>
-Package pdftex.def Info: code&pic/Cultural Value Composition.png  used on input line 610.
+Package pdftex.def Info: code&pic/Cultural Value Composition.png  used on input line 611.
 (pdftex.def)             Requested size: 227.62204pt x 154.27872pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.641 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
+l.635 $$
+         <./code&pic/Model2.pdf>] [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.641 
-       <./code&pic/美国地图.pdf> <./code&pic/Cultural Value Composition.png>] [12pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) has been already used, duplicate ignored
+l.666 \par
+          pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.705 \par
+l.666 \par
+           <./code&pic/美国地图.pdf> <./code&pic/Cultural Value Composition.png>] [12pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.715 \par
           pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.705 \par
+l.715 \par
           ]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/ARIMA_裁剪页面.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/ARIMA_裁剪页面.pdf, id=505, 856.80894pt x 1116.9989pt>
-File: code&pic/ARIMA_裁剪页面.pdf Graphic file (type pdf)
-<use code&pic/ARIMA_裁剪页面.pdf>
-Package pdftex.def Info: code&pic/ARIMA_裁剪页面.pdf  used on input line 788.
-(pdftex.def)             Requested size: 312.9803pt x 408.03357pt.
-
-Overfull \hbox (19.5156pt too wide) in paragraph at lines 788--789
-[] 
+Underfull \hbox (badness 1845) in paragraph at lines 781--786
+\T1/ntxtlf/m/n/12 fer-en-tial op-er-a-tion can sta-
  []
 
+
+
+pdfTeX warning: pdflatex.exe (file ./code&pic/ARIMA_裁剪页面.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<code&pic/ARIMA_裁剪页面.pdf, id=531, 856.80894pt x 1116.9989pt>
+File: code&pic/ARIMA_裁剪页面.pdf Graphic file (type pdf)
+<use code&pic/ARIMA_裁剪页面.pdf>
+Package pdftex.def Info: code&pic/ARIMA_裁剪页面.pdf  used on input line 798.
+(pdftex.def)             Requested size: 312.9803pt x 408.03357pt.
 [13]
 Package epstopdf Info: Source file: <code&pic/ARIMA残差&自相关互相关系数.eps>
 (epstopdf)                    date: 2022-02-20 21:57:04
@@ -1016,52 +985,52 @@ Package epstopdf Info: Source file: <code&pic/ARIMA残差&自相关互相关系�
 (epstopdf)                    date: 2022-02-21 16:21:00
 (epstopdf)                    size: 20923 bytes
 (epstopdf)             Command: <repstopdf --outfile=code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf code&pic/ARIMA残差&自相关互相关系数.eps>
-(epstopdf)             \includegraphics on input line 819.
+(epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
-<code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf, id=514, 383.03098pt x 304.73851pt>
+<code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf, id=541, 383.03098pt x 304.73851pt>
 File: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf Graphic file (type pdf)
 <use code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf  used on input line 819.
+Package pdftex.def Info: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf  used on input line 822.
 (pdftex.def)             Requested size: 341.43306pt x 271.66281pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.823 \newpage
+l.826 \newpage
                <./code&pic/ARIMA_裁剪页面.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/轮伐3年.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/轮伐3年.pdf, id=588, 627.71654pt x 495.56572pt>
+<code&pic/轮伐3年.pdf, id=615, 627.71654pt x 495.56572pt>
 File: code&pic/轮伐3年.pdf Graphic file (type pdf)
 <use code&pic/轮伐3年.pdf>
-Package pdftex.def Info: code&pic/轮伐3年.pdf  used on input line 833.
+Package pdftex.def Info: code&pic/轮伐3年.pdf  used on input line 836.
 (pdftex.def)             Requested size: 284.52756pt x 224.63583pt.
 [15pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.842 \par
+l.845 \par
           pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.842 \par
+l.845 \par
            <./code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf> <./code&pic/轮伐3年.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/轮伐图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/轮伐图.pdf, id=609, 652.49484pt x 498.00266pt>
+<code&pic/轮伐图.pdf, id=635, 652.49484pt x 498.00266pt>
 File: code&pic/轮伐图.pdf Graphic file (type pdf)
 <use code&pic/轮伐图.pdf>
-Package pdftex.def Info: code&pic/轮伐图.pdf  used on input line 859.
+Package pdftex.def Info: code&pic/轮伐图.pdf  used on input line 862.
 (pdftex.def)             Requested size: 455.24408pt x 347.46724pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 870.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 873.
 (d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 870.
+(Font)              scaled to size 12.0pt on input line 873.
  [16pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.877   \item U
-               pgrade warehouses to improve utilization rate. With less wood... <./code&pic/轮伐图.pdf>] [17]
+l.880   \item U
+               pgrade warehouses to improve utilization rate. With less wood... <./code&pic/轮伐图.pdf>] [17] [18]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 20.74pt on input line 927.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
@@ -1074,7 +1043,7 @@ Underfull \hbox (badness 1997) in paragraph at lines 934--940
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/大循环.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/大循环.pdf, id=641, 720.71419pt x 698.97476pt>
+<code&pic/大循环.pdf, id=672, 720.71419pt x 698.97476pt>
 File: code&pic/大循环.pdf Graphic file (type pdf)
 <use code&pic/大循环.pdf>
 Package pdftex.def Info: code&pic/大循环.pdf  used on input line 947.
@@ -1089,8 +1058,12 @@ Underfull \hbox (badness 1314) in paragraph at lines 979--984
 \T1/ntxtlf/m/n/12 nat-u-ral and so-cial en-vi-ron-ment enor-mously.
  []
 
-[18 <./code&pic/大循环.pdf>]
-No file 论文.bbl.
+[19 <./code&pic/大循环.pdf>] (./论文.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 27.
+) [20
+
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1007.
 
@@ -1101,7 +1074,7 @@ Overfull \hbox (0.69226pt too wide) in paragraph at lines 1025--1029
 
 
 pdfTeX warning: pdflatex.exe (file ./code&pic/产品腐败数据.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/产品腐败数据.pdf, id=766, 963.6pt x 542.025pt>
+<code&pic/产品腐败数据.pdf, id=804, 963.6pt x 542.025pt>
 File: code&pic/产品腐败数据.pdf Graphic file (type pdf)
 <use code&pic/产品腐败数据.pdf>
 Package pdftex.def Info: code&pic/产品腐败数据.pdf  used on input line 1034.
@@ -1111,9 +1084,7 @@ Overfull \hbox (42.11711pt too wide) in paragraph at lines 1039--1049
 [][] 
  []
 
-[19
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.a..1}) has been already used, duplicate ignored
+[21pdfTeX warning (ext4): destination with the same identifier (name{table.a..1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1051 \newpage
@@ -1121,38 +1092,34 @@ l.1051 \newpage
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1080.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./code&pic/ARIMA.m [20pdfTeX warning (ext4): destination with the same identifier (name{table.a..2}) has been already used, duplicate ignored
+) (./code&pic/Untitled5.m [22pdfTeX warning (ext4): destination with the same identifier (name{table.a..2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.32 set(
-         gca, 'linewidth', 1.2, 'fontsize',10, 'fontname', 'times')]) (./code&pic/Untitled5.m [21]
+l.32         m1=
+                0;]
 Overfull \hbox (362.90579pt too wide) in paragraph at lines 82--83
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) 
 AED: lastpage setting LastPage
-[22]
-
-Package natbib Warning: There were undefined citations.
-
-(./论文.aux)
+[23] (./论文.aux)
 Package rerunfilecheck Info: File `论文.out' has not changed.
-(rerunfilecheck)             Checksum: 343F50305308F3EDE1D041208D7980AF;4781.
+(rerunfilecheck)             Checksum: B22095D6892A8C52B03662DBD4F0EEF1;4781.
  ) 
 Here is how much of TeX's memory you used:
- 17607 strings out of 480901
- 256423 string characters out of 5904911
- 888579 words of memory out of 5000000
- 34192 multiletter control sequences out of 15000+600000
- 457027 words of font info for 85 fonts, out of 8000000 for 9000
+ 17573 strings out of 480901
+ 256137 string characters out of 5904911
+ 882560 words of memory out of 5000000
+ 34195 multiletter control sequences out of 15000+600000
+ 459816 words of font info for 86 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,88p,528b,2627s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on 论文.pdf (24 pages, 4123110 bytes).
+ 86i,13n,88p,797b,2625s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on 论文.pdf (25 pages, 4166082 bytes).
 PDF statistics:
- 1054 PDF objects out of 1200 (max. 8388607)
- 656 compressed objects within 7 object streams
- 220 named destinations out of 1000 (max. 500000)
+ 1035 PDF objects out of 1200 (max. 8388607)
+ 635 compressed objects within 7 object streams
+ 183 named destinations out of 1000 (max. 500000)
  283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
