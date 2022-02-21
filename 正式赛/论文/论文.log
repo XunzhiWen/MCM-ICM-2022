@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  21 FEB 2022 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  21 FEB 2022 23:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -955,11 +955,11 @@ l.597 \end{figure}
                                                   
 l.597 \end{figure}
                    <./code&pic/Interspecies-matrix-eps-converted-to.pdf> <./code&pic/Model2.pdf>]
-<code&pic/Cultural Value Composition.png, id=614, 706.89093pt x 479.54156pt>
+<code&pic/Cultural Value Composition.png, id=614, 707.2824pt x 479.391pt>
 File: code&pic/Cultural Value Composition.png Graphic file (type png)
 <use code&pic/Cultural Value Composition.png>
 Package pdftex.def Info: code&pic/Cultural Value Composition.png  used on input line 604.
-(pdftex.def)             Requested size: 227.62204pt x 154.41498pt.
+(pdftex.def)             Requested size: 227.62204pt x 154.27872pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1087,14 +1087,8 @@ l.967 \end{document}
                                                   
 l.967 \end{document}
                     ] (./论文.aux)
-
-Package rerunfilecheck Warning: File `论文.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `论文.out':
-(rerunfilecheck)             Before: ED514C8405191885450E97A6C5816378;4591
-(rerunfilecheck)             After:  38A91EC6644E8A7D15E654BEC10E4DBD;4526.
+Package rerunfilecheck Info: File `论文.out' has not changed.
+(rerunfilecheck)             Checksum: 38A91EC6644E8A7D15E654BEC10E4DBD;4526.
  ) 
 Here is how much of TeX's memory you used:
  16531 strings out of 480901
@@ -1105,7 +1099,7 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  86i,13n,88p,528b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (22 pages, 3816059 bytes).
+Output written on 论文.pdf (22 pages, 4144459 bytes).
 PDF statistics:
  890 PDF objects out of 1000 (max. 8388607)
  496 compressed objects within 5 object streams
