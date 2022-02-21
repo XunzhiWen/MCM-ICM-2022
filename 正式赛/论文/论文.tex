@@ -30,37 +30,57 @@
 % \usepackage{threeparttable}
 \definecolor{lightBlue}{rgb}{0.867,0.922, 0.969}
 \setlength{\parindent}{2em}
-\title{123}
+\title{Cultivating Strongest Guardian of Earth: Tailored Forest Management Strategies}
 \setlength{\headheight}{15pt}
+%伪代码
+\makeatletter
+\newenvironment{breakablealgorithm}
+  {% \begin{breakablealgorithm}
+   \begin{center}
+     \refstepcounter{algorithm}% New algorithm
+     \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+     \renewcommand{\caption}[2][\relax]{% Make a new \caption
+       {\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+       \ifx\relax##1\relax % #1 is \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+       \else % #1 is not \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+       \fi
+       \kern2pt\hrule\kern2pt
+     }
+  }{% \end{breakablealgorithm}
+     \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+   \end{center}
+  }
+\makeatother
 
 \begin{document}
 \renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
 \renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
 \begin{abstract}
 
-  Carbon Sequestration is one of the fundamental ways to recycle Carbon on the Earth where 
+  Carbon Sequestration is one of the fundamental ways to recycle Carbon Dioxide on the Earth where 
   greenhouse effect floods. Forests, as an essential part of ecosystem, are 
   in whopping capacity of Carbon Sequestration. 
   \par
   In order to better measure the competence of Carbon Sequestration of “Earth's 
-  Lung”, a \textbf{Cellular Automata Model} of natural forest succession is applied to 
+  Lung”, we develop \textbf{Binary Timber Volume Carbon Sequestration Regression Model (BTVCSR)} to 
+  determine the Mass of Carbon sequestered during a period of time in the future.
+  Meanwhile, a \textbf{Cellular Automata Model} is applied to 
   simulate the change of population density under natural conditions, which can 
   enter a stable stage when the \textbf{Living Environment Index} reaches \textbf{232}. 
-  Meanwhile, we develop \textbf{Binary Timber Volume Carbon Sequestration Regression Model (BTVCSR)} to 
-  determine the Mass of Carbon sequestered during a period of time in the future. 
-  Sensitivity test of the Carbon Mass is carried out to find that the Subboreal 
+  Sensitivity test of the Harvest Rate is carried out to find that the Subboreal 
   coniferous forest would sequester \textbf{256.83} tons of Carbon Dioxide per hectare per year 
-  under an appropriate Harvest Rate of around $ \bm{3\%} $ , which ranks the highest. 
-  Furthermore, we compare different proportions of 7 kinds of wooden products 
+  under an appropriate Harvest Rate of $ \bm{3\%} $ , which ranks the highest. 
+  Furthermore, we compare Carbon Sequestration of different proportions of 7 kinds of wooden products 
   and predict the Mass of Carbon Sequestered in those products over 100 years 
   via \textbf{Radial Basis Function Neural Network}, which will reach around 
-  \textbf{140} tons of Carbon Dioxide per hectare per year after 100 years.  Our results not only coincide with reality, 
-  but also provide Forest Managers with scientific Forest Management Strategy.
+  \textbf{140} tons of Carbon Dioxide per hectare per year after 100 years. 
   \par
-  In the meantime, social value of Forests is of great significance. We develop \textbf{Forest Carbon 
+  To better understand the role Forests play both in Ecosystem and human 
+  Society, we develop \textbf{Forest Carbon 
   Sequestration Multidimensional Evaluation Model (FCSME)}, which is 
-  divided into \textbf{Ecological Value} and \textbf{Cultural Value}, to better understand
-  the role Forests play both in Ecosystem and human Society. Through establishing improved 
+  divided into \textbf{Ecological Value} and \textbf{Cultural Value}. Through establishing improved 
  \textbf{ Differential Equations of Carbon Sink Value under Multi-Tree Species Competition},
   we obtain \textbf{Intensity Thermodynamic of Sample Area Interspecific Competition}, 
   in which the highest intensity index reaches $ \bm{0.012} $ , representing the Ecological 
@@ -70,19 +90,25 @@
   and \textbf{Forest Area}, which is applicable to 4 kinds of typical classes of Forests 
   in 9 Regions of United States. By combining Ecological Value with Cultural 
   Value, we figure out that Subtropical Evergreen Broad-leaved Forest ranks the 
-  highest with \textbf{0.993638 (no-harvest)} and \textbf{0.98369 (harvest)}. 
+  top score with \textbf{0.993638 (no-harvest)} and \textbf{0.98369 (harvest)}. 
+  We select and evaluate some index values to determine the transition point 
+  of Strategy and help managers generate strategies.
   \par
   Application on real Forests demonstrates the correctness and robustness of our 
   Model. First of all, we apply \textbf{Autoregressive Integrated Moving Average (ARIMA)} 
-  model to predict the intensity of competition. After that, by selecting and 
+  model to predict the intensity of competition, which can be used in Lotka-Volterra Model of
+  different species. After that, by selecting and 
   calculating 10000 hectares of Subboreal Forests consisting of Douglars Fir and 
   Pinus Densiflora as primary types of trees in Washington State, we find that 
   the Forest will sequester \textbf{261.3} tons of Carbon Dioxide per hectare per year, 
-  whose gap from reality is merely $\bm{8.1\%}$.     
+  whose gap from reality is merely $\bm{8.1\%}$. Besides, on the occasion of increasing Rotation
+  year, we find that the longer the Rotation year is, the higher Harvest Rate should be. 
+  We also provide four recommendations about Rotation year and upgrade of industry for the sake of Forest Managers and Forest industries 
+  to help them smoothly go through the transition period.
 
 
 \begin{keywords}
-
+Carbon Sequestration, Binary Volume Model, Lotka-Volterra Model, Forest Management, FCSME
 \end{keywords}
 \end{abstract}
 \maketitle
@@ -119,19 +145,15 @@ but also the conservation and diversity of wild species, recreational uses and c
     most efficient at sequestering carbon.
     \item [2.] Develop a decision model consisting of various ways that forests are valued (including
     carbon sequestration) for forest managers to understand the best use of a forest. Consider 
-    the following questions. What is the scope of the management plan that your decision model might suggest?
+    the following questions. 
     Are there any conditions that the forests should not be harvested?
-    Whether there is a transition point between management plans applicable to all forests?
     How can the characteristics of a particular forest and its location be used 
     to determine transition points between management plans?
     \item [3.] Apply your models to various forests. Identify a forest that your decision model 
     would suggest the inclusion of harvesting in its management plan.
     How much carbon dioxide can be sequestered by this forest and its products in 100 years?
     What kind of forest management plan should be carried out for this forest? Why it's best?
-    The best management plan is assumed to include a harvest interval of 10 
-    years longer than current forest practices discussing strategies for transitioning 
-    from existing to new schedules in a manner sensitive to the needs of forest managers 
-    and all those who use forests.
+    How to prolong rotation year?
 
     \item [4.] Some people think that we should never cut down any trees, but you've
     determined the forest which includes harvest in its management. Write a one-to-two-page
@@ -140,21 +162,25 @@ but also the conservation and diversity of wild species, recreational uses and c
     should convince local community that it's the best decision for their forest.
 \end{enumerate}
 
-\subsection{Overview of Our Work}
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 10cm]{code&pic/框架图.pdf}
-\end{figure}
 
 
 \section{Assumptions and Justifications}
 These are necessary assumptions for simplifying the model.
 \begin{enumerate}
-  \item [1.] 
+  \item Suppose the harvested wood in warehouse doesn't corrode, meaning no change in its Carbon Sequestration;
+  \item Global greenhouse effect and climate change have no influence on Forest Carbon Sequestration;
+  \item Inflation is not considered when calculating Carbon sink;
+  \item Only natural Forests are considered when calculating area proportion in administrative regions;
+  \item Deadwood Volume, Carbon Sequestration of leaves and soil rises merely with the increase of area;
+  \item Harvest is conducted evenly all around the Forest.
 \end{enumerate}
+\section{Overview of Our Work}
 
-\newpage
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 10cm]{code&pic/框架图.pdf}
+\end{figure}
 
 \section{Notations}
 
@@ -215,7 +241,7 @@ and the simulation result is shown in Figure \ref{CA_Result}, in which
 we learn that the under the natural circumstances, the forestry population size
 will reach and remain around 2100 per hectare. 
 
-\begin{figure}[t]
+\begin{figure}[htb]
   \centering
   \includegraphics[width = 14cm]{code&pic/CA-pic.pdf}
   \caption{Result of Cellular Automation}\label{CA_Result}
@@ -227,59 +253,11 @@ In order to clearly demonstrate the amount of carbon sequestered by forests and 
 products, we decide to consider the trunk volume of living trees as an estimation of 
 total Volume of trees that are able to store carbon \citep{WangYan}. 
 \par
-For the living trees, we apply Binary Timber Volume Regression model \citep{LuoQingbang} 
-to depict their growth as shown in Algorithm \ref{Binary Volume Algo}. 
-It is significant
-to point out that $ \beta_b $ and $ \beta_c $ are two \textbf{Conversion Factors} from
-Timber Volume to Carbon Mass sequestered. Besides, the mass of carbon sequestered in
-soil and leaves can be deemed as a constant which merely depends on the area
-of coniferous and broad-leaved forests \citep{YanDeren2011}. 
-\par
-As for the wooden products, we consider $ w $ kinds of wooden products, each kind,
-which decomposes at the rate of $ m_i (i = 1,\cdots, w) $, accounts for $ \phi_i$ 
-of the total product mass \citep{2006Forest}. Note that the \textbf{harvest rate} $ \lambda $ and the product
-proportion $ \phi $ are flexible regarding the circumstances, which are also 
-the core of our forest management. And the harvest will be conducted every 
-$ p $ years, which is \textbf{Rotation}. 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 12cm]{code&pic/采伐率mindmap.pdf}
+  \includegraphics[width = 14cm]{code&pic/采伐率mindmap.pdf}
   \caption{Mind Map of Carbon Sequestration Model}
 \end{figure}
-\par
-What's more, we hold the view that 
-the volume of wooden products derive from the volume of harvested trees with a certain
-\textbf{Scrap Rate} $ s $. Suppose the harvested wood is stored in a well-organized
-warehouse and the storage will become products in next $ p $ years, which means 
- $ \frac{1}{p} $ of all the storage will become products every year.
-The complete idea is shown in Algorithm \ref{Product Algo}.
-\par
-\begin{figure}[ht]
-  \begin{minipage}[htbp]{0.42\linewidth}
-    The Scrap Rate is determined as following descriptions, which is also shown 
-    in Figure \ref{RoundWood} on the right. There are two 
-    manufacturing methods of Round Wood harvested from the forests. 
-    \par
-    One way is to trim the wood neatly into slabs in different shapes so that they can
-    occupy most of the volume of the wood, which will be processed into softwood plywood, 
-    panels and board. Meanwhile, the scrap will be manufactured into miscellaneous 
-    products. It can approach the utilization rate of 81.3\%.
-    \par
-    The other kind of craft is to separate the bark and turn it into paper, and 
-    the separated log can be processed into softwood and hardwood. The utilization 
-    rate of this craft is able to reach almost 100\%.
-  \end{minipage}
-  \hfill
-  \begin{minipage}[htbp]{0.5\linewidth}
-    \begin{flushright}
-      \includegraphics[width = 8.61cm]{code&pic/Roundwood cutting ways.pdf}
-      \caption{Utilization Rate of Round Wood}\label{RoundWood}
-    \end{flushright}
-  \end{minipage}
-\end{figure}
-
-
-
 
 \begin{algorithm}[htbp]
     \caption{Binary Timber Volume Regression of Carbon Prediction Algorithm}\label{Binary Volume Algo}
@@ -323,41 +301,88 @@ The complete idea is shown in Algorithm \ref{Product Algo}.
         Carbon Dioxide Quantity of Forest = $\frac{44}{12}\times\rm{CarbonMass_f}$ 
     \end{algorithmic}
   \end{algorithm}
-  
-  \begin{algorithm}[htbp]
-    \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} \label{Product Algo}
-    \begin{algorithmic}[1]
-        \Require
-            $ \phi $, $ s $, $ m $, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $ in Algorithm1,
-            Rotation year $ p $ 
-        \For{$ t\gets1 $ to n}
-            \For{$ i\gets1 $ to hidden\_dim}
-
-                $ y_0 \gets Initiate $ 
-
-                $ \hat{y_t} = \hat{y_{t-1}} + \phi_{it}V_i(t) $
-            
-                $ c_i\gets $ Sample CarbonMass
-            
-                $ \sigma_i\gets $ Z-score Normalization
-
-                $ V_i(t) = e^{-\frac{||t-c_i||^2}{2\sigma_i^2}} $
-            \EndFor
-
-            $ M_0\gets Initiate $ 
-
-            $ c = t-(t\mod p)+1 $ 
-
-            \For{$ j\gets 1$ to $ w $}
+  For the living trees, we apply Binary Timber Volume Regression model \citep{LuoQingbang} 
+  to depict their growth as shown in Algorithm \ref{Binary Volume Algo}. 
+  It is significant
+  to point out that $ \beta_b $ and $ \beta_c $ are two \textbf{Conversion Factors} from
+  Timber Volume to Carbon Mass sequestered. Besides, the mass of carbon sequestered in
+  soil and leaves can be deemed as a constant which merely depends on the area
+  of coniferous and broad-leaved forests \citep{YanDeren2011}. 
+  \par
+  As for the wooden products, we consider $ w $ kinds of wooden products, each kind,
+which decomposes at the rate of $ m_i (i = 1,\cdots, w) $, accounts for $ \phi_i$ 
+of the total product mass \citep{2006Forest}. Note that the \textbf{harvest rate} $ \lambda $ and the product
+proportion $ \phi $ are flexible regarding the circumstances, which are also 
+the core of our forest management. And the harvest will be conducted every 
+$ p $ years, which is \textbf{Rotation}. 
+\par
+What's more, we hold the view that 
+the volume of wooden products derive from the volume of harvested trees with a certain
+\textbf{Scrap Rate} $ s $. Suppose the harvested wood is stored in a well-organized
+warehouse and the storage will become products in next $ p $ years, which means 
+ $ \frac{1}{p} $ of all the storage will become products every year.
+The complete idea is shown in Algorithm \ref{Product Algo}.
 
 
-            $ M_t = M_{t-1}+(1-s)\lambda \times \frac{1}{p} (\beta_cV_c(c)+\beta_bV_b(c))\times \phi_j(t)m_j(t)$ 
-            \EndFor
-        \EndFor
-        \Ensure
-        Carbon Dioxide Quantity of Wooden Products = $ \frac{44}{12} \times M_t$ 
-    \end{algorithmic}
+\begin{figure}[htbp]
+  \begin{minipage}[htbp]{0.42\linewidth}
+    The Scrap Rate is determined as following descriptions, which is also shown 
+    in Figure \ref{RoundWood} on the right. There are two 
+    manufacturing methods of Round Wood harvested from the forests. 
+    \par
+    One way is to trim the wood neatly into slabs in different shapes so that they can
+    occupy most of the volume of the wood, which will be processed into softwood plywood, 
+    panels and board. Meanwhile, the scrap will be manufactured into miscellaneous 
+    products. It can approach the utilization rate of 81.3\%.
+    \par
+    The other kind of craft is to separate the bark and turn it into paper, and 
+    the separated log can be processed into softwood and hardwood. The utilization 
+    rate of this craft is able to reach almost 100\%.
+  \end{minipage}
+  \hfill
+  \begin{minipage}[htbp]{0.5\linewidth}
+    \begin{flushright}
+      \includegraphics[width = 8.61cm]{code&pic/Roundwood cutting ways.pdf}
+      \caption{Utilization Rate of Round Wood}\label{RoundWood}
+    \end{flushright}
+  \end{minipage}
+\end{figure}
+
+
+\begin{algorithm}[htbp]
+  \caption{RBF Neural Network Fitting of wooden products for carbon sequestration Algorithm} \label{Product Algo}
+  \begin{algorithmic}[1]
+      \Require
+          $ \phi $, $ s $, $ m $, $ w $ as kinds wooden products, Standardized CarbonMass and $ V $ in Algorithm1,
+          Rotation year $ p $ 
+      \For{$ t\gets1 $ to n}
+          \For{$ i\gets1 $ to hidden\_dim}
+
+              $ y_0 \gets Initiate $ 
+
+              $ \hat{y_t} = \hat{y_{t-1}} + \phi_{it}V_i(t) $
+          
+              $ c_i\gets $ Sample CarbonMass
+          
+              $ \sigma_i\gets $ Z-score Normalization
+
+              $ V_i(t) = e^{-\frac{||t-c_i||^2}{2\sigma_i^2}} $
+          \EndFor
+
+          $ M_0\gets Initiate, \quad c = t-(t\mod p)+1$ 
+
+          \For{$ j\gets 1$ to $ w $}
+
+
+          $ M_t = M_{t-1}+(1-s)\lambda \times \frac{1}{p} (\beta_cV_c(c)+\beta_bV_b(c))\times \phi_j(t)m_j(t)$ 
+          \EndFor
+      \EndFor
+      \Ensure
+      Carbon Dioxide Quantity of Wooden Products = $ \frac{44}{12} \times M_t$ 
+  \end{algorithmic}
 \end{algorithm}
+
+
 
 \subsection{Results and Sensitivity Test}
 
@@ -414,7 +439,6 @@ leads to around $ \bm{140} $\textbf{ tons of Carbon Dioxide Sequestration per he
   \centering
   \includegraphics[width = 0.48\textwidth]{code&pic/proportion.pdf}\label{Product Proportion sensTest}
   }
-
 \caption{Results of sensitivity test of Harvest Rate and Product Proportion}
 \end{figure}
 
@@ -437,19 +461,7 @@ in line with the expected values - and eventually better managing
 the overall forest sector \citep{2017Cerutti}.
 
 
-% In turn, the reduced number of trees 
-% felled means less damage to the remaining standing trees around the felled 
-% area (that is, the logging gap that trees can create when felled) and to the 
-% vegetation between the nearest major logging road and the trees in order to 
-% reach and harvest the latter. 
-
-
-\newpage
-
-
-
-
-\section{Model II}
+\section{Forest Carbon Sequestration Multidimensional Evaluation Model}
 
 
 In order to comprehensively consider the multiple social interests, we add
@@ -460,15 +472,6 @@ The indexes are divided into two aspects, namely \textbf{Ecological Value} and \
 Ecological Value weighs $ \bm{4.123} $  times than Cultural Value \citep{2007US}. 
 
 \subsection{Ecological Value}
-Figure \ref{CarbonCircle} clearly demonstrates the principle of the carbon circle and roles that Forestry Species play in the 
-circle, which helps us to understand the necessary procedure to manage Forestry Carbon Sequestration.
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 10cm]{code&pic/大循环.pdf}
-  \caption{Carbon Circle in Forest Ecosystem}\label{CarbonCircle}
-\end{figure}
-
 Ecological Value includes the following indexes: \textbf{Carbon Credit Benefit and 
 Cost Analysis(CVal), Wooden Product Proportion, Harvest Rate} and \textbf{Interspecific 
 Competition}, which will exert influence on ecological value in this Forest.
@@ -547,17 +550,20 @@ there are two possible results of the interspecific competition. One is that the
 population stabilized, while the other is that they compete fiercely, whose population fluctuate
 dramatically.
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width = 14cm]{code&pic/Interspecies.eps}
-  \caption{Interspecific Competition Result of Douglas Fir and Pinus Densiflora}\label{Douglas Fir and Pinus Densiflora result}
-\end{figure}
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 9cm]{code&pic/Interspecies-matrix.eps}
-  \caption{Thermodynamic Diagram of Competition}\label{Matrix Douglas Fir and Pinus Densiflora}
+  \subfigure[Interspecific Competition Result of Douglas Fir and Pinus Densiflora]{
+  \centering
+  \includegraphics[width = 0.53\textwidth]{code&pic/Interspecies.eps}\label{Douglas Fir and Pinus Densiflora result}
+  }
+  \subfigure[Thermodynamic Diagram of Competition]{
+  \centering
+  \includegraphics[width = 0.43\textwidth]{code&pic/Interspecies-matrix.eps}\label{Matrix Douglas Fir and Pinus Densiflora}
+  }
+\caption{Results of sensitivity test of Harvest Rate and Product Proportion}
 \end{figure}
+
 
 \subsection{Cultural Value}
 
@@ -578,7 +584,7 @@ constant \citep{2007US}. Size and Proportion of Forest can be searched and estim
 map websites, while the Forest Hierarchy is easy to search. 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width = 8cm]{code&pic/Model2.pdf}
+  \includegraphics[width = 10cm]{code&pic/Model2.pdf}
   \caption{Influencing indexes of Forest Culture Value}\label{Index_CulVal}
 \end{figure}
 
@@ -683,6 +689,33 @@ harvest is beneficial to in a general basis:
 
 \subsection{Forestry Management Recommendations}
 
+Location of Forests determines climate, rain, people population density, proportion 
+of Forests and the probability of natural disaster, influencing Ecological Value and 
+Cultural Value. Climate, rain and natural disaster are vital for the population of 
+Forest, affecting Forest Density and Interspecific Competition, which are the indexes 
+of Ecological value. Biodiversity and Proportion of Forest influences Cultural Value.
+\par
+For example, Subtropical Evergreen Broad-leaved Forest and Subboreal Coniferous Forest. 
+Subtropical Evergreen Broad-leaved Forest is located in the southern United States with rich rainfall 
+,relatively high temperature, solar radiation, high population density and 
+biodiversity of the forest, so the ecological value is very high. Subboreal Coniferous Forest
+is in the north, where the sun radiation is relatively low and latitudes is small, 
+and it is relatively dry.In order to maximize the value, there must be \textbf{transition points} 
+between management strategies of different Forests.
+\par
+According to our FCSME Model, Biodiversity, Interspecific Competition, Population 
+Density and Area of Forest can be chosen to determine the transition point. After 
+calculating the value of those previous indexes, Forest Managers can apply different 
+strategies such as Harvest Rate, Rotation year, Crop Rotation and Rational Close 
+Planting, etc. For example, when the forest population density score is 
+$ [0,25],[25,50],[50,75],[75,100] $ , the logging rate will increase in turn, and the 
+cutting interval time will be correspondingly compressed, and the reasonable intensity 
+of dense planting will decrease in turn.
+\par
+Suppose population density score of Subtropical Evergreen Broad-leaved Forest is 
+100 and Subboreal Coniferous Forest score is 40. So managers of Subboreal Coniferous Forest
+should consider lower Harvest Rate than that of Subtropical Evergreen Broad-leaved Forest, 
+increasing Rotation year and enforcing bans from cutting trees under certain diameter. 
 
 
 
@@ -704,9 +737,6 @@ is shown as Figure \ref{ARIMA_ALGO}.
 Under regular circumstances, the time series we obtain in the real world
   has tendency, seasonality and non-stationarity. Thus, it's vital for 
   us to transfer the non-stationary time series to stationary time series
-\par
-\begin{figure}[ht]
-\begin{minipage}[htbp]{0.37\linewidth}
   and make an assumption that the time series is an Auto 
   Regressive Moving Average(ARMA) series to predict the 
   future data. ARMA series is defined as follows.
@@ -722,27 +752,15 @@ Akaike Information Criterion(AIC) is one of the most commonly used
 criterion to determine the degree of $ \mathbf{ARMA}(p,q) $: choose 
 $ p,q $ such that 
 \begin{equation}\label{AIC}
-  \begin{aligned}
-    \min \mathbf{AIC} &= n\ln \hat{\sigma_\epsilon^2} \\
-    &+ 2(p+q+1)
-  \end{aligned}
+    \min \mathbf{AIC} = n\ln \hat{\sigma_\epsilon^2}+ 2(p+q+1)
 \end{equation}
 $ n $ is the capacity of sample;$ \hat{\sigma_\epsilon^2} $ is the
 estimation of $ \sigma_\epsilon^2 $ relating to $ p $ and $ q $.
-Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
+
+\begin{figure}[ht]
+\begin{minipage}[htbp]{0.37\linewidth}
+  Suppose $ p = \hat{p}, q = \hat{q} $, such that equation(\ref{AIC}) reaches the minimum,
 than we deem the series is $ \mathbf{ARMA}(\hat{p},\hat{q}) $. 
-\end{minipage}
-\hfill
-\begin{minipage}[htbp]{0.6\linewidth}
-  \begin{flushleft}
-    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
-   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
-  \end{flushleft}
-\end{minipage}
-\end{figure}
-
-
-
 \par
 Suppose $ \mathbf{ARMA}(p,q) $ series has an unknown average parameter $ \mu $,
 the model becomes
@@ -763,7 +781,16 @@ certain class of non-stationary series. And It's emphasized that
 stationary test must be conducted previously. Stationary test can 
 be applied by calculating sample autocorrelation function and 
 sample coefficient of partial function. 
-\par
+\end{minipage}
+\hfill
+\begin{minipage}[htbp]{0.6\linewidth}
+  \begin{flushleft}
+    \includegraphics[width =11cm]{code&pic/ARIMA_裁剪页面.pdf}
+   \caption{Algorithm Block of ARIMA}\label{ARIMA_ALGO}
+  \end{flushleft}
+\end{minipage}
+\end{figure}
+
 If the functions are truncated or trending to 0 (meaning being controlled
 by negative index), than the series belongs to ARMA model.
 \par
@@ -778,31 +805,24 @@ $$
   W_t = \nabla^dX_t,\quad t = d+1,\dots , n
 $$ 
 
+After that, apply stationary test on $ W_t $ and repeat steps above 
+until it becomes a stationary series, Than $ W_t $(which is denoted
+as $ X_t $ ) complies ARMA model. 
+\par
+From the result of ARIMA we can see that the predicted Coefficient of Competition
+between  Douglas Fir and Pinus Densiflora $ \alpha  $ and $ \beta $ is $ \bm{12.78} $  and $ \bm{11.23}$
+in the future 100 years. Residual, Coefficient of Autocorrelation and Cross Coefficient
+of ARIMA is shown in Figure \ref{ARIMA Res}.
 
-
-\begin{figure}[ht]
-
-  \hfill
-  \begin{minipage}[htbp]{0.63\linewidth}
-    \begin{flushleft}
-      \includegraphics[width = 9cm]{code&pic/ARIMA残差&自相关互相关系数.eps}
-      \caption{Residual, Coefficient of autocorrelation and cross correlation of ARIMA}\label{ARIMA Res}
-    \end{flushleft}
-  \end{minipage}
-    \begin{minipage}[htbp]{0.34\linewidth}
-      After that, apply stationary test on $ W_t $ and repeat steps above 
-      until it becomes a stationary series, Than $ W_t $(which is denoted
-      as $ X_t $ ) complies ARMA model. 
-      \par
-      From the result of ARIMA we can see that the predicted Coefficient of Competition
-      between  Douglas Fir and Pinus Densiflora $ \alpha  $ and $ \beta $ is $ \bm{12.78} $  and $ \bm{11.23}$
-      in the future 100 years. Residual, Coefficient of Autocorrelation and Cross Coefficient
-      of ARIMA is shown in Figure \ref{ARIMA Res}.
-  \end{minipage}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width = 12cm]{code&pic/ARIMA残差&自相关互相关系数.eps}
+  \caption{Residual, Coefficient of autocorrelation and cross correlation of ARIMA}\label{ARIMA Res}
 \end{figure}
 
+\newpage
 
-\subsection{Results and Sensitivity Test }
+\subsection{Results and Sensitivity Test}\label{applicationResult}
 Under the Rotation year $ p = 3 $, we combine our first Model of Carbon Sequestration
 with Lotka-Volterra Model to further simulate the change rule of Carbon Sequestration 
 over 100 years. As is shown in Figure \ref{Rotation3}, the Carbon Sequestration will
@@ -834,39 +854,137 @@ sequesters the most Carbon Dioxide after 100 years increases, too. If the harves
 every 13 years, then the Harvest Rate should be 0.29, which may cause severe change to the
 forest on a short-term basis, but will accumulate and lead to more Carbon sequestered.
 
-\begin{figure}
+\begin{figure}[htbp]
   \centering
-  \includegraphics[width = 17cm]{code&pic/轮伐图.pdf}
+  \includegraphics[width = 16cm]{code&pic/轮伐图.pdf}
   \caption{Sensitivity Test of different Rotation Year}\label{RotationYear}
 \end{figure}
 
 \subsection{Discussion and Management Plans}
 
-
-
-
-
+During the transition period, interest of two kinds of people should be taken into 
+great considerations, who are Forest Managers and Forest Industries. Thus, our policy 
+suggestions are as follows. 
+\par
+\begin{itemize}
+  \item Prolong the Rotation year gradually rather than suddenly. Sudden increase of 
+  Rotation year does damages to those who rely on harvesting trees. Besides, progressive, 
+  predictable change creates much less resistance for managers. 
+  \item Rise Harvest Rate while increasing Rotation year. Longer Rotation year means more time for Forests to recover. 
+  As is discussed in section \ref{applicationResult}, managers should increase Harvest Rate to
+  maintain the Carbon Sequestration and keep the economic benefits of the Forest at 
+  the same level.
+  \item Upgrade warehouses to improve utilization rate. With less wood corroding 
+  in storage, Carbon Sequestration and economic effectiveness rise.
+  \item Keep observing and tracking about circumstances of the Forest so that appropriate
+  adjustments can be arranged in time.
+\end{itemize}
 
 
 
 \section{Evaluation of Model}
+Our model fully considers various possible situations in Forest management, 
+such as Harvest Rate and Rotation years, interspecific competition, ecological 
+and cultural value, etc. and it is suitable for real conditions, indicating 
+that it is a relatively perfect strategy system.
 
 \textbf{Strength:}
+\begin{enumerate}
+  \item Apply the principle of Cellular Automata to design Forest cells, 
+  and simulate the process of Forest natural succession, which is highly 
+  practical;
+  \item After comparison and verification with the actual data, it shows that the binary timber volume model can accurately calculate the carbon sequestration of a certain area of Forest, ensuring the reliability and application of the model.
+  \item The interpretation and explanation of the FCSME model on the competition among multi-species Forests and Forest species in different climate zones are applicable to different Forest types across the United States, and can be further extended, and thus can serve as an effective guidance and reference for government management policies;
+  \item Time series prediction model can predict the future development trend at a relatively high accuracy, consistent with the reality.
+  \item Our model attributes various indicators to the evaluation of Ecological Value and Cultural Value, and considers the Forest and location characteristics to quantify the size of the Forest value in the social range, which is very beneficial to the government to determine the management strategy transition points between different Forests.
+
+
+\end{enumerate}
+
+\textbf{Weakness:}
+Our models are not practiced in the formulation plan of ultra-large Forests 
+and may need to be further corrected in specific practice.
 
 
 \section{Conclusions}
-
+\begin{enumerate}
+  \item 256.83 tons of Carbon Dioxide sequestered per hectare per year under 
+  the Harvest Rate of 0.03, ranking highest if merely Carbon Sequestration 
+  is considered;
+  \item The more products with low Decomposition Rate are, the more Carbon Sequestered;
+  \item Subtropical Evergreen Broad-leaved Forest ranks the highest with 0.993638 (no-
+  harvest) and 0.98369 (harvest) in FCSME Model;
+  \item The longer the Rotation year is , the higher Harvest Rate should be to reach highest Carbon Sequestration.
+\end{enumerate}
 
 
 \newpage
+
 \phantomsection\addcontentsline{toc}{section}{Harvesting Trees is Good For All!}\tolerance=500
-\memoto{Relavant Authorities}
-\memofrom{MCM/ICM team 2215432}
+
 \memodate{\today}
 
 \begin{memo}[Harvesting Trees is Good For All!]
 
-  
+  \begin{figure}[ht]
+    \hfill
+    \begin{minipage}[htbp]{0.475\linewidth}
+      \indent\setlength{\parindent}{1em}
+      \par
+      Harvesting trees has become a symbol against environmental protection in recent decades
+      thanks to the over whelming propaganda of tropical rain forests falling down, causing
+      great damage to our ecosystem and so on. However, there is one thing that needs to be 
+      claimed: Appropriate harvest of trees is good for all! It's not only beneficial to
+      the environment and the ecosystem, but also good for us human-beings, in no matter
+      short or long term.
+      \par
+      As is kwon to all, climate change has become one of the top agendas concerning the 
+      future of humanity, which is primarily caused by greenhouse gases, in which carbon
+      dioxide ranks very high. Plants can absorb carbon dioxide vented by animals or released
+      by burning fossil fuels, and forests are playing a significant role in sequestering
+      carbon from atmosphere, preventing it from making greenhouse effect even worse. 
+      \par
+      \includegraphics[width = 8cm]{code&pic/大循环.pdf}
+      \par
+      Some people may wonder why should we harvest trees if they are so important in sequestering
+      carbon dioxide? There are two reasons for this.  
+    \end{minipage}
+    \hfill
+    \begin{minipage}[htbp]{0.475\linewidth}
+      \indent\setlength{\parindent}{1em}
+      \par
+      First of all, if we cut those mature trees whose capacity of sequestering carbon is declining, 
+      we make surviving room for those younger trees who sequester more carbon 
+      than those harvested during the same period of time. 
+      Besides, wooden products made of harvested trees can reserve the carbon they 
+      sequestered much more longer than the deadwood do, because people are quite careful
+      about preventing corrosion from their furniture and house. 
+      Thus, harvesting trees helps Sequester more carbon.
+      \par
+      The second reason why cutting down trees is better than not cutting down trees is that 
+      cutting down trees is better for people.
+      \par
+      In social and economic perspective, forest harvest brings larger profit to many 
+      industries. The storage, processing, transportation and transaction of wooden 
+      products profoundly stimulate economic growth of our society, without which 
+      there will be lots of unemployment.
+      \par
+      What's more, wooden products facilitate our daily life, lifting people's quality 
+      of life. Generally speaking, the quality of mature trees in forests is better 
+      than that of planted trees, and they will have an advantage in terms of wood
+      density, hardness, flatness and longevity. With most people now more interested 
+      in product quality, wood sources from forests will become more popular in the 
+      market and the public
+      \par
+      In a nut shell, harvesting trees benefits both natural and social environment 
+      enormously. Thus, appropriate forest harvest is the best decision under the 
+      consideration of the balance of environmental protection, economic benefits 
+      and quality of life. Hopefully we can be more tolerant of harvesting trees and 
+      establish a better home for all of us!
+
+    \end{minipage}
+
+  \end{figure}
 \end{memo}
 
 
@@ -884,9 +1002,11 @@ forest on a short-term basis, but will accumulate and lead to more Carbon seques
 \lhead{\small\sffamily \team}
 % \rhead{\small\sffamily Page \thepage\ }
 
+\newpage
+
 \begin{appendices}
 
-\textbf{Parameter Settings of hypothetic Forest}
+\textbf{Parameter Settings of hypothetic Forest:}
 
 $ a=0.00006303;
 D1=0.25;
@@ -906,7 +1026,9 @@ $
 d=[0.125984252 0.031496063 0.251968504 0.503937008 0.062992126 0.015748031 
 0.007874016];
  $ 
+ \par
 
+ \textbf{Decomposition conditions of wooden products:}
 \begin{figure}[htbp]
   \centering
   \includegraphics[width = 14cm]{code&pic/产品腐败数据.pdf}
@@ -926,7 +1048,9 @@ d=[0.125984252 0.031496063 0.251968504 0.503937008 0.062992126 0.015748031
   \end{tabular}
 \end{table}
 
-\begin{table}[]
+\newpage
+
+\begin{table}[ht]
   \caption{Result of i-Tree}\label{iTree}
   \begin{tabular}{
   >{\columncolor[HTML]{FFFFFF}}c |
@@ -952,14 +1076,9 @@ d=[0.125984252 0.031496063 0.251968504 0.503937008 0.062992126 0.015748031
   \end{tabular}
   \end{table}
 
-
-% \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input python source:}}
-% \lstinputlisting[language=python]{./codes/verhulst.py}
-
-
-% \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
-% \lstinputlisting[language=Matlab]{./codes/lagrange_main.m}
-
+\textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
+\lstinputlisting[language=Matlab]{code&pic/ARIMA.m}
+\lstinputlisting[language=Matlab]{code&pic/Untitled5.m}
 
 \end{appendices}
 
