@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.25)  22 FEB 2022 05:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.25)  30 MAR 2022 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,24 +15,24 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
  (d:/Applications/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count179
+\XKV@depth=\count175
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (d:/Applications/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count180
+\etb@tempcnta=\count176
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -65,22 +65,22 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count189
+\lst@mode=\count185
 \lst@gtempboxa=\box49
 \lst@token=\toks21
-\lst@length=\count190
+\lst@length=\count186
 \lst@currlwidth=\dimen140
-\lst@column=\count191
-\lst@pos=\count192
+\lst@column=\count187
+\lst@pos=\count188
 \lst@lostspace=\dimen141
 \lst@width=\dimen142
-\lst@newlines=\count193
-\lst@lineno=\count194
+\lst@newlines=\count189
+\lst@lineno=\count190
 \lst@maxwidth=\dimen143
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count195
-\lst@skipnumbers=\count196
+\c@lstnumber=\count191
+\lst@skipnumbers=\count192
 \lst@framebox=\box50
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -88,9 +88,9 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count197
-\c@@ppsavesec=\count198
-\c@@ppsaveapp=\count199
+\c@@pps=\count193
+\c@@ppsavesec=\count194
+\c@@ppsaveapp=\count195
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip58
@@ -134,13 +134,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -149,15 +149,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen146
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
-\c@MaxMatrixCols=\count272
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks31
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks32
 \eqnshift@=\dimen147
 \alignsep@=\dimen148
@@ -194,21 +194,21 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip69
 \LTpre=\skip70
 \LTpost=\skip71
-\LTchunksize=\count278
+\LTchunksize=\count274
 \LTcapwidth=\dimen153
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
-\LT@cols=\count279
-\LT@rows=\count280
-\c@LT@tables=\count281
-\c@LT@chunks=\count282
+\LT@cols=\count275
+\LT@rows=\count276
+\c@LT@tables=\count277
+\c@LT@chunks=\count278
 \LT@p@ftn=\toks35
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip72
-\multirow@cntb=\count283
+\multirow@cntb=\count279
 \multirow@dima=\skip73
 \bigstrutjot=\dimen154
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/tools/hhline.sty
@@ -230,7 +230,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@old@col=\dimen159
 \TX@target=\dimen160
 \TX@delta=\dimen161
-\TX@cols=\count284
+\TX@cols=\count280
 \TX@ftn=\toks37
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/flafter.sty
 Package: flafter 2018/11/28 v1.4d Standard LaTeX floats after reference (FMi)
@@ -247,15 +247,15 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (d:/Applications/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count285
-\calc@Bcount=\count286
+\calc@Acount=\count281
+\calc@Bcount=\count282
 \calc@Adimen=\dimen162
 \calc@Bdimen=\dimen163
 \calc@Askip=\skip76
 \calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count287
+\calc@Ccount=\count283
 \calc@Cskip=\skip78
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
@@ -264,9 +264,9 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+Package color Info: Driver file: xetex.def on input line 147.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
 \everycr=\toks38
 \minrowclearance=\skip79
@@ -282,12 +282,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen171
 \cmidrulekern=\dimen172
 \defaultaddspace=\dimen173
-\@cmidla=\count288
-\@cmidlb=\count289
+\@cmidla=\count284
+\@cmidlb=\count285
 \@aboverulesep=\dimen174
 \@belowrulesep=\dimen175
-\@thisruleclass=\count290
-\@lastruleclass=\count291
+\@thisruleclass=\count286
+\@lastruleclass=\count287
 \@thisrulewidth=\dimen176
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -296,9 +296,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (d:/Applications/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
 \Gm@bindingoffset=\dimen177
 \Gm@wd@mp=\dimen178
 \Gm@odd@mp=\dimen179
@@ -310,7 +310,10 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks39
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (d:/Applications/texlive/2021/texmf-dist/tex/latex/bera/berasans.sty
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (d:/Applications/texlive/2021/texmf-dist/tex/latex/bera/berasans.sty
 Package: berasans 2004/01/30 (WaS)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
@@ -323,7 +326,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -340,12 +343,10 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel languages
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -353,11 +354,9 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count293
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -366,7 +365,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count298
+\c@Hy@tempcnt=\count294
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -378,7 +377,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (d:/Applications/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count299
+\Fld@menulength=\count295
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -394,22 +393,27 @@ LaTeX Info: Redefining \pageref on input line 6149.
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
 with kernel methods
 )
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+ (d:/Applications/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box59
+\c@Hy@AnnotLevel=\count299
+\HyField@AnnotCount=\count300
+\Fld@listcount=\count301
+\c@bookmark@seq@number=\count302
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
-)
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (d:/Applications/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (d:/Applications/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
@@ -432,31 +436,18 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 105.
 )
 \Gin@req@height=\dimen189
 \Gin@req@width=\dimen190
-) (d:/Applications/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
-Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-) (d:/Applications/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))) (d:/Applications/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (d:/Applications/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -467,7 +458,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-\c@Theorem=\count305
+\c@Theorem=\count303
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -489,8 +480,144 @@ LaTeX Info: Redefining \textulc on input line 49.
 )
 \ntx@fs=\dimen191
  (d:/Applications/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (d:/Applications/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count306
-\decimalpart=\count307
+\integerpart=\count304
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count305
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/carlisle/scalefnt.sty) (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
@@ -506,14 +633,21 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
 )
 LaTeX Info: Redefining \textin on input line 103.
-\ntxt@cntz=\count308
+\ntxt@cntz=\count306
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 316.
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
- (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
-\l__pdf_internal_box=\box59
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count307
+\l__color_backend_stack_int=\count308
+\g__color_backend_stack_int=\count309
+\g__graphics_track_int=\count310
+\l__pdf_internal_box=\box60
+\g__pdf_backend_object_int=\count311
+\g__pdf_backend_annotation_int=\count312
+\g__pdf_backend_link_int=\count313
 )) (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (d:/Applications/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -528,10 +662,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip83
 \subfigcapmargin=\dimen193
 \subfiglabelskip=\skip84
-\c@subfigure=\count310
-\c@lofdepth=\count311
-\c@subtable=\count312
-\c@lotdepth=\count313
+\c@subfigure=\count314
+\c@lofdepth=\count315
+\c@subtable=\count316
+\c@lotdepth=\count317
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -545,7 +679,7 @@ Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivie
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count314
+\c@BibCnt=\count318
 \bibleftmargin=\skip87
 \bibindent=\skip88
 \bibparsep=\skip89
@@ -558,7 +692,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citeauthor on input line 712.
 LaTeX Info: Redefining \citeyear on input line 735.
-\c@NAT@ctr=\count315
+\c@NAT@ctr=\count319
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
 Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/xifthen/xifthen.sty
@@ -567,28 +701,27 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))) (d:/Applications/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count316
-\mult@box=\box60
+\c@tracingmulticols=\count320
+\mult@box=\box61
 \multicol@leftmargin=\dimen194
-\c@unbalance=\count317
-\c@collectmore=\count318
-\doublecol@number=\count319
-\multicoltolerance=\count320
-\multicolpretolerance=\count321
+\c@unbalance=\count321
+\c@collectmore=\count322
+\doublecol@number=\count323
+\multicoltolerance=\count324
+\multicolpretolerance=\count325
 \full@width=\dimen195
 \page@free=\dimen196
 \premulticols=\dimen197
 \postmulticols=\dimen198
 \multicolsep=\skip94
 \multicolbaselineskip=\skip95
-\partial@page=\box61
-\last@line=\box62
+\partial@page=\box62
+\last@line=\box63
 \maxbalancingoverflow=\dimen199
-\mult@rightbox=\box63
-\mult@grightbox=\box64
-\mult@gfirstbox=\box65
-\mult@firstbox=\box66
-\@tempa=\box67
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -625,42 +758,44 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box101
 \@tempa=\box102
 \@tempa=\box103
-\c@minrows=\count322
-\c@columnbadness=\count323
-\c@finalcolumnbadness=\count324
+\@tempa=\box104
+\c@minrows=\count326
+\c@columnbadness=\count327
+\c@finalcolumnbadness=\count328
 \last@try=\dimen256
 \multicolovershoot=\dimen257
 \multicolundershoot=\dimen258
-\mult@nat@firstbox=\box104
-\colbreak@box=\box105
-\mc@col@check@num=\count325
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count329
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count326
+\c@float@type=\count330
 \float@exts=\toks40
-\float@box=\box106
+\float@box=\box107
 \@float@everytoks=\toks41
-\@floatcapt=\box107
+\@floatcapt=\box108
 )
 \@float@every@algorithm=\toks42
-\c@algorithm=\count327
+\c@algorithm=\count331
 ) (d:/Applications/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count328
-\c@ALG@rem=\count329
-\c@ALG@nested=\count330
+\c@ALG@line=\count332
+\c@ALG@rem=\count333
+\c@ALG@nested=\count334
 \ALG@tlm=\skip96
 \ALG@thistlm=\skip97
-\c@ALG@Lnr=\count331
-\c@ALG@blocknr=\count332
-\c@ALG@storecount=\count333
-\c@ALG@tmpcounter=\count334
+\c@ALG@Lnr=\count335
+\c@ALG@blocknr=\count336
+\c@ALG@storecount=\count337
+\c@ALG@tmpcounter=\count338
 \ALG@tmplength=\skip98
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -676,6 +811,12 @@ LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 57.
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
@@ -688,25 +829,12 @@ LaTeX Font Info:    ... okay on input line 57.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 57.
-\c@lstlisting=\count335
- (d:/Applications/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
-\scratchdimen=\dimen259
-\scratchbox=\box108
-\nofMPsegments=\count337
-\nofMParguments=\count338
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count339
-\MPscratchDim=\dimen260
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks44
-)
+\c@lstlisting=\count339
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -745,7 +873,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (d:/Applications/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count340
 )
 LaTeX Info: Redefining \ref on input line 57.
 LaTeX Info: Redefining \pageref on input line 57.
@@ -754,9 +882,9 @@ LaTeX Info: Redefining \nameref on input line 57.
 \@outlinefile=\write4
 \openout4 = `论文.out'.
 
-\c@mv@tabular=\count343
-\c@mv@boldtabular=\count344
-\c@maskedRefs=\count345
+\c@mv@tabular=\count341
+\c@mv@boldtabular=\count342
+\c@maskedRefs=\count343
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -770,6 +898,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 114.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 114.
+Missing character: There is no “ ("201C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ” ("201D) in font ntx-Regular-tlf-t1!
 LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -787,7 +917,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 114
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{d:/Applications/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 116.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -802,230 +932,65 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
  [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 133.
-
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/框架图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/框架图.pdf, id=139, 921.84898pt x 750.64847pt>
 File: code&pic/框架图.pdf Graphic file (type pdf)
 <use code&pic/框架图.pdf>
-Package pdftex.def Info: code&pic/框架图.pdf  used on input line 186.
-(pdftex.def)             Requested size: 284.52756pt x 231.67921pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 218.
-[1]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.220 \newpage
-               [2pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.220 \newpage
-               <./code&pic/框架图.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/元胞自动机流程图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/元胞自动机流程图.pdf, id=212, 1000.14229pt x 1304.93369pt>
+ [1] [2]
 File: code&pic/元胞自动机流程图.pdf Graphic file (type pdf)
 <use code&pic/元胞自动机流程图.pdf>
-Package pdftex.def Info: code&pic/元胞自动机流程图.pdf  used on input line 239.
-(pdftex.def)             Requested size: 341.43306pt x 445.48355pt.
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.247 
-       <./code&pic/元胞自动机流程图.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/CA-pic.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/CA-pic.pdf, id=256, 503.22496pt x 649.84242pt>
+ [3]
 File: code&pic/CA-pic.pdf Graphic file (type pdf)
 <use code&pic/CA-pic.pdf>
-Package pdftex.def Info: code&pic/CA-pic.pdf  used on input line 250.
-(pdftex.def)             Requested size: 398.33858pt x 514.40114pt.
-<code&pic/采伐率mindmap.pdf, id=259, 704.11629pt x 523.44128pt>
 File: code&pic/采伐率mindmap.pdf Graphic file (type pdf)
 <use code&pic/采伐率mindmap.pdf>
-Package pdftex.def Info: code&pic/采伐率mindmap.pdf  used on input line 262.
-(pdftex.def)             Requested size: 398.33858pt x 296.12825pt.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 267.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 273.
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.315   \par
-             <./code&pic/CA-pic.pdf>] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.315   \par
-             <./code&pic/采伐率mindmap.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/Roundwood cutting ways.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/Roundwood cutting ways.pdf, id=314, 571.27718pt x 542.025pt>
+ [4] [5]
 File: code&pic/Roundwood cutting ways.pdf Graphic file (type pdf)
 <use code&pic/Roundwood cutting ways.pdf>
-Package pdftex.def Info: code&pic/Roundwood cutting ways.pdf  used on input line 349.
-(pdftex.def)             Requested size: 244.97824pt x 232.43764pt.
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.435 
-       <./code&pic/Roundwood cutting ways.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/采伐率.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/采伐率.pdf, id=360, 524.47371pt x 441.87941pt>
+ [6]
 File: code&pic/采伐率.pdf Graphic file (type pdf)
 <use code&pic/采伐率.pdf>
-Package pdftex.def Info: code&pic/采伐率.pdf  used on input line 441.
-(pdftex.def)             Requested size: 234.76729pt x 197.79205pt.
-<code&pic/proportion.pdf, id=361, 459.01192pt x 356.61523pt>
 File: code&pic/proportion.pdf Graphic file (type pdf)
 <use code&pic/proportion.pdf>
-Package pdftex.def Info: code&pic/proportion.pdf  used on input line 445.
-(pdftex.def)             Requested size: 234.76729pt x 182.39919pt.
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.455 \par
-           <./code&pic/采伐率.pdf> <./code&pic/proportion.pdf>]
+ [7]
 Overfull \hbox (11.6706pt too wide) in paragraph at lines 468--468
 []\T1/ntxtlf/b/n/17.28 Forest Car-bon Se-ques-tra-tion Mul-ti-di-men-sional Eval-u-a-tion Model 
  []
 
 [8]
-Package epstopdf Info: Source file: <code&pic/Interspecies.eps>
-(epstopdf)                    date: 2022-02-20 11:11:07
-(epstopdf)                    size: 73332 bytes
-(epstopdf)             Output file: <code&pic/Interspecies-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-02-20 11:30:41
-(epstopdf)                    size: 129103 bytes
-(epstopdf)             Command: <repstopdf --outfile=code&pic/Interspecies-eps-converted-to.pdf code&pic/Interspecies.eps>
-(epstopdf)             \includegraphics on input line 554.
-Package epstopdf Info: Output file is already uptodate.
-<code&pic/Interspecies-eps-converted-to.pdf, id=394, 421.575pt x 324.21124pt>
-File: code&pic/Interspecies-eps-converted-to.pdf Graphic file (type pdf)
-<use code&pic/Interspecies-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Interspecies-eps-converted-to.pdf  used on input line 554.
-(pdftex.def)             Requested size: 259.22392pt x 199.35657pt.
-Package epstopdf Info: Source file: <code&pic/Interspecies-matrix.eps>
-(epstopdf)                    date: 2022-02-20 15:00:34
-(epstopdf)                    size: 61661 bytes
-(epstopdf)             Output file: <code&pic/Interspecies-matrix-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-02-20 16:54:46
-(epstopdf)                    size: 34953 bytes
-(epstopdf)             Command: <repstopdf --outfile=code&pic/Interspecies-matrix-eps-converted-to.pdf code&pic/Interspecies-matrix.eps>
-(epstopdf)             \includegraphics on input line 558.
-Package epstopdf Info: Output file is already uptodate.
-<code&pic/Interspecies-matrix-eps-converted-to.pdf, id=395, 342.07799pt x 280.6485pt>
-File: code&pic/Interspecies-matrix-eps-converted-to.pdf Graphic file (type pdf)
-<use code&pic/Interspecies-matrix-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/Interspecies-matrix-eps-converted-to.pdf  used on input line 558.
-(pdftex.def)             Requested size: 210.31065pt x 172.54855pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.569 
-       <./code&pic/Interspecies-eps-converted-to.pdf> <./code&pic/Interspecies-matrix-eps-converted-to.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/Model2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/Model2.pdf, id=422, 748.64906pt x 727.92099pt>
+File: code&pic/Interspecies.eps Graphic file (type eps)
+<code&pic/Interspecies.eps>
+File: code&pic/Interspecies-matrix.eps Graphic file (type eps)
+<code&pic/Interspecies-matrix.eps>
+ [9]
 File: code&pic/Model2.pdf Graphic file (type pdf)
 <use code&pic/Model2.pdf>
-Package pdftex.def Info: code&pic/Model2.pdf  used on input line 592.
-(pdftex.def)             Requested size: 284.52756pt x 276.65727pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/美国地图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/美国地图.pdf, id=424, 911.29025pt x 459.48311pt>
 File: code&pic/美国地图.pdf Graphic file (type pdf)
 <use code&pic/美国地图.pdf>
-Package pdftex.def Info: code&pic/美国地图.pdf  used on input line 606.
-(pdftex.def)             Requested size: 398.33858pt x 200.84808pt.
-<code&pic/Cultural Value Composition.png, id=425, 707.2824pt x 479.391pt>
-File: code&pic/Cultural Value Composition.png Graphic file (type png)
-<use code&pic/Cultural Value Composition.png>
-Package pdftex.def Info: code&pic/Cultural Value Composition.png  used on input line 615.
-(pdftex.def)             Requested size: 227.62204pt x 154.27872pt.
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.639 $$
-         <./code&pic/Model2.pdf>] [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.670 \par
-          pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.670 \par
-           <./code&pic/美国地图.pdf> <./code&pic/Cultural Value Composition.png>] [12pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.719 \par
-          pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.719 \par
-          ]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/ARIMA_裁剪页面.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/ARIMA_裁剪页面.pdf, id=531, 856.80894pt x 1116.9989pt>
+File: code&pic/Cultural Value Composition.png Graphic file (type bmp)
+<code&pic/Cultural Value Composition.png>
+ [10] [11] [12]
 File: code&pic/ARIMA_裁剪页面.pdf Graphic file (type pdf)
 <use code&pic/ARIMA_裁剪页面.pdf>
-Package pdftex.def Info: code&pic/ARIMA_裁剪页面.pdf  used on input line 788.
-(pdftex.def)             Requested size: 312.9803pt x 408.03357pt.
-[13]
-Package epstopdf Info: Source file: <code&pic/ARIMA残差&自相关互相关系数.eps>
-(epstopdf)                    date: 2022-02-20 21:57:04
-(epstopdf)                    size: 48100 bytes
-(epstopdf)             Output file: <code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-02-21 16:21:00
-(epstopdf)                    size: 20923 bytes
-(epstopdf)             Command: <repstopdf --outfile=code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf code&pic/ARIMA残差&自相关互相关系数.eps>
-(epstopdf)             \includegraphics on input line 818.
-Package epstopdf Info: Output file is already uptodate.
-<code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf, id=541, 383.03098pt x 304.73851pt>
-File: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf Graphic file (type pdf)
-<use code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf>
-Package pdftex.def Info: code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf  used on input line 818.
-(pdftex.def)             Requested size: 341.43306pt x 271.66281pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.822 \newpage
-               <./code&pic/ARIMA_裁剪页面.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/轮伐3年.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/轮伐3年.pdf, id=615, 627.71654pt x 495.56572pt>
+ [13]
+File: code&pic/ARIMA残差&自相关互相关系数.eps Graphic file (type eps)
+<code&pic/ARIMA残差&自相关互相关系数.eps>
+ [14]
 File: code&pic/轮伐3年.pdf Graphic file (type pdf)
 <use code&pic/轮伐3年.pdf>
-Package pdftex.def Info: code&pic/轮伐3年.pdf  used on input line 832.
-(pdftex.def)             Requested size: 284.52756pt x 224.63583pt.
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.841 \par
-          pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.841 \par
-           <./code&pic/ARIMA残差&自相关互相关系数-eps-converted-to.pdf> <./code&pic/轮伐3年.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/轮伐图.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/轮伐图.pdf, id=635, 652.49484pt x 498.00266pt>
+ [15]
 File: code&pic/轮伐图.pdf Graphic file (type pdf)
 <use code&pic/轮伐图.pdf>
-Package pdftex.def Info: code&pic/轮伐图.pdf  used on input line 858.
-(pdftex.def)             Requested size: 455.24408pt x 347.46724pt.
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 869.
-(d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+ (d:/Applications/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 869.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.876   \item U
-               pgrade warehouses to improve utilization rate. With less wood... <./code&pic/轮伐图.pdf>] [17] [18]
+ [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 20.74pt on input line 923.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
@@ -1035,14 +1000,8 @@ Underfull \hbox (badness 1997) in paragraph at lines 930--936
 \T1/ntxtlf/m/n/12 en-vi-ron-men-tal pro-tec-tion in re-cent decades
  []
 
-
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/大循环.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/大循环.pdf, id=672, 720.71419pt x 698.97476pt>
 File: code&pic/大循环.pdf Graphic file (type pdf)
 <use code&pic/大循环.pdf>
-Package pdftex.def Info: code&pic/大循环.pdf  used on input line 943.
-(pdftex.def)             Requested size: 227.62204pt x 220.75415pt.
 
 Overfull \hbox (7.2952pt too wide) in paragraph at lines 943--944
 [][] 
@@ -1053,7 +1012,7 @@ Underfull \hbox (badness 1314) in paragraph at lines 975--980
 \T1/ntxtlf/m/n/12 nat-u-ral and so-cial en-vi-ron-ment enor-mously.
  []
 
-[19 <./code&pic/大循环.pdf>] (./论文.bbl
+[19] (./论文.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 27.
 ) [20
@@ -1066,50 +1025,30 @@ Overfull \hbox (0.69226pt too wide) in paragraph at lines 1021--1025
 []$\OML/cmm/m/it/12 d \OT1/cmr/m/n/12 = [0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1259842520\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0314960630\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2519685040\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5039370080\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0629921260\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0157480310\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 007874016];$ 
  []
 
-
-
-pdfTeX warning: pdflatex.exe (file ./code&pic/产品腐败数据.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<code&pic/产品腐败数据.pdf, id=804, 963.6pt x 542.025pt>
 File: code&pic/产品腐败数据.pdf Graphic file (type pdf)
 <use code&pic/产品腐败数据.pdf>
-Package pdftex.def Info: code&pic/产品腐败数据.pdf  used on input line 1030.
-(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
 
 Overfull \hbox (42.11711pt too wide) in paragraph at lines 1035--1045
 [][] 
  []
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{table.a..1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.1047 \newpage
-                <./code&pic/产品腐败数据.pdf>]
+[21]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1076.
  (d:/Applications/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./code&pic/Untitled5.m [22pdfTeX warning (ext4): destination with the same identifier (name{table.a..2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.32         m1=
-                0;]) 
+) (./code&pic/Untitled5.m [22]) 
 AED: lastpage setting LastPage
 [23] (./论文.aux)
 Package rerunfilecheck Info: File `论文.out' has not changed.
 (rerunfilecheck)             Checksum: B22095D6892A8C52B03662DBD4F0EEF1;4781.
  ) 
 Here is how much of TeX's memory you used:
- 17575 strings out of 480901
- 256167 string characters out of 5904911
- 883560 words of memory out of 5000000
- 34195 multiletter control sequences out of 15000+600000
- 459816 words of font info for 86 fonts, out of 8000000 for 9000
+ 16771 strings out of 478866
+ 247444 string characters out of 5864253
+ 874175 words of memory out of 5000000
+ 36211 multiletter control sequences out of 15000+600000
+ 459570 words of font info for 84 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 86i,13n,88p,797b,2625s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{d:/Applications/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/Applications/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 论文.pdf (25 pages, 4165994 bytes).
-PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 637 compressed objects within 7 object streams
- 185 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86i,13n,91p,798b,2493s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on 论文.pdf (25 pages).
