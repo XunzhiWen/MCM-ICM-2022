@@ -1,0 +1,7 @@
+[1016/173503.572:ERROR:main_delegate.cc(707)] Could not load cef_100_percent.pak
+[1016/173503.572:ERROR:main_delegate.cc(716)] Could not load cef_200_percent.pak
+[1016/173503.572:ERROR:main_delegate.cc(726)] Could not load cef_extensions.pak
+[1016/173507.362:INFO:CONSOLE(14)] "[object Object]", source: file:///C:/Users/AdamWen/AppData/Local/TTKN/HOME/js/FavorateGroupOperator.js (14)
+[1016/173507.365:INFO:CONSOLE(54)] "[object Object]", source: file:///C:/Users/AdamWen/AppData/Local/TTKN/HOME/js/collectfileOperator.js (54)
+[1017/005322.485:ERROR:browser_gpu_channel_host_factory.cc(121)] Failed to launch GPU process.
+[1017/005322.487:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
